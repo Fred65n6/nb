@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
+      "_index-38cedc01.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
@@ -20,10 +20,10 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
+      "_index-38cedc01.js"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-51f69f97.css"
+      "assets/entries/pages/__layout.svelte-96787049.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -31,7 +31,18 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
+      "_index-38cedc01.js"
+    ]
+  },
+  "src/routes/Button.svelte": {
+    "file": "entries/pages/Button.svelte.js",
+    "src": "src/routes/Button.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-38cedc01.js"
+    ],
+    "css": [
+      "assets/entries/pages/Button.svelte-a89960c1.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -39,10 +50,8 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
-    ],
-    "css": [
-      "assets/entries/pages/index.svelte-78ed819b.css"
+      "_index-38cedc01.js",
+      "src/routes/Button.svelte"
     ]
   },
   "src/routes/om_os.svelte": {
@@ -50,7 +59,7 @@
     "src": "src/routes/om_os.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
+      "_index-38cedc01.js"
     ],
     "css": [
       "assets/entries/pages/om_os.svelte-fd705827.css"
@@ -61,14 +70,14 @@
     "src": "src/routes/todos/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-ed214626.js"
+      "_index-38cedc01.js"
     ],
     "css": [
       "assets/entries/pages/todos/index.svelte-02327cf1.css"
     ]
   },
-  "_index-ed214626.js": {
-    "file": "chunks/index-ed214626.js"
+  "_index-38cedc01.js": {
+    "file": "chunks/index-38cedc01.js"
   },
   "src/hooks.js": {
     "file": "chunks/hooks-0bab96cd.js",

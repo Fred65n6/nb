@@ -17,27 +17,19 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Error2,
-  load: () => load
+  default: () => Button
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_38cedc01 = require("../../chunks/index-38cedc01.js");
-function load({ error, status }) {
-  return { props: { error, status } };
-}
-const Error2 = (0, import_index_38cedc01.c)(($$result, $$props, $$bindings, slots) => {
-  let { status } = $$props;
-  let { error } = $$props;
-  if ($$props.status === void 0 && $$bindings.status && status !== void 0)
-    $$bindings.status(status);
-  if ($$props.error === void 0 && $$bindings.error && error !== void 0)
-    $$bindings.error(error);
-  return `<h1>${(0, import_index_38cedc01.e)(status)}</h1>
-
-<pre>${(0, import_index_38cedc01.e)(error.message)}</pre>
-
-
-
-${error.frame ? `<pre>${(0, import_index_38cedc01.e)(error.frame)}</pre>` : ``}
-${error.stack ? `<pre>${(0, import_index_38cedc01.e)(error.stack)}</pre>` : ``}`;
+var Button_svelte_svelte_type_style_lang = "";
+const css = {
+  code: ".button.svelte-mhdhil{font-size:1em;color:white;border:1px solid white;background:#f26700;outline:solid #f26700 1px;padding:0.25em 1em}",
+  map: null
+};
+const Button = (0, import_index_38cedc01.c)(($$result, $$props, $$bindings, slots) => {
+  let { link } = $$props;
+  if ($$props.link === void 0 && $$bindings.link && link !== void 0)
+    $$bindings.link(link);
+  $$result.css.add(css);
+  return `<a class="${"button svelte-mhdhil"}"${(0, import_index_38cedc01.b)("href", link, 0)}>${slots.default ? slots.default({}) : ``}</a>`;
 });

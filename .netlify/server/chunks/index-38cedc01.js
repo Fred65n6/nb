@@ -18,9 +18,9 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var stdin_exports = {};
 __export(stdin_exports, {
   a: () => subscribe,
-  b: () => each,
+  b: () => add_attribute,
   c: () => create_ssr_component,
-  d: () => add_attribute,
+  d: () => each,
   e: () => escape,
   g: () => getContext,
   m: () => missing_component,

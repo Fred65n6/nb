@@ -28,13 +28,14 @@ const manifest = {
   assets: /* @__PURE__ */ new Set(["nb_logo.svg", "robots.txt"]),
   mimeTypes: { ".svg": "image/svg+xml", ".txt": "text/plain" },
   _: {
-    entry: { "file": "start-8cd33d76.js", "js": ["start-8cd33d76.js", "chunks/index-c6c8e67a.js", "chunks/singletons-d1fb5791.js"], "css": [] },
+    entry: { "file": "start-6ee8da0e.js", "js": ["start-6ee8da0e.js", "chunks/index-c6c8e67a.js", "chunks/singletons-d1fb5791.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => __toESM(require("./nodes/0.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/1.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
       () => Promise.resolve().then(() => __toESM(require("./nodes/3.js"))),
-      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js")))
+      () => Promise.resolve().then(() => __toESM(require("./nodes/2.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/4.js"))),
+      () => Promise.resolve().then(() => __toESM(require("./nodes/5.js")))
     ],
     routes: [
       {
@@ -50,13 +51,24 @@ const manifest = {
       },
       {
         type: "page",
+        id: "Button",
+        pattern: /^\/Button\/?$/,
+        names: [],
+        types: [],
+        path: "/Button",
+        shadow: null,
+        a: [0, 3],
+        b: [1]
+      },
+      {
+        type: "page",
         id: "om_os",
         pattern: /^\/om_os\/?$/,
         names: [],
         types: [],
         path: "/om_os",
         shadow: null,
-        a: [0, 3],
+        a: [0, 4],
         b: [1]
       },
       {
@@ -67,7 +79,7 @@ const manifest = {
         types: [],
         path: "/todos",
         shadow: () => Promise.resolve().then(() => __toESM(require("./entries/endpoints/todos/index.js"))),
-        a: [0, 4],
+        a: [0, 5],
         b: [1]
       }
     ],

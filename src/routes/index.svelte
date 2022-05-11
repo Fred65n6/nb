@@ -1,5 +1,6 @@
 <script context="module">
-	export const prerender = true;
+	import Button from './Button.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <svelte:head>
@@ -7,14 +8,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section />
+<section>
+	<Button link="/om_os">HEJ</Button>
+</section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
 </style>

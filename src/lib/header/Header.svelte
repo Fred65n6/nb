@@ -9,12 +9,6 @@
 				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/">Hjem</a>
 				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Forestillinger & events</a>
-				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
-				</li>
 				<!-- <li class:active={$page.url.pathname === '/'}> -->
 				<div class="dropdown">
 					<a href="/" class="dropbtn">Praktisk info ▼</a>
@@ -24,9 +18,20 @@
 					</div>
 				</div>
 				<!-- </li> -->
+
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Vær med</a>
+					<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 				</li>
+
+				<!-- <li class:active={$page.url.pathname === '/'}> -->
+				<div class="dropdown">
+					<a href="/" class="dropbtn">Praktisk info ▼</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">Venues</a>
+						<a sveltekit:prefetch href="/">Billetter</a>
+					</div>
+				</div>
+				<!-- </li> -->
 				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>
 				</li>
@@ -40,9 +45,7 @@
 
 			<ul class="menu__box">
 				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Forestillinger & events</a>
-				</li>
+
 				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/">Programoversigt</a>
 				</li>
@@ -220,7 +223,7 @@
 		text-align: center;
 		display: none;
 		position: absolute;
-		background-color: #fffdf6;
+		background-color: white;
 		min-width: 180px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;

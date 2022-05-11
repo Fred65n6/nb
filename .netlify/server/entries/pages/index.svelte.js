@@ -1,6 +1,8 @@
+var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -14,23 +16,22 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Routes,
-  prerender: () => prerender
+  default: () => Routes
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_ed214626 = require("../../chunks/index-ed214626.js");
-var index_svelte_svelte_type_style_lang = "";
-const css = {
-  code: "section.svelte-1jlhe5t{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}",
-  map: null
-};
-const prerender = true;
-const Routes = (0, import_index_ed214626.c)(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css);
+var import_index_38cedc01 = require("../../chunks/index-38cedc01.js");
+var import_Button_svelte = __toESM(require("./Button.svelte.js"));
+const Routes = (0, import_index_38cedc01.c)(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}<meta name="${"description"}" content="${"Svelte demo app"}" data-svelte="svelte-t32ptj">`, ""}
 
-<section class="${"svelte-1jlhe5t"}"></section>`;
+<section>${(0, import_index_38cedc01.v)(import_Button_svelte.default, "Button").$$render($$result, { link: "/om_os" }, {}, {
+    default: () => {
+      return `HEJ`;
+    }
+  })}
+</section>`;
 });
