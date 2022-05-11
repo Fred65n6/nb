@@ -9,23 +9,23 @@
 				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/">Hjem</a>
 				</li>
-				<li class:active={$page.url.pathname === '/forestillinger'}>
-					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Forestillinger & events</a>
 				</li>
-				<li class:active={$page.url.pathname === '/oversigt'}>
+				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 				</li>
-				<!-- <li class:active={$page.url.pathname === '/praktisk'}> -->
+				<!-- <li class:active={$page.url.pathname === '/'}> -->
 				<div class="dropdown">
-					<a href="praktisk" class="dropbtn">Praktisk info ▼</a>
+					<a href="/" class="dropbtn">Praktisk info ▼</a>
 					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/praktisk">Venues</a>
-						<a sveltekit:prefetch href="/billetter">Billetter</a>
+						<a sveltekit:prefetch href="/">Venues</a>
+						<a sveltekit:prefetch href="/">Billetter</a>
 					</div>
 				</div>
 				<!-- </li> -->
-				<li class:active={$page.url.pathname === '/vaer_med'}>
-					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Vær med</a>
 				</li>
 				<li class:active={$page.url.pathname === '/om_os'}>
 					<a sveltekit:prefetch href="/om_os">Om os</a>
@@ -40,23 +40,23 @@
 
 			<ul class="menu__box">
 				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
-				<li class:active={$page.url.pathname === '/forestillinger'}>
-					<a sveltekit:prefetch href="/forestillinger">Forestillinger & events</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Forestillinger & events</a>
 				</li>
-				<li class:active={$page.url.pathname === '/oversigt'}>
-					<a sveltekit:prefetch href="/oversigt">Programoversigt</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Programoversigt</a>
 				</li>
-				<li class:active={$page.url.pathname === '/praktisk'}>
-					<a sveltekit:prefetch href="/praktisk">Venues</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Venues</a>
 				</li>
-				<li class:active={$page.url.pathname === '/billetter'}>
-					<a sveltekit:prefetch href="/billetter">Billetter</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Billetter</a>
 				</li>
-				<li class:active={$page.url.pathname === '/vaer_med'}>
-					<a sveltekit:prefetch href="/vaer_med">Vær med</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Vær med</a>
 				</li>
-				<li class:active={$page.url.pathname === '/om_os'}>
-					<a sveltekit:prefetch href="/om_os">Om os</a>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">Om os</a>
 				</li>
 			</ul>
 		</div>
