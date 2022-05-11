@@ -10,6 +10,7 @@
 
 <section>
 	<Button link="/om_os">HEJ</Button>
+	<a href="https://www.google.dk/" target="blank">GOOGLE</a>
 </section>
 
 <style>

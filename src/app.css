@@ -7,4 +7,9 @@
 		display: grid;
 		place-items: center;
 	}
+
+	a {
+		color: black;
+		text-decoration: underline;
+	}
 }

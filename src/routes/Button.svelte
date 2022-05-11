@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	export let link;
 	import { page } from '$app/stores';
 </script>
@@ -13,5 +15,6 @@
 		background: #f26700;
 		outline: solid #f26700 1px;
 		padding: 0.25em 1em;
+		text-decoration: none;
 	}
 </style>
