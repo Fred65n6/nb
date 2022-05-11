@@ -9,6 +9,7 @@
 </svelte:head>
 
 <section>
+	<h1>Nørrebro bryghus</h1>
 	<Button link="/om_os">HEJ</Button>
 	<a href="https://www.google.dk/" target="blank">GOOGLE</a>
 </section>
