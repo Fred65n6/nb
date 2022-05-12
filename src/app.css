@@ -8,6 +8,10 @@
 		place-items: center;
 	}
 
+	body {
+		background: darkred;
+	}
+
 	a {
 		color: black;
 		text-decoration: underline;
