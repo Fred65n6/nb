@@ -37,14 +37,16 @@
 		color: white;
 		border: 1px solid white;
 		background: #e3861b;
-		outline: solid #f26700 1px;
+		outline: solid #e3861b 2px;
 		padding: 0.25em 1em;
 		text-decoration: none;
+		transition: ease 0.5s;
 	}
 
 	.button:hover {
 		background-color: black;
 		transition: ease 0.5s;
+		outline: solid black 2px;
 	}
 
 	/******KNAP 2******/
@@ -62,7 +64,7 @@
 		line-height: 45px;
 		text-align: center;
 		text-transform: uppercase;
-		color: #ffffff;
+		color: black;
 		cursor: pointer;
 		overflow: hidden;
 	}
@@ -72,7 +74,7 @@
 		left: 0;
 	}
 	.btn svg rect {
-		stroke: #ffffff;
+		stroke: black;
 		stroke-width: 3;
 		stroke-dasharray: 422, 0;
 		stroke-dashoffset: 0;
@@ -161,6 +163,4 @@
 		box-shadow: inset 0 0 0 5px #fff;
 		transform: translate3d(0, 0, 2em);
 	}
-
-	/******KNAP 5*******/
 </style>
