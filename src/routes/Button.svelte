@@ -85,6 +85,8 @@
 		stroke-width: 3;
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
+		transition: 1s;
+		stroke: #e3861b;
 	}
 
 	/*******KNAP 3******/
