@@ -6,6 +6,30 @@
 	<nav>
 		<div class="desktop-menu">
 			<ul>
+				<div class="dropdown">
+					<a href="/" class="dropbtn"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							aria-hidden="true"
+							role="img"
+							class="iconify iconify--material-symbols"
+							width="20"
+							height="20"
+							preserveAspectRatio="xMidYMid meet"
+							viewBox="0 0 24 24"
+							><path
+								fill="#444555"
+								d="M7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM3.625 17L6.6 11.6L3 4H1V2h3.25l.95 2h16.5l-4.975 9H8.1L7 15h12v2Z"
+							/></svg
+						>SHOP</a
+					>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">SHOP ØL</a>
+						<a sveltekit:prefetch href="/">KØB GAVEKORT</a>
+					</div>
+				</div>
+
 				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/">BOOK BORD</a>
 				</li>
@@ -15,10 +39,12 @@
 				</li>
 
 				<div class="dropdown">
-					<a href="/" class="dropbtn">SHOP</a>
+					<a href="/" class="dropbtn">VORES ØLUDVALG</a>
 					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">SHOP ØL</a>
-						<a sveltekit:prefetch href="/">KØB GAVEKORT</a>
+						<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
+						<a sveltekit:prefetch href="/">BRAW</a>
+						<a sveltekit:prefetch href="/">INFERNØL</a>
+						<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
 					</div>
 				</div>
 
@@ -31,72 +57,129 @@
 				</div>
 
 				<div class="dropdown">
-					<a href="/" class="dropbtn">OM OS</a>
+					<a href="/" class="dropbtn">EVENTS & SELSKABER</a>
 					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">OM BRYGHUSET</a>
+						<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+						<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">OM BRYGHUSET</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">VORES HISTORIE</a>
 						<a sveltekit:prefetch href="/">BÆREDYGTIGHED</a>
 						<a sveltekit:prefetch href="/">OM BRAW BAR</a>
 						<a sveltekit:prefetch href="/">ØLFORUM</a>
 						<a sveltekit:prefetch href="/">NYHEDER FRA BRYGHUSET</a>
 					</div>
 				</div>
+
 				<!-- </li> -->
 
-				<div class="dropdown">
-					<a href="/" class="dropbtn">EVENTS OG SELSKABER</a>
-					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">EVENTKALENDER</a>
-						<a sveltekit:prefetch href="/">SELSKABER</a>
-					</div>
-				</div>
-
 				<!-- <li class:active={$page.url.pathname === '/'}> -->
-
-				<!-- <div class="dropdown">
-					<a href="/" class="dropbtn">VORES ØLUDVALG</a>
-					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
-						<a sveltekit:prefetch href="/">BRAW</a>
-						<a sveltekit:prefetch href="/">INFERNØL</a>
-						<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
-					</div>
-				</div> -->
 
 				<div class="dropdown">
 					<a href="/" class="dropbtn">FOR VIRKSOMHEDER</a>
 					<div class="dropdown-content">
 						<a sveltekit:prefetch href="/">FIRMAEVENTS</a>
 						<a sveltekit:prefetch href="/">BOOK ET MØDELOKALE</a>
-						<a sveltekit:prefetch href="/">NLIV FORHANDLER</a>
+						<a sveltekit:prefetch href="/">BLIV FORHANDLER</a>
 					</div>
 				</div>
 
 				<!-- </li> -->
 			</ul>
 		</div>
+
+		<!-----------HAMBURGER MENU----------->
+
 		<div class="hamburger-menu">
+			<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 			<input id="menu__toggle" type="checkbox" />
 			<label class="menu__btn" for="menu__toggle">
 				<span />
 			</label>
 
 			<ul class="menu__box">
-				<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Hjem</a></li>
+				<li>
+					<div class="dropdown">
+						<div class="dropbtn">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path
+									fill="#444555"
+									d="M7 22q-.825 0-1.412-.587Q5 20.825 5 20q0-.825.588-1.413Q6.175 18 7 18t1.412.587Q9 19.175 9 20q0 .825-.588 1.413Q7.825 22 7 22Zm10 0q-.825 0-1.412-.587Q15 20.825 15 20q0-.825.588-1.413Q16.175 18 17 18t1.413.587Q19 19.175 19 20q0 .825-.587 1.413Q17.825 22 17 22ZM3.625 17L6.6 11.6L3 4H1V2h3.25l.95 2h16.5l-4.975 9H8.1L7 15h12v2Z"
+								/></svg
+							>SHOP
+						</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">SHOP ØL</a>
+							<a sveltekit:prefetch href="/">KØB GAVEKORT</a>
+						</div>
+					</div>
+				</li>
 
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Programoversigt</a>
+					<a sveltekit:prefetch href="/">BOOK BORD</a>
 				</li>
+
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Venues</a>
+					<a sveltekit:prefetch href="/">MENUKORT</a>
 				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Billetter</a>
+
+				<li>
+					<div class="dropdown">
+						<div class="dropbtn">VORES ØLUDVALG</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
+							<a sveltekit:prefetch href="/">BRAW</a>
+							<a sveltekit:prefetch href="/">INFERNØL</a>
+							<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
+						</div>
+					</div>
 				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Vær med</a>
+
+				<li>
+					<div class="dropdown">
+						<div class="dropbtn">EVENTS & SELSKABER</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
+						</div>
+					</div>
 				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Om os</a>
+
+				<li>
+					<div class="dropdown">
+						<div class="dropbtn">OM BRYGHUSET</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">VORES HISTORIE</a>
+							<a sveltekit:prefetch href="/">BÆREDYGTIGHED</a>
+							<a sveltekit:prefetch href="/">OM BRAW BAR</a>
+							<a sveltekit:prefetch href="/">ØLFORUM</a>
+							<a sveltekit:prefetch href="/">NYHEDER FRA BRYGHUSET</a>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="dropdown">
+						<div class="dropbtn">FOR VIRKSOMHEDER</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">FIRMAEVENTS</a>
+							<a sveltekit:prefetch href="/">BOOK ET MØDELOKALE</a>
+							<a sveltekit:prefetch href="/">BLIV FORHANDLER</a>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</div>
@@ -105,18 +188,15 @@
 
 <style>
 	nav {
-		background-color: white;
 		width: 100%;
 		display: grid;
 		place-items: center;
-
-		padding-inline: 2rem;
-		height: 6rem;
 	}
+
 	ul {
+		padding-block: 4rem;
 		position: relative;
-		padding: 0;
-		margin-left: 9rem;
+		margin-right: 0.3rem;
 		height: 3em;
 		display: flex;
 		justify-content: space-around;
@@ -140,7 +220,21 @@
 		padding: 0 2em;
 		color: black;
 		font-weight: 400;
-		font-size: 0.8rem;
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+		transition: color 0.2s linear;
+	}
+
+	.dropbtn {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding: 0 2em;
+		color: black;
+		font-weight: 400;
+		font-size: 0.7rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -180,7 +274,7 @@
 		display: flex;
 		align-items: center;
 		position: fixed;
-		top: 10px;
+		top: 20px;
 		right: 20px;
 
 		width: 26px;
@@ -213,6 +307,11 @@
 		top: 8px;
 	}
 
+	.hamburger-menu img {
+		width: 4rem;
+		padding-top: 0.5rem;
+	}
+
 	.menu__box {
 		display: flex;
 		flex-direction: column;
@@ -226,11 +325,11 @@
 		height: 100%;
 
 		margin: 0;
-		padding: 80px 0;
+		padding: 125px 0;
 
 		list-style: none;
 
-		background-color: #8072a8;
+		background-color: white;
 		box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
 
 		transition-duration: 0.25s;
@@ -261,8 +360,9 @@
 		text-align: center;
 		display: none;
 		position: absolute;
-		background-color: rgba(255, 255, 255, 0.767);
-		width: 180px;
+		background-color: rgb(255, 255, 255);
+		width: auto;
+		padding-inline: 0.5rem;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
 	}
