@@ -9,12 +9,12 @@
 
 <br />
 
-<div class="btn">
+<a class="btn" href={link}>
 	<svg>
 		<rect x="0" y="0" fill="none" width="166" height="45" />
 	</svg>
 	<slot />
-</div>
+</a>
 
 <br />
 
@@ -56,6 +56,7 @@
 	}
 
 	.btn {
+		text-decoration: none;
 		position: relative;
 		display: inline-block;
 		width: 166px;
@@ -82,11 +83,12 @@
 		transition: ease 900ms;
 	}
 	.btn:hover svg rect {
+		text-decoration: none;
 		stroke-width: 3;
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
 		transition: 1s;
-		stroke: #e3861b;
+		stroke: #940725;
 	}
 
 	/*******KNAP 3******/

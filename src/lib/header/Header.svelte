@@ -6,35 +6,71 @@
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Hjem</a>
-				</li>
-				<!-- <li class:active={$page.url.pathname === '/'}> -->
-				<div class="dropdown">
-					<a href="/" class="dropbtn">Praktisk info ▼</a>
-					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">Venues</a>
-						<a sveltekit:prefetch href="/">Billetter</a>
-					</div>
+				<div class="">
+					<li class:active={$page.url.pathname === '/'}>
+						<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
+					</li>
 				</div>
-				<!-- </li> -->
 
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
+					<a sveltekit:prefetch href="/">MENUKORT</a>
 				</li>
-
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">BOOK BORD</a>
+				</li>
 				<!-- <li class:active={$page.url.pathname === '/'}> -->
+
 				<div class="dropdown">
-					<a href="/" class="dropbtn">Praktisk info ▼</a>
+					<a href="/" class="dropbtn">EVENTS OG SELSKABER</a>
 					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">Venues</a>
-						<a sveltekit:prefetch href="/">Billetter</a>
+						<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+						<a sveltekit:prefetch href="/">SELSKABER</a>
 					</div>
 				</div>
+
 				<!-- </li> -->
-				<li class:active={$page.url.pathname === '/om_os'}>
-					<a sveltekit:prefetch href="/om_os">Om os</a>
-				</li>
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">SHOP</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">SHOP ØL</a>
+						<a sveltekit:prefetch href="/">KØB GAVEKORT</a>
+					</div>
+				</div>
+
+				<!-- <li class:active={$page.url.pathname === '/'}> -->
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">VORES ØLUDVALG</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
+						<a sveltekit:prefetch href="/">BRAW</a>
+						<a sveltekit:prefetch href="/">INFERNØL</a>
+						<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">OM OS</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">OM BRYGHUSET</a>
+						<a sveltekit:prefetch href="/">BÆREDYGTIGHED</a>
+						<a sveltekit:prefetch href="/">OM BRAW BAR</a>
+						<a sveltekit:prefetch href="/">ØLFORUM</a>
+						<a sveltekit:prefetch href="/">NYHEDER FRA BRYGHUSET</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">FOR VIRKSOMHEDER</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">FIRMAEVENTS</a>
+						<a sveltekit:prefetch href="/">BOOK ET MØDELOKALE</a>
+						<a sveltekit:prefetch href="/">NLIV FORHANDLER</a>
+					</div>
+				</div>
+
+				<!-- </li> -->
 			</ul>
 		</div>
 		<div class="hamburger-menu">
@@ -68,6 +104,7 @@
 
 <style>
 	nav {
+		background-color: white;
 		width: 100%;
 		display: grid;
 		place-items: center;
@@ -81,7 +118,7 @@
 		margin: 0;
 		height: 3em;
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 		list-style: none;
 		background-size: contain;
@@ -223,8 +260,8 @@
 		text-align: center;
 		display: none;
 		position: absolute;
-		background-color: white;
-		min-width: 180px;
+		background-color: rgba(255, 255, 255, 0.767);
+		width: 180px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
 	}
