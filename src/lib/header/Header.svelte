@@ -6,29 +6,13 @@
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<div class="">
-					<li class:active={$page.url.pathname === '/'}>
-						<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
-					</li>
-				</div>
+				<li class:active={$page.url.pathname === '/'}>
+					<a sveltekit:prefetch href="/">BOOK BORD</a>
+				</li>
 
 				<li class:active={$page.url.pathname === '/'}>
 					<a sveltekit:prefetch href="/">MENUKORT</a>
 				</li>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">BOOK BORD</a>
-				</li>
-				<!-- <li class:active={$page.url.pathname === '/'}> -->
-
-				<div class="dropdown">
-					<a href="/" class="dropbtn">EVENTS OG SELSKABER</a>
-					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">EVENTKALENDER</a>
-						<a sveltekit:prefetch href="/">SELSKABER</a>
-					</div>
-				</div>
-
-				<!-- </li> -->
 
 				<div class="dropdown">
 					<a href="/" class="dropbtn">SHOP</a>
@@ -40,14 +24,10 @@
 
 				<!-- <li class:active={$page.url.pathname === '/'}> -->
 
-				<div class="dropdown">
-					<a href="/" class="dropbtn">VORES ØLUDVALG</a>
-					<div class="dropdown-content">
-						<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
-						<a sveltekit:prefetch href="/">BRAW</a>
-						<a sveltekit:prefetch href="/">INFERNØL</a>
-						<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
-					</div>
+				<div class="">
+					<li class:active={$page.url.pathname === '/'}>
+						<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
+					</li>
 				</div>
 
 				<div class="dropdown">
@@ -60,6 +40,27 @@
 						<a sveltekit:prefetch href="/">NYHEDER FRA BRYGHUSET</a>
 					</div>
 				</div>
+				<!-- </li> -->
+
+				<div class="dropdown">
+					<a href="/" class="dropbtn">EVENTS OG SELSKABER</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+						<a sveltekit:prefetch href="/">SELSKABER</a>
+					</div>
+				</div>
+
+				<!-- <li class:active={$page.url.pathname === '/'}> -->
+
+				<!-- <div class="dropdown">
+					<a href="/" class="dropbtn">VORES ØLUDVALG</a>
+					<div class="dropdown-content">
+						<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
+						<a sveltekit:prefetch href="/">BRAW</a>
+						<a sveltekit:prefetch href="/">INFERNØL</a>
+						<a sveltekit:prefetch href="/">ØL HEMMELIGHEDER</a>
+					</div>
+				</div> -->
 
 				<div class="dropdown">
 					<a href="/" class="dropbtn">FOR VIRKSOMHEDER</a>
@@ -115,7 +116,7 @@
 	ul {
 		position: relative;
 		padding: 0;
-		margin: 0;
+		margin-left: 9rem;
 		height: 3em;
 		display: flex;
 		justify-content: space-around;

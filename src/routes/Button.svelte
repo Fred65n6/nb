@@ -5,9 +5,9 @@
 	import { page } from '$app/stores';
 </script>
 
-<a class="button" href={link}><slot /></a>
+<!-- <a class="button" href={link}><slot /></a>
 
-<br />
+<br /> -->
 
 <a class="btn" href={link}>
 	<svg>
@@ -16,7 +16,7 @@
 	<slot />
 </a>
 
-<br />
+<!-- <br />
 
 <button><slot /></button>
 
@@ -29,8 +29,7 @@
 	</div>
 </div>
 
-<br />
-
+<br /> -->
 <style>
 	.button {
 		font-size: 1em;
@@ -88,7 +87,7 @@
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
 		transition: 1s;
-		stroke: #940725;
+		stroke: black;
 	}
 
 	/*******KNAP 3******/
