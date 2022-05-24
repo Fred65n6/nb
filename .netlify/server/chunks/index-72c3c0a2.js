@@ -18,10 +18,11 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var stdin_exports = {};
 __export(stdin_exports, {
   a: () => subscribe,
-  b: () => add_attribute,
+  b: () => add_classes,
   c: () => create_ssr_component,
-  d: () => each,
+  d: () => add_attribute,
   e: () => escape,
+  f: () => each,
   g: () => getContext,
   m: () => missing_component,
   s: () => setContext,
@@ -134,4 +135,7 @@ function add_attribute(name, value, boolean) {
     return "";
   const assignment = boolean && value === true ? "" : `="${escape_attribute_value(value.toString())}"`;
   return ` ${name}${assignment}`;
+}
+function add_classes(classes) {
+  return classes ? ` class="${classes}"` : "";
 }

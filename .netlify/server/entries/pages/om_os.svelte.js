@@ -23,7 +23,7 @@ __export(stdin_exports, {
   router: () => router
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_38cedc01 = require("../../chunks/index-38cedc01.js");
+var import_index_72c3c0a2 = require("../../chunks/index-72c3c0a2.js");
 const browser = false;
 const dev = false;
 var om_os_svelte_svelte_type_style_lang = "";
@@ -34,7 +34,7 @@ const css = {
 const hydrate = dev;
 const router = browser;
 const prerender = true;
-const Om_os = (0, import_index_38cedc01.c)(($$result, $$props, $$bindings, slots) => {
+const Om_os = (0, import_index_72c3c0a2.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${$$result.head += `${$$result.title = `<title>About</title>`, ""}<meta name="${"description"}" content="${"About this app"}" data-svelte="svelte-1ds1qyu">`, ""}
 

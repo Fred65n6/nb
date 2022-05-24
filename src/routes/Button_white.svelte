@@ -17,16 +17,17 @@
 	}
 
 	.btn {
+		font-family: 'Josefin Sans', sans-serif;
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
 		width: 166px;
 		height: 45px;
-		font-size: 14px;
+		font-size: 1rem;
 		line-height: 45px;
 		text-align: center;
 		text-transform: uppercase;
-		color: black;
+		color: white;
 		cursor: pointer;
 		overflow: hidden;
 	}
@@ -36,7 +37,7 @@
 		left: 0;
 	}
 	.btn svg rect {
-		stroke: black;
+		stroke: white;
 		stroke-width: 3;
 		stroke-dasharray: 422, 0;
 		stroke-dashoffset: 0;
@@ -49,6 +50,7 @@
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
 		transition: 1s;
-		stroke: black;
+		stroke: white;
+		background-color: none;
 	}
 </style>

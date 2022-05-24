@@ -1,6 +1,8 @@
+var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __export = (target, all) => {
   for (var name in all)
@@ -14,22 +16,17 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Button
+  css: () => css,
+  entry: () => entry,
+  js: () => js,
+  module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_38cedc01 = require("../../chunks/index-38cedc01.js");
-var Button_svelte_svelte_type_style_lang = "";
-const css = {
-  code: ".button.svelte-mhdhil{font-size:1em;color:white;border:1px solid white;background:#f26700;outline:solid #f26700 1px;padding:0.25em 1em}",
-  map: null
-};
-const Button = (0, import_index_38cedc01.c)(($$result, $$props, $$bindings, slots) => {
-  let { link } = $$props;
-  if ($$props.link === void 0 && $$bindings.link && link !== void 0)
-    $$bindings.link(link);
-  $$result.css.add(css);
-  return `<a class="${"button svelte-mhdhil"}"${(0, import_index_38cedc01.b)("href", link, 0)}>${slots.default ? slots.default({}) : ``}</a>`;
-});
+var module2 = __toESM(require("../entries/pages/index.svelte.js"));
+const entry = "pages/index.svelte-e3066132.js";
+const js = ["pages/index.svelte-e3066132.js", "chunks/index-2379c78a.js", "pages/Button_white.svelte-263b5231.js", "pages/Button_hero.svelte-8a2716cf.js"];
+const css = ["assets/pages/index.svelte-bc492ad1.css", "assets/pages/Button_white.svelte-ef91ebf1.css", "assets/pages/Button_hero.svelte-8253bbb0.css"];

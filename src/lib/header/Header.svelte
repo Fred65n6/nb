@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<div class="sm:flex place-self-end gap-12 px-20 pt-2 place-content-end hidden ">
+	<div class="top sm:flex place-self-end gap-12 px-8 pt-2 place-content-end hidden ">
 		<a sveltekit:prefetch href="/"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<div class="pr-[16.5rem]">
+				<div class="pr-[14rem]">
 					<li class:active={$page.url.pathname === '/'}>
 						<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 					</li>
@@ -36,7 +36,7 @@
 
 				<div class="">
 					<div class="dropdown">
-						<a href="/" class="dropbtn">SHOP ⯆</a>
+						<a href="/" class="dropbtn">SHOPPEN ⯆</a>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">ØL-SHOP</a>
 							<a sveltekit:prefetch href="/">GAVEKORT</a>
@@ -120,7 +120,7 @@
 					></a
 				>
 				<a sveltekit:prefetch href="/" class="text-decoration-underline: no-underline text-[0.7rem]"
-					>LOG IND</a
+					>LOGIN</a
 				>
 			</div>
 
@@ -136,10 +136,10 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">SHOP ⯆</div>
+						<div class="dropbtn">SHOPPEN ⯆</div>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">ØL-SHOP</a>
-							<a sveltekit:prefetch href="/">KØB GAVEKORT</a>
+							<a sveltekit:prefetch href="/">SHOP</a>
+							<a sveltekit:prefetch href="/">GAVEKORT</a>
 						</div>
 					</div>
 				</li>
@@ -207,6 +207,11 @@
 		width: 100%;
 		display: grid;
 		place-items: center;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	.top {
+		font-family: 'Josefin Sans', sans-serif;
 	}
 
 	ul {
@@ -280,8 +285,8 @@
 		display: flex;
 		align-items: center;
 		position: fixed;
-		top: 20px;
-		right: 40px;
+		top: 15px;
+		right: 20px;
 
 		width: 26px;
 		height: 26px;
@@ -329,6 +334,7 @@
 	.menu__box {
 		display: flex;
 		flex-direction: column;
+		margin-left: 10rem;
 		position: fixed;
 		visibility: hidden;
 		top: 0;
@@ -371,6 +377,12 @@
 		width: auto;
 		padding-inline: 0.5rem;
 		z-index: 1;
+	}
+
+	@media (max-width: 600px) {
+		.dropdown-content {
+			text-align: center;
+		}
 	}
 
 	.dropdown-content a {

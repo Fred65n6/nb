@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
@@ -20,10 +20,35 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js",
+      "src/routes/Footer.svelte",
+      "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-96787049.css"
+      "assets/entries/pages/__layout.svelte-91f6a9ac.css"
+    ]
+  },
+  "src/routes/Footer.svelte": {
+    "file": "entries/pages/Footer.svelte.js",
+    "src": "src/routes/Footer.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-72c3c0a2.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Footer.svelte-1a661738.css"
+    ]
+  },
+  "src/routes/Button_black.svelte": {
+    "file": "entries/pages/Button_black.svelte.js",
+    "src": "src/routes/Button_black.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-72c3c0a2.js"
+    ],
+    "css": [
+      "assets/entries/pages/Button_black.svelte-697f9f48.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -31,18 +56,29 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js"
     ]
   },
-  "src/routes/Button.svelte": {
-    "file": "entries/pages/Button.svelte.js",
-    "src": "src/routes/Button.svelte",
+  "src/routes/Button_hero.svelte": {
+    "file": "entries/pages/Button_hero.svelte.js",
+    "src": "src/routes/Button_hero.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js"
     ],
     "css": [
-      "assets/entries/pages/Button.svelte-a89960c1.css"
+      "assets/entries/pages/Button_hero.svelte-ea95819c.css"
+    ]
+  },
+  "src/routes/Button_white.svelte": {
+    "file": "entries/pages/Button_white.svelte.js",
+    "src": "src/routes/Button_white.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-72c3c0a2.js"
+    ],
+    "css": [
+      "assets/entries/pages/Button_white.svelte-fa3c4f3f.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -50,8 +86,12 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js",
-      "src/routes/Button.svelte"
+      "_index-72c3c0a2.js",
+      "src/routes/Button_white.svelte",
+      "src/routes/Button_hero.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-933184c6.css"
     ]
   },
   "src/routes/om_os.svelte": {
@@ -59,7 +99,7 @@
     "src": "src/routes/om_os.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js"
     ],
     "css": [
       "assets/entries/pages/om_os.svelte-fd705827.css"
@@ -70,14 +110,14 @@
     "src": "src/routes/todos/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-38cedc01.js"
+      "_index-72c3c0a2.js"
     ],
     "css": [
       "assets/entries/pages/todos/index.svelte-02327cf1.css"
     ]
   },
-  "_index-38cedc01.js": {
-    "file": "chunks/index-38cedc01.js"
+  "_index-72c3c0a2.js": {
+    "file": "chunks/index-72c3c0a2.js"
   },
   "src/hooks.js": {
     "file": "chunks/hooks-0bab96cd.js",

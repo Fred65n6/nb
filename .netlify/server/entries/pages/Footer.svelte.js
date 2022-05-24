@@ -1,0 +1,69 @@
+var __create = Object.create;
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __getProtoOf = Object.getPrototypeOf;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+var stdin_exports = {};
+__export(stdin_exports, {
+  default: () => Footer
+});
+module.exports = __toCommonJS(stdin_exports);
+var import_index_72c3c0a2 = require("../../chunks/index-72c3c0a2.js");
+var import_Button_black_svelte = __toESM(require("./Button_black.svelte.js"));
+var Footer_svelte_svelte_type_style_lang = "";
+const css = {
+  code: "footer.svelte-qkjcw9{padding-inline:2rem;padding-bottom:10rem;padding-top:2rem;margin-top:7rem;background-image:url('footer_bg.webp');background-size:100vh;background-repeat:no-repeat}.bottom.svelte-qkjcw9{padding-top:6rem;display:grid;align-items:flex-start}@media(min-width: 600px){.bottom.svelte-qkjcw9{grid-template-columns:1fr 1fr 1fr;place-items:center;align-items:flex-start}footer.svelte-qkjcw9{background-image:url('footer_bg.webp');background-size:100%;padding-inline:8rem;padding-top:9rem}}",
+  map: null
+};
+const Footer = (0, import_index_72c3c0a2.c)(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
+  return `<footer class="${"svelte-qkjcw9"}"><div class="${"top grid place-items-center"}"><h3>Tilmeld dig vores nyhedsbrev</h3>
+		<div class="${"flex pt-4"}"><input placeholder="${"E-mail"}" type="${"Email"}">
+			${(0, import_index_72c3c0a2.v)(import_Button_black_svelte.default, "Button_black").$$render($$result, { link: "/" }, {}, {
+    default: () => {
+      return `TILMELD`;
+    }
+  })}</div></div>
+	<div class="${"bottom svelte-qkjcw9"}"><div class="${"mt-12"}"><h3>Kontakt</h3>
+			<p>Vi er altid klar til dit bes\xF8g og til at tage imod eventuelle sp\xF8rgsm\xE5l <br><br>
+				N\xF8rrebro Bryghus <br>
+				Ryesgade 3 <br> 2200 K\xF8benhavn N <br><br> Cvr. nr. 26882451 <br><br> Telefon:
+				<br>
+				3530 0530 <br><br> Mail vedr. restaurant og bar:
+				<a href="${"mailto: info@noerrebrobryghus.dk"}">info@noerrebrobryghus.dk</a></p></div>
+		<div class="${"mt-12"}"><h3>\xE5bningstider</h3>
+			<p>\xC5bningstider i restauranten: <br><br>
+
+				Mandag: Kun \xE5bent i BRAW baren 15-23 <br> <br>
+
+				Tir-ons: <br>
+				12.00-23.00 <br>
+				Torsdag: <br>
+				12.00-00.00 <br>
+				Fre-l\xF8r: <br>
+				12.00-00.00 <br>
+				S\xF8n: <br>
+				Lukket
+			</p></div>
+		<div class="${"mt-12"}"><h3>Links</h3>
+			<ul class="${""}"><li><a href="${"/"}">Facebook</a>
+					<br>
+					<a href="${"/"}">Instagram</a></li></ul>
+			<div class="${"pt-12"}"><img class="${"w-28"}" src="${"nb_logo_fill.svg"}" alt="${"logo"}"></div></div></div>
+</footer>`;
+});
