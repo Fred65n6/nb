@@ -61,7 +61,7 @@
 		padding-bottom: 10rem;
 		padding-top: 2rem;
 		margin-top: 7rem;
-		background-image: url('footer_bg.webp');
+		background-image: url('../../static/footer_bg.webp');
 		background-size: 100vh;
 		background-repeat: no-repeat;
 	}
@@ -80,7 +80,7 @@
 		}
 
 		footer {
-			background-image: url('footer_bg.webp');
+			background-image: url('../../static/footer_bg.webp');
 			background-size: 100%;
 			padding-inline: 8rem;
 			padding-top: 9rem;
