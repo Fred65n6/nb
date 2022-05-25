@@ -8,7 +8,7 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-<!-- 
+
 <section class="hero">
 	<div class="left">
 		<div class="kasse_1">
@@ -19,7 +19,7 @@
 		<div class="kasse_2"><Button link="/om_os">ØL-SHOP</Button></div>
 		<div class="kasse_3"><Button link="/om_os">EVENTS</Button></div>
 	</div>
-</section> -->
+</section>
 
 <section>
 	<h1>Velkommen til Nørrebro Bryghus</h1>
@@ -60,9 +60,10 @@
 <style>
 	.hero {
 		display: grid;
+		height: 90vh;
 		grid-template-columns: 1fr 1fr;
-
 		gap: 10px;
+		overflow-x: hidden;
 	}
 
 	.left {
@@ -78,30 +79,26 @@
 	.kasse_1 {
 		display: grid;
 		place-items: center;
-		width: 100%;
-		height: 37rem;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.kasse_2 {
 		display: grid;
 		place-items: center;
-		width: 100%;
 		height: 100%;
 		background-image: url('../../static/bundle_3.webp');
-		/* background-image: url('bundle_3.webp'); */
+		background-image: url('bundle_3.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.kasse_3 {
 		display: grid;
 		place-items: center;
-		width: 100%;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -145,12 +142,12 @@
 	@media (max-width: 600px) {
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {
