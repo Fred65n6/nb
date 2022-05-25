@@ -4,7 +4,7 @@
 
 <footer>
 	<div class="top grid place-items-center">
-		<h3>Tilmeld dig vores nyhedsbrev</h3>
+		<h3 class="text-center">Tilmeld dig vores nyhedsbrev</h3>
 		<div class="md:flex grid pt-4">
 			<input class="h-[45px] w-[166px] border-2" placeholder="E-mail" type="Email" />
 			<Button_black link="/">TILMELD</Button_black>
@@ -57,13 +57,13 @@
 
 <style>
 	footer {
-		padding-inline: 2rem;
+		margin-inline: 1rem;
 		padding-bottom: 10rem;
 		padding-top: 2rem;
 		margin-top: 7rem;
 		background-image: url('../../static/footer_bg.mobile.webp');
 		/* background-image: url('footer_bg.mobile.webp'); */
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
