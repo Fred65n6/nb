@@ -396,7 +396,7 @@
 			display: none;
 		}
 
-		nav {
+		header {
 			overflow-x: hidden;
 		}
 	}
