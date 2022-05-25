@@ -324,12 +324,11 @@
 	}
 
 	.menu__btn {
-		overflow-x: hidden;
 		display: flex;
 		align-items: center;
 		position: fixed;
 		top: 25px;
-		right: 20px;
+		right: 30px;
 
 		width: 26px;
 		height: 26px;
@@ -395,6 +394,10 @@
 	@media (max-width: 1300px) {
 		.desktop-menu {
 			display: none;
+		}
+
+		nav {
+			overflow-x: hidden;
 		}
 	}
 

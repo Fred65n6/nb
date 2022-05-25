@@ -50,7 +50,8 @@
 			fantastiske øl fra Nørrebro Bryghus.
 		</p>
 	</div>
-	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-36">
+	<img class="mobile-blomst" src="menu_blomst.svg" alt="" />
+	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
 		<Button_white link="/">FROKOSTMENU</Button_white>
 		<Button_white link="/">AFTENMENU</Button_white>
 	</div>
@@ -58,7 +59,6 @@
 
 <style>
 	.hero {
-		margin-inline: 1rem;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
@@ -81,7 +81,7 @@
 		width: 100%;
 		height: 37rem;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -91,7 +91,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/bundle_3.webp');
-		/* background-image: url('bundle_3.webp'); */
+		background-image: url('bundle_3.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -101,7 +101,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -116,6 +116,10 @@
 
 	.container img {
 		width: 4rem;
+	}
+
+	.mobile-blomst {
+		width: 10rem;
 	}
 
 	.menu p,
@@ -133,7 +137,7 @@
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
-			/* background-image: url('red_bg.svg'); */
+			background-image: url('red_bg.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -142,23 +146,25 @@
 	@media (max-width: 600px) {
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {
-			padding-bottom: 8rem;
+			padding-bottom: 4rem;
 		}
 
 		.menu {
+			background-color: #ba0930;
 			padding: 1rem;
+			width: 100%;
 			background-image: url('../../static/red_bg.mobile.svg');
-			/* background-image: url('red_bg.mobile.svg'); */
-			background-size: cover;
+			background-image: url('red_bg.mobile.svg');
+			background-size: contain;
 			background-repeat: no-repeat;
 		}
 	}
