@@ -275,7 +275,7 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-
+		padding-inline: 1rem;
 		color: black;
 		font-weight: 400;
 		font-size: 0.7rem;
