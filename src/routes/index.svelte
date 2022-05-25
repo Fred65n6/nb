@@ -50,7 +50,7 @@
 			fantastiske øl fra Nørrebro Bryghus.
 		</p>
 	</div>
-	<img class="mobile-blomst" src="menu_blomst.svg" alt="" />
+	<img class="mobile-blomst sm:hidden block" src="menu_blomst.svg" alt="" />
 	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
 		<Button_white link="/">FROKOSTMENU</Button_white>
 		<Button_white link="/">AFTENMENU</Button_white>
@@ -61,7 +61,7 @@
 	.hero {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr;
+
 		gap: 10px;
 	}
 
@@ -163,7 +163,7 @@
 			width: 100%;
 			background-image: url('../../static/red_bg.mobile.svg');
 			/* background-image: url('red_bg.mobile.svg'); */
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 	}
