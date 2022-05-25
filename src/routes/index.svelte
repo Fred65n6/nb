@@ -1,5 +1,6 @@
 <script context="module">
 	import Button from './Button_hero.svelte';
+	import Button_mobile from './Button_hero.mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
 </script>
@@ -12,19 +13,29 @@
 <section class="hero">
 	<div class="left">
 		<div class="kasse_1">
-			<button link="/om_os">BOOK BORD</button>
+			<div class="desktop_button"><Button link="/om_os">BOOK BORD</Button></div>
+			<div class=" mobile_button">
+				<Button_mobile link="/om_os">BOOK BORD</Button_mobile>
+			</div>
 		</div>
 	</div>
 	<div class="right">
-		<div class="kasse_2"><button link="/om_os">ØL-SHOP</button></div>
-		<div class="kasse_3"><button link="/om_os">EVENTS</button></div>
+		<div class="kasse_2 ">
+			<div class="desktop_button"><Button link="/om_os">ØL-SHOP</Button></div>
+			<div class=" mobile_button"><Button_mobile link="/om_os">ØL-SHOP</Button_mobile></div>
+		</div>
+
+		<div class="kasse_3">
+			<div class="desktop_button"><Button link="/om_os">EVENTS</Button></div>
+			<div class=" mobile_button"><Button_mobile link="/om_os">EVENTS</Button_mobile></div>
+		</div>
 	</div>
 </section>
 
 <section>
 	<h1>Velkommen til Nørrebro Bryghus</h1>
 	<div class="container">
-		<div class="flex sm:gap-20">
+		<div class="flex gap-14">
 			<div class="blomst_1 grid place-items-center gap-8">
 				<img src="blomst_1.svg" alt="" />
 				<h3>100% ØKOLOGI</h3>
@@ -71,16 +82,6 @@
 		height: 100%;
 	}
 
-	button {
-		font-family: 'Josefin Sans', sans-serif;
-		padding-inline: 1rem;
-		padding-block: 0.5rem;
-		border: azure 2px;
-		border-style: solid;
-		background-color: rgba(0, 0, 0, 0.329);
-		color: white;
-	}
-
 	.right {
 		height: 100%;
 		display: grid;
@@ -117,8 +118,9 @@
 
 	.container {
 		display: grid;
+		text-align: center;
 		place-items: center;
-		gap: 30px;
+		gap: 2rem;
 		padding-block: 4rem;
 		text-align: center;
 	}
@@ -129,6 +131,7 @@
 
 	.menu p,
 	h2 {
+		max-width: 600px;
 		color: white;
 		text-align: center;
 	}
@@ -142,6 +145,10 @@
 			width: 7rem;
 		}
 
+		.mobile_button {
+			display: none;
+		}
+
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
@@ -152,6 +159,9 @@
 	}
 
 	@media (max-width: 600px) {
+		.desktop_button {
+			display: none;
+		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
 			/* background-image: url('bundle_3.mobile.webp'); */
@@ -172,8 +182,11 @@
 			gap: 30px;
 			padding-block: 4rem;
 			text-align: center;
-			background-color: #ba0930;
 			padding: 1rem;
+			background-image: url('../../static/red_bg.mobile.svg');
+			/* background-image: url('red_bg.mobile.svg'); */
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 	}
 </style>

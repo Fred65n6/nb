@@ -370,7 +370,7 @@
 	}
 
 	.hamburger-menu li {
-		padding-block: 1.3rem;
+		padding-block: 0.8rem;
 	}
 
 	.menu__box {
