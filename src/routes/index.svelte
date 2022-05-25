@@ -8,7 +8,7 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
+<!-- 
 <section class="hero">
 	<div class="left">
 		<div class="kasse_1">
@@ -19,7 +19,7 @@
 		<div class="kasse_2"><Button link="/om_os">ØL-SHOP</Button></div>
 		<div class="kasse_3"><Button link="/om_os">EVENTS</Button></div>
 	</div>
-</section>
+</section> -->
 
 <section>
 	<h1>Velkommen til Nørrebro Bryghus</h1>
@@ -158,10 +158,14 @@
 		}
 
 		.menu {
+			display: grid;
+			place-items: center;
+			gap: 30px;
+			padding-block: 4rem;
+			text-align: center;
 			background-color: #ba0930;
 			padding: 1rem;
 			background-image: none;
-			/* background-image: url('red_bg.mobile.svg'); */
 		}
 	}
 </style>
