@@ -81,7 +81,7 @@
 		width: 100%;
 		height: 37rem;
 		background-image: url('../../static/shrimp.mobile.webp');
-		background-image: url('shrimp.mobile.webp');
+		/* background-image: url('shrimp.mobile.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -91,7 +91,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/bundle_3.webp');
-		background-image: url('bundle_3.webp');
+		/* background-image: url('bundle_3.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -101,7 +101,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		background-image: url('event.webp');
+		/* background-image: url('event.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -118,15 +118,14 @@
 		width: 4rem;
 	}
 
-	.mobile-blomst {
-		width: 10rem;
-	}
-
 	.menu p,
 	h2 {
 		color: white;
-		max-width: 600px;
 		text-align: center;
+	}
+
+	.menu img {
+		width: 9rem;
 	}
 
 	@media (min-width: 600px) {
@@ -137,7 +136,7 @@
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
-			background-image: url('red_bg.svg');
+			/* background-image: url('red_bg.svg'); */
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -146,12 +145,12 @@
 	@media (max-width: 600px) {
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			background-image: url('bundle_3.mobile.webp');
+			/* background-image: url('bundle_3.mobile.webp'); */
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			background-image: url('event.mobile.webp');
+			/* background-image: url('event.mobile.webp'); */
 		}
 
 		.top {
@@ -163,7 +162,7 @@
 			padding: 1rem;
 			width: 100%;
 			background-image: url('../../static/red_bg.mobile.svg');
-			background-image: url('red_bg.mobile.svg');
+			/* background-image: url('red_bg.mobile.svg'); */
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
