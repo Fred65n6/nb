@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<div class="top sm:flex place-self-end gap-12 px-8 pt-2 place-content-end hidden ">
+	<div class="ikoner">
 		<a sveltekit:prefetch href="/"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -21,17 +21,36 @@
 				/></svg
 			></a
 		>
-		<a sveltekit:prefetch href="/" class="text-decoration-underline: no-underline text-[0.7rem]"
-			>LOG IND</a
+		<a
+			sveltekit:prefetch
+			href="/"
+			class="text-decoration-underline: no-underline  flex  gap-2  text-[0.7rem]"
+			><svg
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				aria-hidden="true"
+				role="img"
+				class="iconify iconify--ph"
+				width="20"
+				height="20"
+				preserveAspectRatio="xMidYMid meet"
+				viewBox="0 0 256 256"
+				><path
+					fill="black"
+					d="M231.9 212a120.7 120.7 0 0 0-67.1-54.2a72 72 0 1 0-73.6 0A120.7 120.7 0 0 0 24.1 212a8 8 0 1 0 13.8 8a104.1 104.1 0 0 1 180.2 0a8 8 0 1 0 13.8-8ZM72 96a56 56 0 1 1 56 56a56 56 0 0 1-56-56Z"
+				/></svg
+			></a
 		>
 	</div>
 	<nav>
 		<div class="desktop-menu">
 			<ul>
-				<div class="pr-[14rem]">
-					<li class:active={$page.url.pathname === '/'}>
-						<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
-					</li>
+				<div class="">
+					<div class="">
+						<li class:active={$page.url.pathname === '/'}>
+							<a sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
+						</li>
+					</div>
 				</div>
 
 				<div class="">
@@ -98,10 +117,10 @@
 
 		<!-----------HAMBURGER MENU----------->
 
-		<div class="hamburger-menu flex pr-20">
+		<div class="hamburger-menu flex ">
 			<a class=" " sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 
-			<div class="flex pl-36">
+			<div class="flex">
 				<a sveltekit:prefetch href="/"
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +139,21 @@
 					></a
 				>
 				<a sveltekit:prefetch href="/" class="text-decoration-underline: no-underline text-[0.7rem]"
-					>LOGIN</a
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						aria-hidden="true"
+						role="img"
+						class="iconify iconify--ph"
+						width="20"
+						height="20"
+						preserveAspectRatio="xMidYMid meet"
+						viewBox="0 0 256 256"
+						><path
+							fill="black"
+							d="M231.9 212a120.7 120.7 0 0 0-67.1-54.2a72 72 0 1 0-73.6 0A120.7 120.7 0 0 0 24.1 212a8 8 0 1 0 13.8 8a104.1 104.1 0 0 1 180.2 0a8 8 0 1 0 13.8-8ZM72 96a56 56 0 1 1 56 56a56 56 0 0 1-56-56Z"
+						/></svg
+					></a
 				>
 			</div>
 
@@ -204,20 +237,29 @@
 
 <style>
 	nav {
+		margin-inline: 1rem;
 		width: 100%;
-		display: grid;
-		place-items: center;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 
-	.top {
+	.ikoner {
+		padding-top: 0.2rem;
+		margin-inline: 1rem;
+		display: flex;
+		place-content: flex-end;
+		gap: 2rem;
 		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	@media (max-width: 1300px) {
+		.ikoner {
+			display: none;
+		}
 	}
 
 	ul {
-		padding-block: 3rem;
-		position: relative;
-		margin-right: 0.3rem;
+		margin-inline: 1rem;
+		padding-block: 2.2rem;
 		height: 3em;
 		display: flex;
 		justify-content: space-between;
@@ -226,14 +268,14 @@
 	}
 
 	ul img {
-		width: 5rem;
+		width: 80px;
 	}
 
 	nav a {
+		padding-inline: 1rem;
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 2em;
 		color: black;
 		font-weight: 400;
 		font-size: 0.7rem;
@@ -285,7 +327,7 @@
 		display: flex;
 		align-items: center;
 		position: fixed;
-		top: 15px;
+		top: 25px;
 		right: 20px;
 
 		width: 26px;
@@ -334,7 +376,6 @@
 	.menu__box {
 		display: flex;
 		flex-direction: column;
-		margin-left: 10rem;
 		position: fixed;
 		visibility: hidden;
 		top: 0;
@@ -350,13 +391,13 @@
 		transition-duration: 0.25s;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 1300px) {
 		.desktop-menu {
 			display: none;
 		}
 	}
 
-	@media (min-width: 600px) {
+	@media (min-width: 1300px) {
 		.hamburger-menu {
 			display: none;
 		}
