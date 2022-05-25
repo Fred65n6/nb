@@ -199,16 +199,6 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">EVENTS & SELSKABER ⯆</div>
-						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">EVENTKALENDER</a>
-							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<div class="dropdown">
 						<div class="dropbtn">OM BRYGHUSET ⯆</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">VORES HISTORIE</a>
@@ -222,9 +212,19 @@
 
 				<li>
 					<div class="dropdown">
+						<div class="dropbtn">EVENTS & SELSKABER ⯆</div>
+						<div class="dropdown-content">
+							<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="dropdown">
 						<div class="dropbtn">FOR VIRKSOMHEDER ⯆</div>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">EVENTS & MØDELOKALER</a>
+							<a sveltekit:prefetch href="/">MØDELOKALER</a>
 							<a sveltekit:prefetch href="/">BLIV FORHANDLER</a>
 						</div>
 					</div>
