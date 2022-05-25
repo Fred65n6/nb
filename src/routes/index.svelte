@@ -165,7 +165,6 @@
 			text-align: center;
 			background-color: #ba0930;
 			padding: 1rem;
-			background-image: none;
 		}
 	}
 </style>
