@@ -35,7 +35,7 @@
 <section>
 	<h1>Velkommen til Nørrebro Bryghus</h1>
 	<div class="container">
-		<div class="flex gap-14">
+		<div class="sm:flex grid gap-14">
 			<div class="blomst_1 grid place-items-center gap-8">
 				<img src="blomst_1.svg" alt="" />
 				<h3>100% ØKOLOGI</h3>
