@@ -5,8 +5,8 @@
 <footer>
 	<div class="top grid place-items-center">
 		<h3>Tilmeld dig vores nyhedsbrev</h3>
-		<div class="flex pt-4">
-			<input placeholder="E-mail" type="Email" />
+		<div class="md:flex grid pt-4">
+			<input class="h-[45px] w-[166px] border-2" placeholder="E-mail" type="Email" />
 			<Button_black link="/">TILMELD</Button_black>
 		</div>
 	</div>
