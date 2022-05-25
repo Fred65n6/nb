@@ -237,7 +237,6 @@
 
 <style>
 	nav {
-		overflow-x: hidden;
 		margin-inline: 1rem;
 		width: 100%;
 		font-family: 'Josefin Sans', sans-serif;
@@ -260,7 +259,7 @@
 
 	ul {
 		margin-inline: 1rem;
-		padding-block: 2rem;
+		padding-block: 2.5rem;
 		height: 3em;
 		display: flex;
 		justify-content: space-between;
@@ -325,6 +324,7 @@
 	}
 
 	.menu__btn {
+		overflow-x: hidden;
 		display: flex;
 		align-items: center;
 		position: fixed;

@@ -80,7 +80,7 @@
 		width: 100%;
 		height: 37rem;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -90,7 +90,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/bundle_3.webp');
-		/* background-image: url('bundle_3.webp'); */
+		background-image: url('bundle_3.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -100,7 +100,7 @@
 		width: 100%;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -141,12 +141,12 @@
 	@media (max-width: 600px) {
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {
@@ -156,7 +156,7 @@
 		.menu {
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			/* background-image: url('red_bg.mobile.svg'); */
+			background-image: url('red_bg.mobile.svg');
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
