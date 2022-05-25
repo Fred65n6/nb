@@ -160,11 +160,8 @@
 		.menu {
 			background-color: #ba0930;
 			padding: 1rem;
-			width: 100%;
-			background-image: url('../../static/red_bg.mobile.svg');
+			background-image: none;
 			/* background-image: url('red_bg.mobile.svg'); */
-			background-size: cover;
-			background-repeat: no-repeat;
 		}
 	}
 </style>
