@@ -237,6 +237,7 @@
 
 <style>
 	nav {
+		overflow-x: hidden;
 		margin-inline: 1rem;
 		width: 100%;
 		font-family: 'Josefin Sans', sans-serif;
@@ -329,10 +330,8 @@
 		position: fixed;
 		top: 25px;
 		right: 20px;
-
 		width: 26px;
 		height: 26px;
-
 		cursor: pointer;
 		z-index: 100;
 	}
