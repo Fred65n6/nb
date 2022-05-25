@@ -60,7 +60,7 @@
 <style>
 	.hero {
 		display: grid;
-		height: 90vh;
+		height: 37.5rem;
 		grid-template-columns: 1fr 1fr;
 		gap: 10px;
 		overflow-x: hidden;
@@ -68,6 +68,7 @@
 
 	.left {
 		width: 100%;
+		height: 100%;
 	}
 
 	.right {
@@ -78,6 +79,7 @@
 	}
 	.kasse_1 {
 		display: grid;
+		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
 		background-image: url('shrimp.mobile.webp');
