@@ -117,10 +117,10 @@
 
 		<!-----------HAMBURGER MENU----------->
 
-		<div class="hamburger-menu flex ">
+		<div class="hamburger-menu flex">
 			<a class=" " sveltekit:prefetch href="/"><img src="nb_logo.svg" alt="" /></a>
 
-			<div class="flex">
+			<div class="flex gap-4 mx-4">
 				<a sveltekit:prefetch href="/"
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +244,7 @@
 	}
 
 	.ikoner {
-		padding-top: 0.2rem;
+		padding-top: 0.5rem;
 		margin-inline: 1rem;
 		display: flex;
 		place-content: flex-end;
@@ -260,7 +260,7 @@
 
 	ul {
 		margin-inline: 1rem;
-		padding-block: 2.2rem;
+		padding-block: 2rem;
 		height: 3em;
 		display: flex;
 		justify-content: space-between;
@@ -273,10 +273,10 @@
 	}
 
 	nav a {
-		padding-inline: 1rem;
 		display: flex;
 		height: 100%;
 		align-items: center;
+
 		color: black;
 		font-weight: 400;
 		font-size: 0.7rem;
@@ -330,8 +330,10 @@
 		position: fixed;
 		top: 25px;
 		right: 20px;
+
 		width: 26px;
 		height: 26px;
+
 		cursor: pointer;
 		z-index: 100;
 	}
