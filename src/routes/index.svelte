@@ -12,12 +12,12 @@
 <section class="hero">
 	<div class="left">
 		<div class="kasse_1">
-			<Button link="/om_os">BOOK BORD</Button>
+			<button link="/om_os">BOOK BORD</button>
 		</div>
 	</div>
 	<div class="right">
-		<div class="kasse_2"><Button link="/om_os">ØL-SHOP</Button></div>
-		<div class="kasse_3"><Button link="/om_os">EVENTS</Button></div>
+		<div class="kasse_2"><button link="/om_os">ØL-SHOP</button></div>
+		<div class="kasse_3"><button link="/om_os">EVENTS</button></div>
 	</div>
 </section>
 
@@ -60,7 +60,7 @@
 <style>
 	.hero {
 		display: grid;
-		height: 37.5rem;
+		height: 90vh;
 		grid-template-columns: 1fr 1fr;
 		gap: 10px;
 		overflow-x: hidden;
@@ -69,6 +69,16 @@
 	.left {
 		width: 100%;
 		height: 100%;
+	}
+
+	button {
+		font-family: 'Josefin Sans', sans-serif;
+		padding-inline: 1rem;
+		padding-block: 0.5rem;
+		border: azure 2px;
+		border-style: solid;
+		background-color: rgba(0, 0, 0, 0.329);
+		color: white;
 	}
 
 	.right {
