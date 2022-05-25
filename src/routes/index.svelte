@@ -58,6 +58,7 @@
 
 <style>
 	.hero {
+		margin-inline: 1rem;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
