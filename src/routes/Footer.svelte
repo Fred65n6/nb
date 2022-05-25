@@ -68,7 +68,7 @@
 	}
 
 	.bottom {
-		padding-top: 6rem;
+		/* padding-top: 6rem; */
 		display: grid;
 		align-items: flex-start;
 	}
@@ -82,7 +82,7 @@
 
 		footer {
 			background-image: url('../../static/footer_bg.webp');
-			background-image: url('footer_bg.webp');
+			/* background-image: url('footer_bg.webp'); */
 			background-size: 100%;
 			padding-inline: 8rem;
 			padding-top: 9rem;
