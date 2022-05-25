@@ -62,7 +62,7 @@
 		padding-top: 2rem;
 		margin-top: 7rem;
 		background-image: url('../../static/footer_bg.mobile.webp');
-		/* background-image: url('footer_bg.mobile.webp'); */
+		background-image: url('footer_bg.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -79,10 +79,10 @@
 			place-items: center;
 			align-items: flex-start;
 		}
-
+		/*  */
 		footer {
 			background-image: url('../../static/footer_bg.webp');
-			/* background-image: url('footer_bg.webp'); */
+			background-image: url('footer_bg.webp');
 			background-size: 100%;
 			padding-inline: 8rem;
 			padding-top: 9rem;

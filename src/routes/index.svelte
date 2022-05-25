@@ -13,9 +13,9 @@
 <section class="hero">
 	<div class="left">
 		<div class="kasse_1">
-			<div class="desktop_button"><Button link="/om_os">BOOK BORD</Button></div>
+			<div class="desktop_button"><Button link="/book_bord">BOOK BORD</Button></div>
 			<div class=" mobile_button">
-				<Button_mobile link="/om_os">BOOK BORD</Button_mobile>
+				<Button_mobile link="/book_bord">BOOK BORD</Button_mobile>
 			</div>
 		</div>
 	</div>
@@ -26,8 +26,8 @@
 		</div>
 
 		<div class="kasse_3">
-			<div class="desktop_button"><Button link="/om_os">EVENTS</Button></div>
-			<div class=" mobile_button"><Button_mobile link="/om_os">EVENTS</Button_mobile></div>
+			<div class="desktop_button"><Button link="/events">EVENTS</Button></div>
+			<div class=" mobile_button"><Button_mobile link="/events">EVENTS</Button_mobile></div>
 		</div>
 	</div>
 </section>
@@ -93,7 +93,7 @@
 		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -102,7 +102,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/bundle_3.webp');
-		/* background-image: url('bundle_3.webp'); */
+		background-image: url('bundle_3.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -111,7 +111,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -152,7 +152,7 @@
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
-			/* background-image: url('red_bg.svg'); */
+			background-image: url('red_bg.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -164,12 +164,12 @@
 		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {
@@ -184,7 +184,7 @@
 			text-align: center;
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			/* background-image: url('red_bg.mobile.svg'); */
+			background-image: url('red_bg.mobile.svg');
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
