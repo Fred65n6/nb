@@ -107,7 +107,7 @@
 						<a href="/" class="dropbtn">FOR VIRKSOMHEDER ⯆</a>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">FIRMAEVENTS</a>
-							<a sveltekit:prefetch href="/">BOOK ET MØDELOKALE</a>
+							<a sveltekit:prefetch href="/">MØDELOKALER</a>
 							<a sveltekit:prefetch href="/">BLIV FORHANDLER</a>
 						</div>
 					</div>

@@ -1,6 +1,6 @@
 <script context="module">
 	import Button from './Button_hero.svelte';
-	import Button_mobile from './Button_hero.mobile.svelte';
+	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
 </script>
