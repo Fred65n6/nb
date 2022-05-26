@@ -9,6 +9,8 @@
 	import Checkbox from './Checkbox.svelte';
 	import Slider from 'svelte-slider';
 	let rangeValue = null;
+	import Search from 'svelte-search';
+	let value = '';
 </script>
 
 <section>
@@ -36,6 +38,8 @@
 					/></svg
 				></button
 			>
+			<!-- <Search class="h-16  border-2" label="" placeholder="Søg efter produkter..." /> -->
+			<br />
 			<ul>
 				<h3>Bryglinie</h3>
 				<li><Checkbox>Nørrebro bryghus</Checkbox></li>

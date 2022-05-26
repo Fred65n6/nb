@@ -12,8 +12,8 @@
 	import ButtonBlack from './Button_black.svelte';
 </script>
 
-<section class="filter">
-	<!-- <ul>
+<div class="knapper">
+	<ul>
 		<button class="filter-knap flex gap-2" on:click={() => (sidebar_show = !sidebar_show)}
 			><svg
 				width="20"
@@ -30,7 +30,7 @@
 				<circle cx="34" cy="24" r="3.5" fill="black" stroke="black" stroke-width="3" />
 			</svg>FILTRER</button
 		>
-		<br />
+
 		<Search class="h-16 p-2 border-2" label="" placeholder="Søg efter produkter..." />
 		<br />
 		<h3>Bryglinie</h3>
@@ -76,7 +76,11 @@
 		<li><Checkbox>0.75</Checkbox></li>
 		<br />
 		<li><ButtonBlack>ANVEND FILTRE</ButtonBlack></li>
-	</ul> -->
+	</ul>
+</div>
+
+<section class="mobile-filter">
+	<Sidebar bind:show={sidebar_show} />
 
 	<button class="filter-knap flex gap-2" on:click={() => (sidebar_show = !sidebar_show)}
 		><svg width="20" height="25" viewBox="0 0 39 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,10 +93,7 @@
 		</svg>FILTRER</button
 	>
 	<Search class="h-16 p-2 border-2" label="" placeholder="Søg efter produkter..." />
-	<Sidebar bind:show={sidebar_show} />
 </section>
-
-<!--  -->
 
 <section class="shop">
 	<ShopItem img="classic.webp" titel="Nørrebro classic" sub_titel="Pilsner 33 cl" pris="kr 29,-" />
@@ -119,25 +120,55 @@
 		sub_titel="Pilsner & IPA 3x33 cl"
 		pris="kr 29,-"
 	/>
+	<div class="" />
+	<section class="pt-20">
+		<ButtonBlack>Indlæs mere ▼</ButtonBlack>
+	</section>
 </section>
 
 <style>
-	.filter {
-		position: relative;
-		left: 0;
-
-		display: grid;
-		place-items: center;
-	}
+	/* .filter {
+		position: absolute;
+	} */
 
 	.shop {
-		margin-left: 22rem;
+		margin-top: 0rem;
+		position: relative;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
+
+	.knapper {
+		margin-top: 2rem;
+		position: absolute;
+		margin-inline: 2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	@media (max-width: 600px) {
+		.knapper {
+			display: none;
+		}
+
+		.shop {
+			margin-top: -4rem;
+		}
+	}
+
+	@media (min-width: 600px) {
+		.mobile-filter {
+			display: none;
+		}
+
+		.shop {
+			margin-left: 14rem;
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
 	.filter-knap {
 		border-style: solid;
-		margin-block: 1rem;
+		margin-block: 2rem;
 	}
 
 	.slider {

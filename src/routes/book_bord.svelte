@@ -77,7 +77,8 @@
 	.card_1 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('aftenmenu.webp');
+		background-image: url('../../static/aftenmenu.webp');
+		/* background-image: url('aftenmenu.webp'); */
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -85,7 +86,8 @@
 	.card_2 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('frokostmenu.webp');
+		background-image: url('../../static/frokostmenu.webp');
+		/* background-image: url('frokostmenu.webp'); */
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -93,7 +95,8 @@
 	.card_3 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('olsortiment.webp');
+		background-image: url('../../static/olsortiment.webp');
+		/* background-image: url('olsortiment.webp'); */
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
