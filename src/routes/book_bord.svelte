@@ -15,7 +15,7 @@
 </section>
 
 <section class="book">
-	<div class="mobil_img"><img src="book_bord.mobile.png" alt="" /></div>
+	<div class="mobil_img"><img src="book_bord.mobile.webp" alt="" /></div>
 	<div class="booking">
 		<h2>Book dit bord her</h2>
 		<p>Trin 1 af 3</p>
@@ -34,7 +34,7 @@
 		<Button_white link="/book_bord">Næste Trin</Button_white>
 	</div>
 	<div class="image">
-		<img class="" src="book_bord.png" alt="" />
+		<img class="" src="book_bord.webp" alt="" />
 	</div>
 </section>
 
@@ -77,7 +77,7 @@
 	.card_1 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('aftenmenu.png');
+		background-image: url('aftenmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -85,7 +85,7 @@
 	.card_2 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('frokostmenu.png');
+		background-image: url('frokostmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -93,7 +93,7 @@
 	.card_3 {
 		width: 27rem;
 		height: 27rem;
-		background-image: url('olsortiment.png');
+		background-image: url('olsortiment.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;

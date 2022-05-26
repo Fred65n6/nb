@@ -2,6 +2,8 @@
 	import Button from './Button_hero.svelte';
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
+	// @ts-ignore
+	import Event_card from './Event_card.svelte';
 	import { page } from '$app/stores';
 </script>
 
@@ -79,10 +81,162 @@
 	</div>
 </section>
 
+<section class="kalender">
+	<div class="smag">
+		<Event_card
+			dato="4/5/2022"
+			img="smag_blomst.svg"
+			titel="ølsmagning"
+			sub_titel="En smagsoplevelse i øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="by">
+		<Event_card
+			dato="6/5/2022"
+			img="by_blomst.svg"
+			titel="Øl-byvandring"
+			sub_titel="Oplev københavn igennem øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="dj">
+		<Event_card
+			dato="7/5/2022"
+			img="dj_blomst.svg"
+			titel="DJ I BRYGHUSET"
+			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="by">
+		<Event_card
+			dato="10/5/2022"
+			img="by_blomst.svg"
+			titel="Øl-byvandring"
+			sub_titel="Oplev københavn igennem øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="smag">
+		<Event_card
+			dato="11/5/2022"
+			img="smag_blomst.svg"
+			titel="ølsmagning"
+			sub_titel="En smagsoplevelse i øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+
+	<div class="dj">
+		<Event_card
+			dato="12/5/2022"
+			img="dj_blomst.svg"
+			titel="DJ I BRYGHUSET"
+			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="by">
+		<Event_card
+			dato="16/5/2022"
+			img="by_blomst.svg"
+			titel="Øl-byvandring"
+			sub_titel="Oplev københavn igennem øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="dj">
+		<Event_card
+			dato="17/5/2022"
+			img="dj_blomst.svg"
+			titel="DJ I BRYGHUSET"
+			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="by">
+		<Event_card
+			dato="18/5/2022"
+			img="by_blomst.svg"
+			titel="Øl-byvandring"
+			sub_titel="Oplev københavn igennem øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+
+	<div class="dj">
+		<Event_card
+			dato="23/5/2022"
+			img="dj_blomst.svg"
+			titel="DJ I BRYGHUSET"
+			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="smag">
+		<Event_card
+			dato="24/5/2022"
+			img="smag_blomst.svg"
+			titel="ølsmagning"
+			sub_titel="En smagsoplevelse i øllets verden"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+	<div class="dj">
+		<Event_card
+			dato="27/5/2022"
+			img="dj_blomst.svg"
+			titel="DJ I BRYGHUSET"
+			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+			tid="17:00-19:00"
+			sted="Ryesgade 3, 2200 KBH NV"
+		/>
+	</div>
+</section>
+
 <style>
 	.heading {
 		padding-top: 3rem;
 		text-align: center;
+	}
+
+	.dj {
+		background-color: #6e0b20;
+	}
+
+	.smag {
+		background-color: #ebd37f;
+	}
+
+	.by {
+		background-color: #abccd8;
+	}
+
+	.kalender {
+		margin: 0 auto;
+		max-width: 1600px;
+		place-items: center;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+
+	@media (min-width: 1200px) {
+		.kalender {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 	}
 
 	.heading p {
@@ -126,14 +280,19 @@
 	}
 
 	.filter {
-		display: flex;
+		display: grid;
 		align-items: center;
-		justify-content: space-around;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	@media (max-width: 600px) {
 		.dropdown-content {
 			text-align: center;
+		}
+
+		.filter {
+			display: flex;
+			justify-content: space-between;
 		}
 	}
 

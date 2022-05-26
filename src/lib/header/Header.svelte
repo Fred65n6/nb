@@ -177,8 +177,8 @@
 					</div>
 				</li>
 
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">BOOK BORD</a>
+				<li class:active={$page.url.pathname === 'book_bord'}>
+					<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
 				</li>
 
 				<li class:active={$page.url.pathname === '/'}>
@@ -214,7 +214,7 @@
 					<div class="dropdown">
 						<div class="dropbtn">EVENTS & SELSKABER ⯆</div>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+							<a sveltekit:prefetch href="events">EVENTKALENDER</a>
 							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
 						</div>
 					</div>

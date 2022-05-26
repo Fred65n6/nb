@@ -21,8 +21,8 @@
 	</div>
 	<div class="right">
 		<div class="kasse_2 ">
-			<div class="desktop_button"><Button link="/om_os">ØL-SHOP</Button></div>
-			<div class=" mobile_button"><Button_mobile link="/om_os">ØL-SHOP</Button_mobile></div>
+			<div class="desktop_button"><Button link="shop">ØL-SHOP</Button></div>
+			<div class=" mobile_button"><Button_mobile link="/shop">ØL-SHOP</Button_mobile></div>
 		</div>
 
 		<div class="kasse_3">
@@ -68,10 +68,12 @@
 	</div>
 </section>
 
+<section class="kalender" />
+
 <style>
 	.hero {
 		display: grid;
-		height: 90vh;
+		height: 87vh;
 		grid-template-columns: 1fr 1fr;
 		gap: 10px;
 		overflow-x: hidden;
