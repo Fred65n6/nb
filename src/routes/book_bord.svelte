@@ -20,7 +20,7 @@
 		<h2>Book dit bord her</h2>
 		<p>Trin 1 af 3</p>
 		<br />
-		<div class="flex gap-8">
+		<div class="sm:flex grid gap-8">
 			<div class="">
 				<p>Dato for jeres besøg</p>
 				<input class="h-[45px] w-[166px]" placeholder="18/05/2022" type="Email" />
@@ -61,6 +61,7 @@
 
 	.book p {
 		color: white;
+		padding: 1rem;
 	}
 
 	.menuer {
@@ -107,8 +108,22 @@
 			display: none;
 		}
 
+		.book {
+			width: 16em;
+		}
+
+		.card_1,
+		.card_2,
+		.card_3 {
+			width: 16em;
+		}
+
 		.booking {
 			padding-block: 2rem;
+		}
+
+		.mobil_img {
+			width: 16em;
 		}
 	}
 
