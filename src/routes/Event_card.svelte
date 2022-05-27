@@ -69,7 +69,7 @@
 
 	@media (max-width: 600px) {
 		.card {
-			width: 23em;
+			width: 18em;
 		}
 	}
 </style>

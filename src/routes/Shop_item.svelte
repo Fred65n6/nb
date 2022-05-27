@@ -34,6 +34,12 @@
 		margin-block: 4rem;
 	}
 
+	@media (max-width: 600px) {
+		.card {
+			width: 18em;
+		}
+	}
+
 	.card,
 	h3,
 	p {
