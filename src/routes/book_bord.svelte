@@ -106,7 +106,7 @@
 
 	@media (max-width: 400px) {
 		.book {
-			width: 16em;
+			width: 18em;
 			display: grid;
 			place-items: center;
 		}
@@ -114,9 +114,9 @@
 		.card_1,
 		.card_2,
 		.card_3 {
-			width: 16em;
-			height: 16em;
-			padding-top: 9rem;
+			width: 18em;
+			height: 18em;
+			padding-top: 10rem;
 		}
 
 		.booking {
@@ -124,7 +124,7 @@
 		}
 
 		.mobil_img {
-			width: 16em;
+			width: 18em;
 		}
 	}
 
