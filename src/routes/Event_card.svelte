@@ -66,4 +66,10 @@
 	p {
 		color: white;
 	}
+
+	@media (max-width: 600px) {
+		.card {
+			width: 23em;
+		}
+	}
 </style>

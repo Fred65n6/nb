@@ -150,6 +150,12 @@
 			display: none;
 		}
 
+		.mobile-filter {
+			text-align: center;
+			display: grid;
+			place-items: center;
+		}
+
 		.shop {
 			margin-top: -4rem;
 		}

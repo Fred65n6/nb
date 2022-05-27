@@ -102,7 +102,7 @@
 		top: 0;
 		left: 0;
 		height: auto;
-		width: 25rem;
+		width: 25em;
 		padding: 2rem 1rem 0.6rem;
 		background: #fff;
 		z-index: 100;
