@@ -102,7 +102,7 @@
 		top: 0;
 		left: 0;
 		height: auto;
-		width: 19em;
+		width: 16em;
 		padding: 2rem 1rem 0.6rem;
 		background: #fff;
 		z-index: 100;
@@ -119,7 +119,7 @@
 	}
 
 	.luk_knap {
-		margin-left: 14rem;
+		margin-left: 12rem;
 	}
 
 	.slider {
