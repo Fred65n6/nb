@@ -302,6 +302,10 @@
 			text-align: left;
 		}
 
+		.dropbtn {
+			font-size: 1rem;
+		}
+
 		.filter {
 			display: flex;
 			justify-content: space-between;

@@ -102,22 +102,24 @@
 		top: 0;
 		left: 0;
 		height: auto;
-		width: 25em;
+		width: 19em;
 		padding: 2rem 1rem 0.6rem;
 		background: #fff;
 		z-index: 100;
 		border: black 2px;
 		border-style: solid;
+		text-align: left;
 	}
 
 	.filter_knap {
+		margin-top: 2rem;
 		border: black 2px;
 		border-style: solid;
 		padding: 1rem;
 	}
 
 	.luk_knap {
-		margin-left: 20rem;
+		margin-left: 14rem;
 	}
 
 	.slider {
