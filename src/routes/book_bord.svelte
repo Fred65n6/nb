@@ -103,19 +103,18 @@
 		padding-top: 18rem;
 	}
 
-	@media (max-width: 600px) {
-		.image {
-			display: none;
-		}
-
+	@media (max-width: 400px) {
 		.book {
 			width: 16em;
+			display: grid;
+			place-items: center;
 		}
 
 		.card_1,
 		.card_2,
 		.card_3 {
 			width: 16em;
+			height: 16em;
 		}
 
 		.booking {
@@ -124,6 +123,12 @@
 
 		.mobil_img {
 			width: 16em;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.image {
+			display: none;
 		}
 	}
 
