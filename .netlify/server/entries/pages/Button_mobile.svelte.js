@@ -17,20 +17,19 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Button_white
+  default: () => Button_mobile
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_df09d767 = require("../../chunks/index-df09d767.js");
 const css = {
-  code: ".svelte-1ip8xe.svelte-1ip8xe{box-sizing:border-box}.btn.svelte-1ip8xe.svelte-1ip8xe{font-family:'Josefin Sans', sans-serif;text-decoration:none;position:relative;display:inline-block;width:166px;height:45px;font-size:1rem;line-height:45px;text-align:center;text-transform:uppercase;color:white;cursor:pointer;overflow:hidden}.btn.svelte-1ip8xe svg.svelte-1ip8xe{position:absolute;top:0;left:0}.btn.svelte-1ip8xe svg rect.svelte-1ip8xe{stroke:white;stroke-width:3;stroke-dasharray:422, 0;stroke-dashoffset:0;transition:ease 900ms}.btn.svelte-1ip8xe:hover svg rect.svelte-1ip8xe{text-decoration:none;stroke-width:3;stroke-dasharray:110, 312;stroke-dashoffset:183;transition:1s;stroke:white;background-color:none}",
+  code: ".svelte-1p7uy29{box-sizing:border-box}.btn.svelte-1p7uy29{border:white 2px;border-style:solid;font-family:'Josefin Sans', sans-serif;background-color:rgba(0, 0, 0, 0.525);text-decoration:none;position:relative;display:inline-block;padding-inline:0.5rem;padding-block:0.1rem;font-size:1rem;line-height:45px;text-align:center;text-transform:uppercase;color:white;cursor:pointer;overflow:hidden;transition:1s}",
   map: null
 };
-const Button_white = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
+const Button_mobile = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
   let { link } = $$props;
   if ($$props.link === void 0 && $$bindings.link && link !== void 0)
     $$bindings.link(link);
   $$result.css.add(css);
-  return `<a class="${"btn svelte-1ip8xe"}"${(0, import_index_df09d767.d)("href", link, 0)}><svg class="${"svelte-1ip8xe"}"><rect x="${"0"}" y="${"0"}" fill="${"none"}" width="${"166"}" height="${"45"}" class="${"svelte-1ip8xe"}"></rect></svg>
-	${slots.default ? slots.default({}) : ``}
+  return `<a class="${"btn svelte-1p7uy29"}"${(0, import_index_df09d767.d)("href", link, 0)}>${slots.default ? slots.default({}) : ``}
 </a>`;
 });

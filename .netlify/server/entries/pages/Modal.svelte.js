@@ -17,27 +17,18 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Error2,
-  load: () => load
+  default: () => Modal
 });
 module.exports = __toCommonJS(stdin_exports);
 var import_index_df09d767 = require("../../chunks/index-df09d767.js");
-function load({ error, status }) {
-  return { props: { error, status } };
-}
-const Error2 = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
-  let { status } = $$props;
-  let { error } = $$props;
-  if ($$props.status === void 0 && $$bindings.status && status !== void 0)
-    $$bindings.status(status);
-  if ($$props.error === void 0 && $$bindings.error && error !== void 0)
-    $$bindings.error(error);
-  return `<h1>${(0, import_index_df09d767.e)(status)}</h1>
-
-<pre>${(0, import_index_df09d767.e)(error.message)}</pre>
-
-
-
-${error.frame ? `<pre>${(0, import_index_df09d767.e)(error.frame)}</pre>` : ``}
-${error.stack ? `<pre>${(0, import_index_df09d767.e)(error.stack)}</pre>` : ``}`;
+const css = {
+  code: ".modal-overlay.svelte-30qcnt{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0, 0, 0, 0.5);z-index:10;display:flex;flex-direction:column;justify-content:center}.modal-container.svelte-30qcnt{position:relative;background-color:#ffffff;width:120rem;margin:1rem auto 0.2rem;box-shadow:0 3px 10px #555}main.svelte-30qcnt{padding:0.5rem}",
+  map: null
+};
+const Modal = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
+  let { show = false } = $$props;
+  if ($$props.show === void 0 && $$bindings.show && show !== void 0)
+    $$bindings.show(show);
+  $$result.css.add(css);
+  return `${show ? `<div><div class="${"modal-overlay svelte-30qcnt"}" data-close><div class="${"modal-container svelte-30qcnt"}"><main class="${"svelte-30qcnt"}"><p>About me...</p></main></div></div></div>` : ``}`;
 });

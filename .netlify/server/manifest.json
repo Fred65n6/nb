@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
@@ -20,12 +20,13 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js",
+      "_index-df09d767.js",
       "src/routes/Footer.svelte",
       "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-91f6a9ac.css"
+      "assets/entries/pages/__layout.svelte-bd67223b.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
     ]
   },
   "src/routes/Footer.svelte": {
@@ -33,11 +34,16 @@
     "src": "src/routes/Footer.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js",
+      "_index-df09d767.js",
       "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/Footer.svelte-1a661738.css"
+      "assets/entries/pages/Footer.svelte-a1d21542.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+    ],
+    "assets": [
+      "assets/footer_bg.mobile-a9ba0e49.webp",
+      "assets/footer_bg-e6ebb803.webp"
     ]
   },
   "src/routes/Button_black.svelte": {
@@ -45,10 +51,10 @@
     "src": "src/routes/Button_black.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "css": [
-      "assets/entries/pages/Button_black.svelte-697f9f48.css"
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -56,7 +62,7 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ]
   },
   "src/routes/Button_hero.svelte": {
@@ -64,10 +70,21 @@
     "src": "src/routes/Button_hero.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "css": [
-      "assets/entries/pages/Button_hero.svelte-ea95819c.css"
+      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
+    ]
+  },
+  "src/routes/Button_mobile.svelte": {
+    "file": "entries/pages/Button_mobile.svelte.js",
+    "src": "src/routes/Button_mobile.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js"
+    ],
+    "css": [
+      "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css"
     ]
   },
   "src/routes/Button_white.svelte": {
@@ -75,10 +92,88 @@
     "src": "src/routes/Button_white.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "css": [
-      "assets/entries/pages/Button_white.svelte-fa3c4f3f.css"
+      "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css"
+    ]
+  },
+  "src/routes/Checkbox.svelte": {
+    "file": "entries/pages/Checkbox.svelte.js",
+    "src": "src/routes/Checkbox.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js"
+    ]
+  },
+  "src/routes/Event_card.svelte": {
+    "file": "entries/pages/Event_card.svelte.js",
+    "src": "src/routes/Event_card.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js"
+    ],
+    "css": [
+      "assets/entries/pages/Event_card.svelte-b0de5b7b.css"
+    ]
+  },
+  "src/routes/Modal.svelte": {
+    "file": "entries/pages/Modal.svelte.js",
+    "src": "src/routes/Modal.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js"
+    ],
+    "css": [
+      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css"
+    ]
+  },
+  "src/routes/Shop_item.svelte": {
+    "file": "entries/pages/Shop_item.svelte.js",
+    "src": "src/routes/Shop_item.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Shop_item.svelte-8128786e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+    ]
+  },
+  "src/routes/book_bord.svelte": {
+    "file": "entries/pages/book_bord.svelte.js",
+    "src": "src/routes/book_bord.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js",
+      "src/routes/Button_white.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/book_bord.svelte-0c0ccc3f.css",
+      "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
+      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css",
+      "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css"
+    ],
+    "assets": [
+      "assets/aftenmenu-2ab9c8ba.webp",
+      "assets/frokostmenu-4661bb7c.webp",
+      "assets/olsortiment-8f54e12b.webp"
+    ]
+  },
+  "src/routes/events.svelte": {
+    "file": "entries/pages/events.svelte.js",
+    "src": "src/routes/events.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js",
+      "src/routes/Event_card.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/events.svelte-3cb77b0b.css",
+      "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
+      "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
+      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -86,12 +181,25 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js",
+      "_index-df09d767.js",
       "src/routes/Button_white.svelte",
+      "src/routes/Button_mobile.svelte",
       "src/routes/Button_hero.svelte"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-933184c6.css"
+      "assets/entries/pages/index.svelte-cf70e68b.css",
+      "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
+      "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
+      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
+    ],
+    "assets": [
+      "assets/shrimp.mobile-733f8d74.webp",
+      "assets/bundle_4-1ff5940d.webp",
+      "assets/event-ac9b2ee7.webp",
+      "assets/red_bg-5e6fd107.svg",
+      "assets/bundle_3.mobile-825f02fc.webp",
+      "assets/event.mobile-c0ee63a0.webp",
+      "assets/red_bg.mobile-f83be253.svg"
     ]
   },
   "src/routes/om_os.svelte": {
@@ -99,10 +207,27 @@
     "src": "src/routes/om_os.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "css": [
       "assets/entries/pages/om_os.svelte-fd705827.css"
+    ]
+  },
+  "src/routes/shop.svelte": {
+    "file": "entries/pages/shop.svelte.js",
+    "src": "src/routes/shop.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js",
+      "_Sidebar-bd35cfd2.js",
+      "src/routes/Shop_item.svelte",
+      "src/routes/Checkbox.svelte",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/shop.svelte-5b3258f0.css",
+      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
     ]
   },
   "src/routes/todos/index.svelte": {
@@ -110,14 +235,40 @@
     "src": "src/routes/todos/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-72c3c0a2.js"
+      "_index-df09d767.js"
     ],
     "css": [
       "assets/entries/pages/todos/index.svelte-02327cf1.css"
     ]
   },
-  "_index-72c3c0a2.js": {
-    "file": "chunks/index-72c3c0a2.js"
+  "src/routes/Sidebar.svelte": {
+    "file": "entries/pages/Sidebar.svelte.js",
+    "src": "src/routes/Sidebar.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-df09d767.js",
+      "src/routes/Checkbox.svelte",
+      "_Sidebar-bd35cfd2.js"
+    ],
+    "css": [
+      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+    ]
+  },
+  "_index-df09d767.js": {
+    "file": "chunks/index-df09d767.js"
+  },
+  "_Sidebar-bd35cfd2.js": {
+    "file": "chunks/Sidebar-bd35cfd2.js",
+    "imports": [
+      "_index-df09d767.js",
+      "src/routes/Checkbox.svelte"
+    ],
+    "css": [
+      "assets/Sidebar-25c7f8f4.css",
+      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+    ]
   },
   "src/hooks.js": {
     "file": "chunks/hooks-0bab96cd.js",

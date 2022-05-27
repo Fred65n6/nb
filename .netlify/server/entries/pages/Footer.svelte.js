@@ -23,23 +23,23 @@ __export(stdin_exports, {
   default: () => Footer
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_72c3c0a2 = require("../../chunks/index-72c3c0a2.js");
+var import_index_df09d767 = require("../../chunks/index-df09d767.js");
 var import_Button_black_svelte = __toESM(require("./Button_black.svelte.js"));
 var Footer_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "footer.svelte-qkjcw9{padding-inline:2rem;padding-bottom:10rem;padding-top:2rem;margin-top:7rem;background-image:url('footer_bg.webp');background-size:100vh;background-repeat:no-repeat}.bottom.svelte-qkjcw9{padding-top:6rem;display:grid;align-items:flex-start}@media(min-width: 600px){.bottom.svelte-qkjcw9{grid-template-columns:1fr 1fr 1fr;place-items:center;align-items:flex-start}footer.svelte-qkjcw9{background-image:url('footer_bg.webp');background-size:100%;padding-inline:8rem;padding-top:9rem}}",
+  code: "footer.svelte-10oher7{margin-inline:1rem;padding-bottom:10rem;padding-top:1rem;background-image:url('../../static/footer_bg.mobile.webp');background-size:cover;background-repeat:no-repeat}.bottom.svelte-10oher7{display:grid;align-items:flex-start}@media(min-width: 600px){.bottom.svelte-10oher7{grid-template-columns:1fr 1fr 1fr;place-items:center;align-items:flex-start}footer.svelte-10oher7{background-image:url('../../static/footer_bg.webp');background-size:100%;padding-inline:8rem;padding-top:9rem}}",
   map: null
 };
-const Footer = (0, import_index_72c3c0a2.c)(($$result, $$props, $$bindings, slots) => {
+const Footer = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<footer class="${"svelte-qkjcw9"}"><div class="${"top grid place-items-center"}"><h3>Tilmeld dig vores nyhedsbrev</h3>
-		<div class="${"flex pt-4"}"><input placeholder="${"E-mail"}" type="${"Email"}">
-			${(0, import_index_72c3c0a2.v)(import_Button_black_svelte.default, "Button_black").$$render($$result, { link: "/" }, {}, {
+  return `<footer class="${"svelte-10oher7"}"><div class="${"top grid place-items-center"}"><h3 class="${"text-center"}">Tilmeld dig vores nyhedsbrev</h3>
+		<div class="${"md:flex grid pt-4"}"><input class="${"h-[45px] w-[166px] border-2"}" placeholder="${"E-mail"}" type="${"Email"}">
+			${(0, import_index_df09d767.v)(import_Button_black_svelte.default, "Button_black").$$render($$result, { link: "/" }, {}, {
     default: () => {
       return `TILMELD`;
     }
   })}</div></div>
-	<div class="${"bottom svelte-qkjcw9"}"><div class="${"mt-12"}"><h3>Kontakt</h3>
+	<div class="${"bottom svelte-10oher7"}"><div class="${"mt-12"}"><h3>Kontakt</h3>
 			<p>Vi er altid klar til dit bes\xF8g og til at tage imod eventuelle sp\xF8rgsm\xE5l <br><br>
 				N\xF8rrebro Bryghus <br>
 				Ryesgade 3 <br> 2200 K\xF8benhavn N <br><br> Cvr. nr. 26882451 <br><br> Telefon:
