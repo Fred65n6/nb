@@ -141,7 +141,6 @@
 	.knapper {
 		margin-top: 2rem;
 		position: absolute;
-		margin-inline: 2rem;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -169,6 +168,10 @@
 		.shop {
 			margin-left: 14rem;
 			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		.knapper {
+			margin-inline: 2rem;
 		}
 	}
 
