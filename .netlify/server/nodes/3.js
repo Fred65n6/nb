@@ -27,6 +27,6 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var module2 = __toESM(require("../entries/pages/Button_hero.svelte.js"));
-const entry = "pages/Button_hero.svelte-0f102243.js";
-const js = ["pages/Button_hero.svelte-0f102243.js", "chunks/index-ef25ccb1.js"];
+const entry = "pages/Button_hero.svelte-2dd3d09e.js";
+const js = ["pages/Button_hero.svelte-2dd3d09e.js", "chunks/index-54afa7c8.js"];
 const css = ["assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css"];

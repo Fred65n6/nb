@@ -43,7 +43,7 @@
 			</div>
 		</div>
 		<br />
-		<Button_white link="/book_bord">Næste Trin</Button_white>
+		<Button_white>Næste Trin</Button_white>
 	</div>
 	<div class="image">
 		<img class="" src="book_bord.webp" alt="" />
@@ -53,15 +53,15 @@
 <section class="menuer">
 	<div class="card_1">
 		<h3>Se vores <br />Aftenmenu</h3>
-		<Button_white link="/book_bord">Se aftenmenu her</Button_white>
+		<Button_white>Se aftenmenu her</Button_white>
 	</div>
 	<div class="card_2">
 		<h3>Se vores <br />frokostmenu</h3>
-		<Button_white link="/book_bord">Se frokostmenu her</Button_white>
+		<Button_white>Se frokostmenu her</Button_white>
 	</div>
 	<div class="card_3">
 		<h3>Se vores <br />Ølsortiment</h3>
-		<Button_white link="/book_bord">Se Ølsortiment her</Button_white>
+		<Button_white>Se Ølsortiment her</Button_white>
 	</div>
 </section>
 
@@ -172,48 +172,5 @@
 		.menuer {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
-	}
-
-	/******************DROPDOWN***************/
-
-	.dropdown {
-		height: 45px;
-		width: 166px;
-		position: relative;
-		display: inline-block;
-		background-color: white;
-		color: rgba(0, 0, 0, 0.454);
-	}
-
-	.dropdown-content {
-		text-align: left;
-		display: none;
-		position: absolute;
-		background-color: rgb(255, 255, 255);
-		width: 166px;
-		text-align: center;
-		padding-inline: 0.5rem;
-		z-index: 1;
-	}
-
-	@media (max-width: 600px) {
-		.dropdown-content {
-			text-align: center;
-		}
-	}
-
-	.dropdown-content a {
-		color: black;
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-	}
-
-	.dropdown-content a:hover {
-		text-decoration: underline;
-	}
-
-	.dropdown:hover .dropdown-content {
-		display: block;
 	}
 </style>

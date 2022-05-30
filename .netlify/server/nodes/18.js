@@ -27,6 +27,6 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var module2 = __toESM(require("../entries/pages/index.svelte.js"));
-const entry = "pages/index.svelte-8c3ff39c.js";
-const js = ["pages/index.svelte-8c3ff39c.js", "chunks/index-ef25ccb1.js", "pages/Button_white.svelte-50f25c1c.js", "pages/Modal_frokost.svelte-405ad8ff.js", "pages/Button_black.svelte-2099632b.js", "pages/Modal_aften.svelte-44e578bc.js", "pages/Button_mobile.svelte-e56b38ea.js", "pages/Button_hero.svelte-0f102243.js"];
-const css = ["assets/pages/index.svelte-37dce11f.css", "assets/Button_white.svelte_svelte_type_style_lang-e4262b01.css", "assets/Button_black.svelte_svelte_type_style_lang-e0e6ba5e.css", "assets/Button_mobile.svelte_svelte_type_style_lang-3fd07747.css", "assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css", "assets/pages/Modal_dj.svelte-d8fbeb41.css"];
+const entry = "pages/index.svelte-2363a9d9.js";
+const js = ["pages/index.svelte-2363a9d9.js", "chunks/index-54afa7c8.js", "pages/Modal_frokost.svelte-239a23df.js", "pages/Modal_aften.svelte-a62efb80.js", "pages/Button_white.svelte-cd07b6e8.js", "pages/Button_mobile.svelte-9ebc0fc0.js", "pages/Button_hero.svelte-2dd3d09e.js"];
+const css = ["assets/pages/index.svelte-37dce11f.css", "assets/Button_white.svelte_svelte_type_style_lang-e4262b01.css", "assets/Button_mobile.svelte_svelte_type_style_lang-3fd07747.css", "assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css", "assets/pages/Modal_aften.svelte-2ce01932.css"];

@@ -9,7 +9,7 @@
 	import Checkbox from './Checkbox.svelte';
 	import Slider from 'svelte-slider';
 	let rangeValue = null;
-	import ButtonBlack from './Button_black.svelte';
+	import ButtonBlack from './Button_blacks.svelte';
 </script>
 
 <div class="knapper">
@@ -98,30 +98,58 @@
 </section>
 
 <section class="shop">
-	<ShopItem img="classic.webp" titel="Nørrebro classic" sub_titel="Pilsner 33 cl" pris="kr 29,-" />
-	<ShopItem img="lager.webp" titel="Ney York lager" sub_titel="Lager 33 cl" pris="kr 29,-" />
-	<ShopItem img="blanche.webp" titel="Blanche" sub_titel="Hvede øl 33 cl" pris="kr 35,-" />
-	<ShopItem img="pilsner.webp" titel="Nørrebro Pilsner" sub_titel="Pilsner 33 cl" pris="kr 29,-" />
-	<ShopItem img="bombay.webp" titel="Bombay ipa" sub_titel="IPA 0.75 cl" pris="kr 35,-" />
-	<ShopItem img="ravnsborg.webp" titel="Ravnsborg rød" sub_titel="Ale 33 cl" pris="kr 29,-" />
-	<ShopItem
-		img="bundle_1.webp"
-		titel="beer bundle #1"
-		sub_titel="Pilsner & Ale 3x33 cl"
-		pris="kr 29,-"
-	/>
-	<ShopItem
-		img="bundle_2.webp"
-		titel="beer bundle #2"
-		sub_titel="Pilsner & Hvede 3x33 cl"
-		pris="kr 29,-"
-	/>
-	<ShopItem
-		img="bundle_3.webp"
-		titel="beer bundle #3"
-		sub_titel="Pilsner & IPA 3x33 cl"
-		pris="kr 29,-"
-	/>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem
+			img="classic.webp"
+			titel="Nørrebro classic"
+			sub_titel="Pilsner 33 cl"
+			pris="kr 29,-"
+		/></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem img="lager.webp" titel="Ney York lager" sub_titel="Lager 33 cl" pris="kr 29,-" /></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem img="blanche.webp" titel="Blanche" sub_titel="Hvede øl 33 cl" pris="kr 35,-" /></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem
+			img="pilsner.webp"
+			titel="Nørrebro Pilsner"
+			sub_titel="Pilsner 33 cl"
+			pris="kr 29,-"
+		/></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem img="bombay.webp" titel="Bombay ipa" sub_titel="IPA 0.75 cl" pris="kr 35,-" /></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem img="ravnsborg.webp" titel="Ravnsborg rød" sub_titel="Ale 33 cl" pris="kr 29,-" /></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem
+			img="bundle_1.webp"
+			titel="beer bundle #1"
+			sub_titel="Pilsner & Ale 3x33 cl"
+			pris="kr 29,-"
+		/></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem
+			img="bundle_2.webp"
+			titel="beer bundle #2"
+			sub_titel="Pilsner & Hvede 3x33 cl"
+			pris="kr 29,-"
+		/></a
+	>
+	<a sveltekit:prefetch href="shop_single"
+		><ShopItem
+			img="bundle_3.webp"
+			titel="beer bundle #3"
+			sub_titel="Pilsner & IPA 3x33 cl"
+			pris="kr 29,-"
+		/></a
+	>
 	<div class="" />
 	<section class="pt-20">
 		<ButtonBlack>Indlæs mere ▼</ButtonBlack>

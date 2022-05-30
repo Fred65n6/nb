@@ -17,20 +17,17 @@ var __copyProps = (to, from, except, desc) => {
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  default: () => Button_black
+  default: () => Button_blacks
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_f5faca1c = require("../../chunks/index-f5faca1c.js");
+var import_index_e3905281 = require("../../chunks/index-e3905281.js");
 const css = {
   code: ".svelte-14e6ycl.svelte-14e6ycl{box-sizing:border-box}.btn.svelte-14e6ycl.svelte-14e6ycl{font-family:'Josefin Sans', sans-serif;text-decoration:none;position:relative;display:inline-block;width:166px;height:45px;font-size:1rem;line-height:45px;text-align:center;text-transform:uppercase;color:black;cursor:pointer;overflow:hidden}.btn.svelte-14e6ycl svg.svelte-14e6ycl{position:absolute;top:0;left:0}.btn.svelte-14e6ycl svg rect.svelte-14e6ycl{stroke:black;stroke-width:3;stroke-dasharray:422, 0;stroke-dashoffset:0}.btn.svelte-14e6ycl:hover svg rect.svelte-14e6ycl{text-decoration:none;stroke-width:3;stroke-dasharray:110, 312;stroke-dashoffset:183;transition:1s;stroke:black;background-color:none}",
   map: null
 };
-const Button_black = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
-  let { link } = $$props;
-  if ($$props.link === void 0 && $$bindings.link && link !== void 0)
-    $$bindings.link(link);
+const Button_blacks = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<a class="${"btn svelte-14e6ycl"}"${(0, import_index_f5faca1c.d)("href", link, 0)}><svg class="${"svelte-14e6ycl"}"><rect x="${"0"}" y="${"0"}" fill="${"none"}" width="${"166"}" height="${"45"}" class="${"svelte-14e6ycl"}"></rect></svg>
+  return `<div class="${"btn svelte-14e6ycl"}"><svg class="${"svelte-14e6ycl"}"><rect x="${"0"}" y="${"0"}" fill="${"none"}" width="${"166"}" height="${"45"}" class="${"svelte-14e6ycl"}"></rect></svg>
 	${slots.default ? slots.default({}) : ``}
-</a>`;
+</div>`;
 });

@@ -4,29 +4,24 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
     ]
-  },
-  "src/routes/todos/index.js": {
-    "file": "entries/endpoints/todos/index.js",
-    "src": "src/routes/todos/index.js",
-    "isEntry": true
   },
   "src/routes/__layout.svelte": {
     "file": "entries/pages/__layout.svelte.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
+      "_index-e3905281.js",
       "src/routes/Footer.svelte",
-      "src/routes/Button_black.svelte"
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-3fb324f2.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/entries/pages/__layout.svelte-bb3223ff.css",
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   "src/routes/Footer.svelte": {
@@ -34,27 +29,27 @@
     "src": "src/routes/Footer.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/Footer.svelte-5df9371f.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ],
     "assets": [
       "assets/footer_bg.mobile-a9ba0e49.webp",
       "assets/footer_bg-e6ebb803.webp"
     ]
   },
-  "src/routes/Button_black.svelte": {
-    "file": "entries/pages/Button_black.svelte.js",
-    "src": "src/routes/Button_black.svelte",
+  "src/routes/Button_blacks.svelte": {
+    "file": "entries/pages/Button_blacks.svelte.js",
+    "src": "src/routes/Button_blacks.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "css": [
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -62,7 +57,7 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ]
   },
   "src/routes/Button_hero.svelte": {
@@ -70,7 +65,7 @@
     "src": "src/routes/Button_hero.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "css": [
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
@@ -81,7 +76,7 @@
     "src": "src/routes/Button_mobile.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "css": [
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css"
@@ -92,7 +87,7 @@
     "src": "src/routes/Button_white.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "css": [
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css"
@@ -103,18 +98,18 @@
     "src": "src/routes/Checkbox.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ]
   },
-  "src/routes/Event_card.svelte": {
-    "file": "entries/pages/Event_card.svelte.js",
-    "src": "src/routes/Event_card.svelte",
+  "src/routes/Event_cards.svelte": {
+    "file": "entries/pages/Event_cards.svelte.js",
+    "src": "src/routes/Event_cards.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js"
+      "_index-e3905281.js"
     ],
     "css": [
-      "assets/entries/pages/Event_card.svelte-b0de5b7b.css"
+      "assets/entries/pages/Event_cards.svelte-e9572402.css"
     ]
   },
   "src/routes/Modal_aften.svelte": {
@@ -122,25 +117,23 @@
     "src": "src/routes/Modal_aften.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js"
     ],
     "css": [
-      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
-  "src/routes/Modal_by.svelte": {
-    "file": "entries/pages/Modal_by.svelte.js",
-    "src": "src/routes/Modal_by.svelte",
+  "src/routes/Modal_byen.svelte": {
+    "file": "entries/pages/Modal_byen.svelte.js",
+    "src": "src/routes/Modal_byen.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/Modal_aften.svelte-a222455e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   "src/routes/Modal_dj.svelte": {
@@ -148,12 +141,12 @@
     "src": "src/routes/Modal_dj.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/Modal_aften.svelte-a222455e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   "src/routes/Modal_frokost.svelte": {
@@ -161,12 +154,10 @@
     "src": "src/routes/Modal_frokost.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js"
     ],
     "css": [
-      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
   "src/routes/Modal_smag.svelte": {
@@ -174,12 +165,12 @@
     "src": "src/routes/Modal_smag.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/Modal_aften.svelte-a222455e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   "src/routes/Shop_item.svelte": {
@@ -187,12 +178,12 @@
     "src": "src/routes/Shop_item.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_black.svelte"
+      "_index-e3905281.js",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/Shop_item.svelte-8128786e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css"
     ]
   },
   "src/routes/book_bord.svelte": {
@@ -200,7 +191,7 @@
     "src": "src/routes/book_bord.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
+      "_index-e3905281.js",
       "src/routes/Button_white.svelte"
     ],
     "css": [
@@ -220,19 +211,19 @@
     "src": "src/routes/events.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Modal_by.svelte",
+      "_index-e3905281.js",
+      "src/routes/Modal_byen.svelte",
       "src/routes/Modal_dj.svelte",
       "src/routes/Modal_smag.svelte",
-      "src/routes/Event_card.svelte",
-      "src/routes/Button_black.svelte"
+      "src/routes/Event_cards.svelte",
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/events.svelte-b0c527f5.css",
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css",
       "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
@@ -241,18 +232,16 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "src/routes/Button_white.svelte",
+      "_index-e3905281.js",
       "src/routes/Modal_frokost.svelte",
       "src/routes/Modal_aften.svelte",
+      "src/routes/Button_white.svelte",
       "src/routes/Button_mobile.svelte",
-      "src/routes/Button_hero.svelte",
-      "src/routes/Button_black.svelte"
+      "src/routes/Button_hero.svelte"
     ],
     "css": [
       "assets/entries/pages/index.svelte-0946588a.css",
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
     ],
@@ -266,43 +255,21 @@
       "assets/red_bg.mobile-f83be253.svg"
     ]
   },
-  "src/routes/om_os.svelte": {
-    "file": "entries/pages/om_os.svelte.js",
-    "src": "src/routes/om_os.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-f5faca1c.js"
-    ],
-    "css": [
-      "assets/entries/pages/om_os.svelte-fd705827.css"
-    ]
-  },
   "src/routes/shop.svelte": {
     "file": "entries/pages/shop.svelte.js",
     "src": "src/routes/shop.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
-      "_Sidebar-1c450b8f.js",
+      "_index-e3905281.js",
+      "_Sidebar-4dc7877d.js",
       "src/routes/Shop_item.svelte",
       "src/routes/Checkbox.svelte",
-      "src/routes/Button_black.svelte"
+      "src/routes/Button_blacks.svelte"
     ],
     "css": [
       "assets/entries/pages/shop.svelte-5b3258f0.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css",
       "assets/entries/pages/Modal_aften.svelte-a222455e.css"
-    ]
-  },
-  "src/routes/todos/index.svelte": {
-    "file": "entries/pages/todos/index.svelte.js",
-    "src": "src/routes/todos/index.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-f5faca1c.js"
-    ],
-    "css": [
-      "assets/entries/pages/todos/index.svelte-02327cf1.css"
     ]
   },
   "src/routes/Sidebar.svelte": {
@@ -310,27 +277,27 @@
     "src": "src/routes/Sidebar.svelte",
     "isEntry": true,
     "imports": [
-      "_index-f5faca1c.js",
+      "_index-e3905281.js",
       "src/routes/Checkbox.svelte",
-      "_Sidebar-1c450b8f.js"
+      "_Sidebar-4dc7877d.js"
     ],
     "css": [
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css",
       "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
-  "_index-f5faca1c.js": {
-    "file": "chunks/index-f5faca1c.js"
+  "_index-e3905281.js": {
+    "file": "chunks/index-e3905281.js"
   },
-  "_Sidebar-1c450b8f.js": {
-    "file": "chunks/Sidebar-1c450b8f.js",
+  "_Sidebar-4dc7877d.js": {
+    "file": "chunks/Sidebar-4dc7877d.js",
     "imports": [
-      "_index-f5faca1c.js",
+      "_index-e3905281.js",
       "src/routes/Checkbox.svelte"
     ],
     "css": [
       "assets/Sidebar-c6f59db1.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/Button_blacks.svelte_svelte_type_style_lang-19d912c9.css",
       "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },

@@ -20,16 +20,16 @@ __export(stdin_exports, {
   default: () => Button_mobile
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_f5faca1c = require("../../chunks/index-f5faca1c.js");
+var import_index_e3905281 = require("../../chunks/index-e3905281.js");
 const css = {
   code: ".svelte-1p7uy29{box-sizing:border-box}.btn.svelte-1p7uy29{border:white 2px;border-style:solid;font-family:'Josefin Sans', sans-serif;background-color:rgba(0, 0, 0, 0.525);text-decoration:none;position:relative;display:inline-block;padding-inline:0.5rem;padding-block:0.1rem;font-size:1rem;line-height:45px;text-align:center;text-transform:uppercase;color:white;cursor:pointer;overflow:hidden;transition:1s}",
   map: null
 };
-const Button_mobile = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Button_mobile = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { link } = $$props;
   if ($$props.link === void 0 && $$bindings.link && link !== void 0)
     $$bindings.link(link);
   $$result.css.add(css);
-  return `<a class="${"btn svelte-1p7uy29"}"${(0, import_index_f5faca1c.d)("href", link, 0)}>${slots.default ? slots.default({}) : ``}
+  return `<a class="${"btn svelte-1p7uy29"}"${(0, import_index_e3905281.d)("href", link, 0)}>${slots.default ? slots.default({}) : ``}
 </a>`;
 });

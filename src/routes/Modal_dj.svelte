@@ -10,7 +10,7 @@
 
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import ButtonBlack from './Button_black.svelte';
+	import ButtonBlack from './Button_blacks.svelte';
 	let topDiv;
 	let visible = false;
 	let prevOnTop;
@@ -66,7 +66,9 @@
 		</svg>
 		<div id="modal-content">
 			<slot />
-			<ButtonBlack>Book Nu</ButtonBlack>
+			<div class="mx-4 pb-4">
+				<ButtonBlack>Book Nu</ButtonBlack>
+			</div>
 		</div>
 	</div>
 </div>
@@ -86,12 +88,12 @@
 		justify-content: center;
 	}
 	#modal {
+		max-width: 500px;
 		position: relative;
 		border-radius: 6px;
 		background: white;
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
-		padding: 1em;
 	}
 
 	.visible {

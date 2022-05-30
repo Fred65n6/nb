@@ -1,7 +1,7 @@
 <script>
 	// @ts-nocheck
 
-	import ButtonBlack from './Button_black.svelte';
+	import ButtonBlack from './Button_blacks.svelte';
 	export let img;
 	export let titel;
 	export let sub_titel;

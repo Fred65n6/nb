@@ -28,7 +28,6 @@ __export(stdin_exports, {
   i: () => spread,
   j: () => escape_object,
   k: () => escape_attribute_value,
-  l: () => each,
   m: () => missing_component,
   o: () => onDestroy,
   s: () => setContext,
@@ -202,13 +201,6 @@ function escape_object(obj) {
     result[key] = escape_attribute_value(obj[key]);
   }
   return result;
-}
-function each(items, fn) {
-  let str = "";
-  for (let i = 0; i < items.length; i += 1) {
-    str += fn(items[i], i);
-  }
-  return str;
 }
 const missing_component = {
   $$render: () => ""

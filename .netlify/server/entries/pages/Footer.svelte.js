@@ -23,18 +23,18 @@ __export(stdin_exports, {
   default: () => Footer
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_f5faca1c = require("../../chunks/index-f5faca1c.js");
-var import_Button_black_svelte = __toESM(require("./Button_black.svelte.js"));
+var import_index_e3905281 = require("../../chunks/index-e3905281.js");
+var import_Button_blacks_svelte = __toESM(require("./Button_blacks.svelte.js"));
 var Footer_svelte_svelte_type_style_lang = "";
 const css = {
   code: "footer.svelte-1gtgb45{margin-inline:3rem;padding-bottom:10rem;padding-top:1rem;background-image:url('../../static/footer_bg.mobile.webp');background-image:url('footer_bg.mobile.webp');background-size:cover;background-repeat:no-repeat}.bottom.svelte-1gtgb45{display:grid;align-items:flex-start}@media(min-width: 600px){.bottom.svelte-1gtgb45{grid-template-columns:1fr 1fr 1fr;place-items:center;align-items:flex-start}footer.svelte-1gtgb45{background-image:url('../../static/footer_bg.webp');background-image:url('footer_bg.webp');background-size:100%;margin-inline:7rem;padding-top:9rem}}",
   map: null
 };
-const Footer = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Footer = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `<footer class="${"svelte-1gtgb45"}"><div class="${"top grid place-items-center"}"><h3 class="${"text-center"}">Tilmeld dig vores nyhedsbrev</h3>
-		<div class="${"md:flex grid pt-4"}"><input class="${"h-[45px] w-[166px] border-2"}" placeholder="${"E-mail"}" type="${"Email"}">
-			${(0, import_index_f5faca1c.v)(import_Button_black_svelte.default, "Button_black").$$render($$result, { link: "/" }, {}, {
+		<div class="${"md:flex grid gap-4 pt-4"}"><input class="${"h-[45px] w-[166px] border-2"}" placeholder="${"E-mail"}" type="${"Email"}">
+			${(0, import_index_e3905281.v)(import_Button_blacks_svelte.default, "Button_black").$$render($$result, {}, {}, {
     default: () => {
       return `TILMELD NU`;
     }
@@ -47,17 +47,16 @@ const Footer = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slot
 				3530 0530 <br><br> Mail vedr. restaurant og bar:
 				<a href="${"mailto: info@noerrebrobryghus.dk"}">info@noerrebrobryghus.dk</a></p></div>
 		<div class="${"mt-12"}"><h3>\xE5bningstider</h3>
-			<p>\xC5bningstider i restauranten: <br><br>
 
-				Mandag: Kun \xE5bent i BRAW baren 15-23 <br> <br>
-
-				Tir-ons: <br>
-				12.00-23.00 <br>
-				Torsdag: <br>
-				12.00-00.00 <br>
-				Fre-l\xF8r: <br>
-				12.00-00.00 <br>
-				S\xF8n: <br>
+			<p><span class="${"font-semibold"}">Man:</span> <br>
+				Kun \xE5bent i BRAW baren 15-23 <br><br>
+				<span class="${"font-semibold"}">Tirs-ons:</span> <br>
+				12.00-23.00 <br><br>
+				<span class="${"font-semibold"}">Tors:</span> <br>
+				12.00-00.00 <br><br>
+				<span class="${"font-semibold"}">Fre-l\xF8r:</span> <br>
+				12.00-00.00 <br><br>
+				<span class="${"font-semibold"}">S\xF8n:</span> <br>
 				Lukket
 			</p></div>
 		<div class="${"mt-12"}"><h3>Links</h3>

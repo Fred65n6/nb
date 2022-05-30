@@ -1,15 +1,14 @@
 <script>
 	// @ts-nocheck
-	export let link;
 	import { page } from '$app/stores';
 </script>
 
-<a class="btn" href={link}>
+<div class="btn">
 	<svg>
 		<rect x="0" y="0" fill="none" width="166" height="45" />
 	</svg>
 	<slot />
-</a>
+</div>
 
 <style>
 	* {

@@ -3,7 +3,7 @@
 
 	import { fly } from 'svelte/transition';
 	import Modal from './Modal_smag.svelte';
-	import ButtonBlack from './Button_black.svelte';
+	import ButtonBlack from './Button_blacks.svelte';
 	export let show = false;
 	let modal_show = false;
 	import Checkbox from './Checkbox.svelte';

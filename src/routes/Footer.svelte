@@ -1,13 +1,13 @@
 <script>
-	import Button_black from './Button_black.svelte';
+	import Button_black from './Button_blacks.svelte';
 </script>
 
 <footer>
 	<div class="top grid place-items-center">
 		<h3 class="text-center">Tilmeld dig vores nyhedsbrev</h3>
-		<div class="md:flex grid pt-4">
+		<div class="md:flex grid gap-4 pt-4">
 			<input class="h-[45px] w-[166px] border-2" placeholder="E-mail" type="Email" />
-			<Button_black link="/">TILMELD NU</Button_black>
+			<Button_black>TILMELD NU</Button_black>
 		</div>
 	</div>
 	<div class="bottom">
@@ -24,18 +24,17 @@
 		</div>
 		<div class="mt-12">
 			<h3>åbningstider</h3>
+
 			<p>
-				Åbningstider i restauranten: <br /><br />
-
-				Mandag: Kun åbent i BRAW baren 15-23 <br /> <br />
-
-				Tir-ons: <br />
-				12.00-23.00 <br />
-				Torsdag: <br />
-				12.00-00.00 <br />
-				Fre-lør: <br />
-				12.00-00.00 <br />
-				Søn: <br />
+				<span class="font-semibold"> Man:</span> <br />
+				Kun åbent i BRAW baren 15-23 <br /><br />
+				<span class="font-semibold"> Tirs-ons:</span> <br />
+				12.00-23.00 <br /><br />
+				<span class="font-semibold"> Tors:</span> <br />
+				12.00-00.00 <br /><br />
+				<span class="font-semibold"> Fre-lør:</span> <br />
+				12.00-00.00 <br /><br />
+				<span class="font-semibold"> Søn:</span> <br />
 				Lukket
 			</p>
 		</div>
@@ -95,7 +94,7 @@
 		padding-bottom: 10rem;
 		padding-top: 1rem;
 		background-image: url('../../static/footer_bg.mobile.webp');
-		background-image: url('footer_bg.mobile.webp');
+		/* background-image: url('footer_bg.mobile.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -115,7 +114,7 @@
 		/*  */
 		footer {
 			background-image: url('../../static/footer_bg.webp');
-			background-image: url('footer_bg.webp');
+			/* background-image: url('footer_bg.webp'); */
 			background-size: 100%;
 			margin-inline: 7rem;
 			padding-top: 9rem;

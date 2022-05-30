@@ -24,19 +24,19 @@ __export(stdin_exports, {
   a: () => Sidebar
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_f5faca1c = require("./index-f5faca1c.js");
+var import_index_e3905281 = require("./index-e3905281.js");
 var import_Checkbox_svelte = __toESM(require("../entries/pages/Checkbox.svelte.js"));
 var Rail_svelte_svelte_type_style_lang = "";
 const css$3 = {
   code: ".rail.svelte-1u5xdj2{position:relative;height:2px;background:var(--sliderSecondary)}.selected.svelte-1u5xdj2{position:absolute;left:0;right:0;top:0;bottom:0;background:var(--sliderPrimary)}",
   map: null
 };
-const Rail = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Rail = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { value } = $$props;
   if ($$props.value === void 0 && $$bindings.value && value !== void 0)
     $$bindings.value(value);
   $$result.css.add(css$3);
-  return `<div class="${"rail svelte-1u5xdj2"}"><div class="${"selected svelte-1u5xdj2"}" style="${"left: " + (0, import_index_f5faca1c.e)(value[0] * 100) + "%; right: " + (0, import_index_f5faca1c.e)((1 - value[1]) * 100) + "%;"}"></div>
+  return `<div class="${"rail svelte-1u5xdj2"}"><div class="${"selected svelte-1u5xdj2"}" style="${"left: " + (0, import_index_e3905281.e)(value[0] * 100) + "%; right: " + (0, import_index_e3905281.e)((1 - value[1]) * 100) + "%;"}"></div>
   ${slots.default ? slots.default({}) : ``}
 </div>`;
 });
@@ -45,34 +45,34 @@ const css$2 = {
   code: ".thumb.svelte-1p2qw86{width:16px;height:16px;position:absolute;left:0;top:50%;border-radius:50%;background:var(--sliderPrimary);touch-action:none;transform:translate(-50%, -50%);transition:.2s height, .2s width}.thumb.svelte-1p2qw86:after{content:'';position:absolute;left:50%;top:50%;width:32px;height:32px;transform:translate(-50%, -50%);cursor:pointer}.thumb.svelte-1p2qw86:before{content:'';position:absolute;left:50%;top:50%;width:32px;height:32px;border-radius:50%;opacity:0.3;background:var(--sliderSecondary);transform:translate(-50%, -50%) scale(0);transition:.2s all}",
   map: null
 };
-const Thumb = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Thumb = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { position } = $$props;
   let thumb;
-  (0, import_index_f5faca1c.f)();
+  (0, import_index_e3905281.f)();
   if ($$props.position === void 0 && $$bindings.position && position !== void 0)
     $$bindings.position(position);
   $$result.css.add(css$2);
-  return `<div class="${"thumb svelte-1p2qw86"}" style="${"left: " + (0, import_index_f5faca1c.e)(position * 100) + "%;"}"${(0, import_index_f5faca1c.d)("this", thumb, 0)}></div>`;
+  return `<div class="${"thumb svelte-1p2qw86"}" style="${"left: " + (0, import_index_e3905281.e)(position * 100) + "%;"}"${(0, import_index_e3905281.d)("this", thumb, 0)}></div>`;
 });
 var Slider_svelte_svelte_type_style_lang = "";
 const css$1 = {
   code: ".slider.svelte-1cw3o64{padding:8px}",
   map: null
 };
-const Slider = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Slider = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { value = [0, 1] } = $$props;
   let { single = false } = $$props;
   let container;
-  (0, import_index_f5faca1c.f)();
+  (0, import_index_e3905281.f)();
   if ($$props.value === void 0 && $$bindings.value && value !== void 0)
     $$bindings.value(value);
   if ($$props.single === void 0 && $$bindings.single && single !== void 0)
     $$bindings.single(single);
   $$result.css.add(css$1);
-  return `<div class="${"slider svelte-1cw3o64"}"><div${(0, import_index_f5faca1c.d)("this", container, 0)}>${(0, import_index_f5faca1c.v)(Rail, "Rail").$$render($$result, { value }, {}, {
+  return `<div class="${"slider svelte-1cw3o64"}"><div${(0, import_index_e3905281.d)("this", container, 0)}>${(0, import_index_e3905281.v)(Rail, "Rail").$$render($$result, { value }, {}, {
     default: () => {
-      return `${!single ? `${(0, import_index_f5faca1c.v)(Thumb, "Thumb").$$render($$result, { position: value[0] }, {}, {})}` : ``}
-      ${(0, import_index_f5faca1c.v)(Thumb, "Thumb").$$render($$result, { position: value[1] }, {}, {})}`;
+      return `${!single ? `${(0, import_index_e3905281.v)(Thumb, "Thumb").$$render($$result, { position: value[0] }, {}, {})}` : ``}
+      ${(0, import_index_e3905281.v)(Thumb, "Thumb").$$render($$result, { position: value[1] }, {}, {})}`;
     }
   })}</div>
 </div>`;
@@ -82,7 +82,7 @@ const css = {
   code: "nav.svelte-1g43l2s{position:relative;top:0;left:0;height:auto;width:16em;padding:2rem 1rem 0.6rem;background:#fff;z-index:100;border:black 2px;border-style:solid;text-align:left}.filter_knap.svelte-1g43l2s{margin-top:2rem;border:black 2px;border-style:solid;padding:1rem}.luk_knap.svelte-1g43l2s{margin-left:12rem}.slider.svelte-1g43l2s{--sliderPrimary:#000000;--sliderSecondary:rgba(0, 0, 0, 0.05);margin-top:16px}",
   map: null
 };
-const Sidebar = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Sidebar = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { show = false } = $$props;
   if ($$props.show === void 0 && $$bindings.show && show !== void 0)
     $$bindings.show(show);
@@ -91,64 +91,64 @@ const Sidebar = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slo
 			
 			<br>
 			<ul><h3>Bryglinie</h3>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `N\xF8rrebro bryghus`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `BRAW`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Infer\xF8l`;
     }
   })}</li>
 				<br>
 				<h3>TYPE</h3>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Pilsner`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `IPA`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Ale`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Hvede\xF8l`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `NE IPA`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Lager`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Porter`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Fruited sour`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Stout`;
     }
@@ -156,49 +156,49 @@ const Sidebar = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slo
 				<br>
 				<li><div class="${"title"}"><h3>PRIS</h3>
 						${``}</div>
-					<div class="${"slider svelte-1g43l2s"}">${(0, import_index_f5faca1c.v)(Slider, "Slider").$$render($$result, { value: [0, 1] }, {}, {})}</div></li>
+					<div class="${"slider svelte-1g43l2s"}">${(0, import_index_e3905281.v)(Slider, "Slider").$$render($$result, { value: [0, 1] }, {}, {})}</div></li>
 				<br>
 				<h3>%</h3>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Alkoholisk`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Alkoholfri`;
     }
   })}</li>
 				<br>
 				<h3>Pakker</h3>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Pakker`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `Enkelt \xF8l`;
     }
   })}</li>
 				<br>
 				<h3>CL</h3>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `0.33`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `0.44`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `0.5`;
     }
   })}</li>
-				<li>${(0, import_index_f5faca1c.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
+				<li>${(0, import_index_e3905281.v)(import_Checkbox_svelte.default, "Checkbox").$$render($$result, {}, {}, {
     default: () => {
       return `0.75`;
     }

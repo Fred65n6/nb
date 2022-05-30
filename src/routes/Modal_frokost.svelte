@@ -10,7 +10,6 @@
 
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import ButtonBlack from './Button_black.svelte';
 	let topDiv;
 	let visible = false;
 	let prevOnTop;
@@ -66,7 +65,6 @@
 		</svg>
 		<div id="modal-content">
 			<slot />
-			<ButtonBlack>Book Nu</ButtonBlack>
 		</div>
 	</div>
 </div>

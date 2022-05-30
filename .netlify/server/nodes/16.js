@@ -27,6 +27,6 @@ __export(stdin_exports, {
 });
 module.exports = __toCommonJS(stdin_exports);
 var module2 = __toESM(require("../entries/pages/book_bord.svelte.js"));
-const entry = "pages/book_bord.svelte-29e99902.js";
-const js = ["pages/book_bord.svelte-29e99902.js", "chunks/index-ef25ccb1.js", "pages/Button_white.svelte-50f25c1c.js"];
+const entry = "pages/book_bord.svelte-e4853724.js";
+const js = ["pages/book_bord.svelte-e4853724.js", "chunks/index-54afa7c8.js", "pages/Button_white.svelte-cd07b6e8.js"];
 const css = ["assets/pages/book_bord.svelte-442493e6.css", "assets/Button_mobile.svelte_svelte_type_style_lang-3fd07747.css", "assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css", "assets/Button_white.svelte_svelte_type_style_lang-e4262b01.css"];

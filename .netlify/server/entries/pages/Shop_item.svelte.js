@@ -23,14 +23,14 @@ __export(stdin_exports, {
   default: () => Shop_item
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_f5faca1c = require("../../chunks/index-f5faca1c.js");
-var import_Button_black_svelte = __toESM(require("./Button_black.svelte.js"));
+var import_index_e3905281 = require("../../chunks/index-e3905281.js");
+var import_Button_blacks_svelte = __toESM(require("./Button_blacks.svelte.js"));
 var Shop_item_svelte_svelte_type_style_lang = "";
 const css = {
   code: ".card.svelte-e63xnm{display:grid;gap:15px;place-items:center;width:23rem;height:23rem;text-align:center;padding:1rem;margin-block:4rem}@media(max-width: 600px){.card.svelte-e63xnm{width:18em}}.card.svelte-e63xnm,h3.svelte-e63xnm,p.svelte-e63xnm{color:black}img.svelte-e63xnm{width:20rem}",
   map: null
 };
-const Shop_item = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
+const Shop_item = (0, import_index_e3905281.c)(($$result, $$props, $$bindings, slots) => {
   let { img } = $$props;
   let { titel } = $$props;
   let { sub_titel } = $$props;
@@ -45,14 +45,14 @@ const Shop_item = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, s
   if ($$props.pris === void 0 && $$bindings.pris && pris !== void 0)
     $$bindings.pris(pris);
   $$result.css.add(css);
-  return `<div class="${"card svelte-e63xnm"}"><img${(0, import_index_f5faca1c.d)("src", img, 0)} alt="${""}" class="${"svelte-e63xnm"}">
-	<h3 class="${"svelte-e63xnm"}">${(0, import_index_f5faca1c.e)(titel)}</h3>
-	<p class="${"svelte-e63xnm"}">${(0, import_index_f5faca1c.e)(sub_titel)}</p>
-	<h3 class="${"svelte-e63xnm"}">${(0, import_index_f5faca1c.e)(pris)}</h3>
+  return `<div class="${"card svelte-e63xnm"}"><img${(0, import_index_e3905281.d)("src", img, 0)} alt="${""}" class="${"svelte-e63xnm"}">
+	<h3 class="${"svelte-e63xnm"}">${(0, import_index_e3905281.e)(titel)}</h3>
+	<p class="${"svelte-e63xnm"}">${(0, import_index_e3905281.e)(sub_titel)}</p>
+	<h3 class="${"svelte-e63xnm"}">${(0, import_index_e3905281.e)(pris)}</h3>
 	<div class="${"flex gap-4"}"><button class="${"font-xl"}">-</button>
-		<span class="${"bg-white px-4 border-2"}">${(0, import_index_f5faca1c.e)(count)}</span>
+		<span class="${"bg-white px-4 border-2"}">${(0, import_index_e3905281.e)(count)}</span>
 		<button>+</button></div>
-	${(0, import_index_f5faca1c.v)(import_Button_black_svelte.default, "ButtonBlack").$$render($$result, {}, {}, {
+	${(0, import_index_e3905281.v)(import_Button_blacks_svelte.default, "ButtonBlack").$$render($$result, {}, {}, {
     default: () => {
       return `Tilf\xF8j til Kurv`;
     }

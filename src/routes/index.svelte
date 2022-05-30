@@ -3,25 +3,14 @@
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
-	import Modal_aften, { getModalAften } from './Modal_aften.svelte';
-	import Modal_frokost, { getModalFrokost } from './Modal_frokost.svelte';
-	import ButtonWhite from './Button_white.svelte';
+	// import Modal_aften, { getModalAften } from './Modal_aften.svelte';
+	// import Modal_frokost, { getModalFrokost } from './Modal_frokost.svelte';
 </script>
 
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
-<Modal_aften>
-	<h1>aften</h1>
-	<p>Your selection was:</p>
-</Modal_aften>
-
-<Modal_frokost>
-	<h1>frokost</h1>
-	<p>Your selection was:</p>
-</Modal_frokost>
 
 <section class="hero">
 	<div class="left">
@@ -55,7 +44,7 @@
 			</div>
 			<div class="blomst_2 grid place-items-center gap-8">
 				<img src="blomst_2.svg" alt="" />
-				<h3>LOKALT ENGEGAMENT</h3>
+				<h3>LOKALT ENGAGEMENT</h3>
 			</div>
 			<div class="blomst_3 grid place-items-center gap-8">
 				<img src="blomst_3.svg" alt="" />
@@ -76,14 +65,21 @@
 	</div>
 	<img class="mobile-blomst sm:hidden block" src="menu_blomst.svg" alt="" />
 	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
-		<button on:click={() => getModalFrokost().open()}><ButtonWhite>FROKOSTMENU</ButtonWhite></button
-		>
-		<button on:click={() => getModalAften().open()}><Button_white>AFTENMENU</Button_white></button>
+		<Button_white>Frokostmenu</Button_white>
+		<Button_white>Aftenmenu</Button_white>
 	</div>
 </section>
 
-<section class="kalender" />
+<!-- 
+<Modal_aften>
+	<h1>aften</h1>
+	<p>Your selection was:</p>
+</Modal_aften>
 
+<Modal_frokost>
+	<h1>frokost</h1>
+	<p>Your selection was:</p>
+</Modal_frokost> -->
 <style>
 	.hero {
 		display: grid;
@@ -109,7 +105,7 @@
 		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
-		background-image: url('shrimp.mobile.webp');
+		/* background-image: url('shrimp.mobile.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -118,7 +114,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/bundle_4.webp');
-		background-image: url('bundle_4.webp');
+		/* background-image: url('bundle_4.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -127,7 +123,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		background-image: url('event.webp');
+		/* background-image: url('event.webp'); */
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -165,7 +161,7 @@
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
-			background-image: url('red_bg.svg');
+			/* background-image: url('red_bg.svg'); */
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -177,12 +173,12 @@
 		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			background-image: url('bundle_3.mobile.webp');
+			/* background-image: url('bundle_3.mobile.webp'); */
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			background-image: url('event.mobile.webp');
+			/* background-image: url('event.mobile.webp'); */
 		}
 
 		.top {
@@ -197,7 +193,7 @@
 			text-align: center;
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			background-image: url('red_bg.mobile.svg');
+			/* background-image: url('red_bg.mobile.svg'); */
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
