@@ -2,7 +2,7 @@
 	// @ts-nocheck
 
 	import { fly } from 'svelte/transition';
-	import Modal from './Modal.svelte';
+	import Modal from './Modal_smag.svelte';
 	import ButtonBlack from './Button_black.svelte';
 	export let show = false;
 	let modal_show = false;

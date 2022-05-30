@@ -2,9 +2,11 @@
 	import Button from './Button_hero.svelte';
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
-	// @ts-ignore
 	import Event_card from './Event_card.svelte';
 	import { page } from '$app/stores';
+	import Modal_smag, { getModalSmag } from './Modal_smag.svelte';
+	import Modal_dj, { getModalDj } from './Modal_dj.svelte';
+	import Modal_by, { getModalBy } from './Modal_by.svelte';
 </script>
 
 <svelte:head>
@@ -20,6 +22,21 @@
 		af Nørrebro.
 	</p>
 </section>
+
+<Modal_smag>
+	<h1>Smag</h1>
+	<p>Your selection was:</p>
+</Modal_smag>
+
+<Modal_dj>
+	<h1>DJ</h1>
+	<p>Your selection was:</p>
+</Modal_dj>
+
+<Modal_by>
+	<h1>By</h1>
+	<p>Your selection was:</p>
+</Modal_by>
 
 <section class="filter">
 	<div class="">
@@ -39,20 +56,57 @@
 				>
 			</div>
 			<div class="dropdown-content flex">
-				<fieldset class="grid">
-					<div>
-						<input type="radio" id="byvandring" name="drone" value="byvandring" checked />
-						<label for="byvandring">BYVANDRING</label>
+				<fieldset class="grid mt-8">
+					<div class="flex kasse">
+						<input class="radio" type="checkbox" id="byvandring" name="drone" value="byvandring" />
+						<label class=" flex gap-4" for="byvandring"
+							>ØLSMAGNING <svg
+								width="20"
+								height="20"
+								viewBox="0 0 6 6"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path d="M5 0H0V5H5V0Z" fill="#EBD37F" />
+							</svg>
+						</label>
 					</div>
 
-					<div>
-						<input type="radio" id="olsmagning" name="drone" value="olsmagning" />
-						<label for="olsmagning">ØLSMAGNING</label>
+					<div class="flex kasse">
+						<input class="radio" type="checkbox" id="olsmagning" name="drone" value="olsmagning" />
+						<label class="flex gap-4" for="olsmagning"
+							>BYVANDRING <svg
+								width="20"
+								height="20"
+								viewBox="0 0 6 6"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path d="M5 0H0V5H5V0Z" fill="#ABCCD8" />
+							</svg></label
+						>
 					</div>
 
-					<div>
-						<input type="radio" id="djevent" name="drone" value="djevent" />
-						<label for="djevent">DJ EVENT</label>
+					<div class="flex kasse">
+						<input
+							class="radio bg-black"
+							type="checkbox"
+							id="djevent"
+							name="drone"
+							value="djevent"
+						/>
+						<label class="flex gap-4" for="djevent"
+							>DJ EVENT
+							<svg
+								width="20"
+								height="20"
+								viewBox="0 0 6 6"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path d="M5 0H0V5H5V0Z" fill="#6E0B20" />
+							</svg>
+						</label>
 					</div>
 				</fieldset>
 			</div>
@@ -95,134 +149,177 @@
 </section>
 
 <section class="kalender">
-	<div class="smag">
-		<Event_card
-			dato="4/5/2022"
-			img="smag_blomst.svg"
-			titel="ølsmagning"
-			sub_titel="En smagsoplevelse i øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="by">
-		<Event_card
-			dato="6/5/2022"
-			img="by_blomst.svg"
-			titel="Øl-byvandring"
-			sub_titel="Oplev københavn igennem øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="dj">
-		<Event_card
-			dato="7/5/2022"
-			img="dj_blomst.svg"
-			titel="DJ I BRYGHUSET"
-			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="by">
-		<Event_card
-			dato="10/5/2022"
-			img="by_blomst.svg"
-			titel="Øl-byvandring"
-			sub_titel="Oplev københavn igennem øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="smag">
-		<Event_card
-			dato="11/5/2022"
-			img="smag_blomst.svg"
-			titel="ølsmagning"
-			sub_titel="En smagsoplevelse i øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
+	<button on:click={() => getModalSmag().open()}
+		><div class="smag">
+			<Event_card
+				dato="4/5/2022"
+				img="smag_blomst.svg"
+				titel="ølsmagning"
+				sub_titel="En smagsoplevelse i øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
 
-	<div class="dj">
-		<Event_card
-			dato="12/5/2022"
-			img="dj_blomst.svg"
-			titel="DJ I BRYGHUSET"
-			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="by">
-		<Event_card
-			dato="16/5/2022"
-			img="by_blomst.svg"
-			titel="Øl-byvandring"
-			sub_titel="Oplev københavn igennem øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="dj">
-		<Event_card
-			dato="17/5/2022"
-			img="dj_blomst.svg"
-			titel="DJ I BRYGHUSET"
-			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="by">
-		<Event_card
-			dato="18/5/2022"
-			img="by_blomst.svg"
-			titel="Øl-byvandring"
-			sub_titel="Oplev københavn igennem øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
+	<button on:click={() => getModalBy().open()}>
+		<div class="by">
+			<Event_card
+				dato="6/5/2022"
+				img="by_blomst.svg"
+				titel="Øl-byvandring"
+				sub_titel="Oplev københavn igennem øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
 
-	<div class="dj">
-		<Event_card
-			dato="23/5/2022"
-			img="dj_blomst.svg"
-			titel="DJ I BRYGHUSET"
-			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="smag">
-		<Event_card
-			dato="24/5/2022"
-			img="smag_blomst.svg"
-			titel="ølsmagning"
-			sub_titel="En smagsoplevelse i øllets verden"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
-	<div class="dj">
-		<Event_card
-			dato="27/5/2022"
-			img="dj_blomst.svg"
-			titel="DJ I BRYGHUSET"
-			sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
-			tid="17:00-19:00"
-			sted="Ryesgade 3, 2200 KBH NV"
-		/>
-	</div>
+	<button on:click={() => getModalDj().open()}>
+		<div class="dj">
+			<Event_card
+				dato="7/5/2022"
+				img="dj_blomst.svg"
+				titel="DJ I BRYGHUSET"
+				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalBy().open()}>
+		<div class="by">
+			<Event_card
+				dato="10/5/2022"
+				img="by_blomst.svg"
+				titel="Øl-byvandring"
+				sub_titel="Oplev københavn igennem øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalSmag().open()}>
+		<div class="smag">
+			<Event_card
+				dato="11/5/2022"
+				img="smag_blomst.svg"
+				titel="ølsmagning"
+				sub_titel="En smagsoplevelse i øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalDj().open()}>
+		<div class="dj">
+			<Event_card
+				dato="12/5/2022"
+				img="dj_blomst.svg"
+				titel="DJ I BRYGHUSET"
+				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalBy().open()}>
+		<div class="by">
+			<Event_card
+				dato="16/5/2022"
+				img="by_blomst.svg"
+				titel="Øl-byvandring"
+				sub_titel="Oplev københavn igennem øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalDj().open()}>
+		<div class="dj">
+			<Event_card
+				dato="17/5/2022"
+				img="dj_blomst.svg"
+				titel="DJ I BRYGHUSET"
+				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalBy().open()}>
+		<div class="by">
+			<Event_card
+				dato="18/5/2022"
+				img="by_blomst.svg"
+				titel="Øl-byvandring"
+				sub_titel="Oplev københavn igennem øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalDj().open()}>
+		<div class="dj">
+			<Event_card
+				dato="23/5/2022"
+				img="dj_blomst.svg"
+				titel="DJ I BRYGHUSET"
+				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalSmag().open()}>
+		<div class="smag">
+			<Event_card
+				dato="24/5/2022"
+				img="smag_blomst.svg"
+				titel="ølsmagning"
+				sub_titel="En smagsoplevelse i øllets verden"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
+
+	<button on:click={() => getModalDj().open()}>
+		<div class="dj">
+			<Event_card
+				dato="27/5/2022"
+				img="dj_blomst.svg"
+				titel="DJ I BRYGHUSET"
+				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
+				tid="17:00-19:00"
+				sted="Ryesgade 3, 2200 KBH NV"
+			/>
+		</div>
+	</button>
 </section>
 
 <style>
 	.heading {
 		padding-top: 3rem;
 		text-align: center;
+	}
+
+	@media (max-width: 600px) {
+		.heading {
+			text-align: left;
+		}
+	}
+
+	.kasse {
+		align-items: baseline;
 	}
 
 	.dj {
@@ -310,8 +407,5 @@
 			display: flex;
 			justify-content: space-between;
 		}
-	}
-
-	@media (min-width: 600px) {
 	}
 </style>

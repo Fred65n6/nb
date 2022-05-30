@@ -75,7 +75,9 @@
 		<li><Checkbox>0.5</Checkbox></li>
 		<li><Checkbox>0.75</Checkbox></li>
 		<br />
-		<li><ButtonBlack>ANVEND FILTRE</ButtonBlack></li>
+		<h3>Tilbud og nyheder</h3>
+		<li><Checkbox>Aktuelle tilbud</Checkbox></li>
+		<li><Checkbox>Nyheder</Checkbox></li>
 	</ul>
 </div>
 

@@ -20,8 +20,8 @@ __export(stdin_exports, {
   default: () => Checkbox
 });
 module.exports = __toCommonJS(stdin_exports);
-var import_index_df09d767 = require("../../chunks/index-df09d767.js");
-const Checkbox = (0, import_index_df09d767.c)(($$result, $$props, $$bindings, slots) => {
+var import_index_f5faca1c = require("../../chunks/index-f5faca1c.js");
+const Checkbox = (0, import_index_f5faca1c.c)(($$result, $$props, $$bindings, slots) => {
   return `<label><input type="${"checkbox"}">
 	${slots.default ? slots.default({}) : ``}
 </label>`;

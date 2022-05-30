@@ -26,7 +26,7 @@ __export(stdin_exports, {
   module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/todos/index.svelte.js"));
-const entry = "pages/todos/index.svelte-4f07f945.js";
-const js = ["pages/todos/index.svelte-4f07f945.js", "chunks/index-5a9b2991.js", "chunks/singletons-d1fb5791.js", "chunks/index-c3f06465.js"];
-const css = ["assets/pages/todos/index.svelte-a910a02d.css"];
+var module2 = __toESM(require("../entries/pages/events.svelte.js"));
+const entry = "pages/events.svelte-bd5505be.js";
+const js = ["pages/events.svelte-bd5505be.js", "chunks/index-ef25ccb1.js", "pages/Modal_by.svelte-ae7d6127.js", "pages/Button_black.svelte-2099632b.js", "pages/Modal_dj.svelte-86c40cd2.js", "pages/Modal_smag.svelte-709c3c52.js", "pages/Event_card.svelte-ce2320b4.js"];
+const css = ["assets/pages/events.svelte-85f20ea2.css", "assets/Button_white.svelte_svelte_type_style_lang-e4262b01.css", "assets/Button_mobile.svelte_svelte_type_style_lang-3fd07747.css", "assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css", "assets/Button_black.svelte_svelte_type_style_lang-e0e6ba5e.css", "assets/pages/Modal_dj.svelte-d8fbeb41.css", "assets/pages/Event_card.svelte-bc6493c9.css"];

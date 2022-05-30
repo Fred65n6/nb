@@ -55,9 +55,22 @@
 
 				<div class="">
 					<div class="dropdown">
-						<a href="/" class="dropbtn">SHOPPEN ⯆</a>
+						<a href="shop" class="dropbtn"
+							>SHOPPEN <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							></a
+						>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">ØL-SHOP</a>
+							<a sveltekit:prefetch href="shop">ØL-SHOP</a>
 							<a sveltekit:prefetch href="/">GAVEKORT</a>
 						</div>
 					</div>
@@ -70,20 +83,46 @@
 
 					<div class="dropdown">
 						<div class:active={$page.url.pathname === '/'}>
-							<a sveltekit:prefetch href="/">BOOK BORD</a>
+							<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
 						</div>
 					</div>
 
 					<div class="dropdown">
-						<a href="/" class="dropbtn">EVENTS & SELSKABER ⯆</a>
+						<a href="/" class="dropbtn"
+							>EVENTS & SELSKABER <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							></a
+						>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">EVENTKALENDER</a>
+							<a sveltekit:prefetch href="events">EVENTKALENDER</a>
 							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
 						</div>
 					</div>
 
 					<div class="dropdown">
-						<a href="/" class="dropbtn">VORES ØLUDVALG ⯆</a>
+						<a href="/" class="dropbtn"
+							>VORES ØLUDVALG<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							></a
+						>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
 							<a sveltekit:prefetch href="/">BRAW</a>
@@ -93,7 +132,20 @@
 					</div>
 
 					<div class="dropdown">
-						<a href="/" class="dropbtn">OM BRYGHUSET ⯆</a>
+						<a href="/" class="dropbtn"
+							>OM BRYGHUSET <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							></a
+						>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">VORES HISTORIE</a>
 							<a sveltekit:prefetch href="/">BÆREDYGTIGHED</a>
@@ -104,7 +156,17 @@
 					</div>
 
 					<div class="dropdown">
-						<a href="/" class="dropbtn">FOR VIRKSOMHEDER ⯆</a>
+						<a href="/" class="dropbtn"
+							>FOR VIRKSOMHEDER <svg
+								width="9"
+								height="5"
+								viewBox="0 0 9 5"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path d="M0.5 0.5L4.5 3.5L8.5 0.5" stroke="black" stroke-miterlimit="10" />
+							</svg></a
+						>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">FIRMAEVENTS</a>
 							<a sveltekit:prefetch href="/">MØDELOKALER</a>
@@ -169,9 +231,22 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">SHOPPEN ⯆</div>
+						<div class="dropbtn">
+							SHOPPEN <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							>
+						</div>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="/">SHOP</a>
+							<a sveltekit:prefetch href="shop">SHOP</a>
 							<a sveltekit:prefetch href="/">GAVEKORT</a>
 						</div>
 					</div>
@@ -187,7 +262,20 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">VORES ØLUDVALG ⯆</div>
+						<div class="dropbtn">
+							VORES ØLUDVALG <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">NØRREBRO BRYGHUS</a>
 							<a sveltekit:prefetch href="/">BRAW</a>
@@ -199,7 +287,20 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">OM BRYGHUSET ⯆</div>
+						<div class="dropbtn">
+							OM BRYGHUSET <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">VORES HISTORIE</a>
 							<a sveltekit:prefetch href="/">BÆREDYGTIGHED</a>
@@ -212,7 +313,20 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">EVENTS & SELSKABER ⯆</div>
+						<div class="dropbtn">
+							EVENTS & SELSKABER <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="events">EVENTKALENDER</a>
 							<a sveltekit:prefetch href="/">SELSKABER & MØDELOKALER</a>
@@ -222,7 +336,20 @@
 
 				<li>
 					<div class="dropdown">
-						<div class="dropbtn">FOR VIRKSOMHEDER ⯆</div>
+						<div class="dropbtn">
+							FOR VIRKSOMHEDER <svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								aria-hidden="true"
+								role="img"
+								class="iconify iconify--material-symbols"
+								width="20"
+								height="20"
+								preserveAspectRatio="xMidYMid meet"
+								viewBox="0 0 24 24"
+								><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
+							>
+						</div>
 						<div class="dropdown-content">
 							<a sveltekit:prefetch href="/">MØDELOKALER</a>
 							<a sveltekit:prefetch href="/">BLIV FORHANDLER</a>

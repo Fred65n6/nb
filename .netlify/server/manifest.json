@@ -4,7 +4,7 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "dynamicImports": [
       "src/hooks.js"
@@ -20,13 +20,13 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Footer.svelte",
       "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-bd67223b.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/entries/pages/__layout.svelte-3fb324f2.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
     ]
   },
   "src/routes/Footer.svelte": {
@@ -34,12 +34,12 @@
     "src": "src/routes/Footer.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/Footer.svelte-a1d21542.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/entries/pages/Footer.svelte-5df9371f.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
     ],
     "assets": [
       "assets/footer_bg.mobile-a9ba0e49.webp",
@@ -51,10 +51,10 @@
     "src": "src/routes/Button_black.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -62,7 +62,7 @@
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ]
   },
   "src/routes/Button_hero.svelte": {
@@ -70,7 +70,7 @@
     "src": "src/routes/Button_hero.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
@@ -81,7 +81,7 @@
     "src": "src/routes/Button_mobile.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css"
@@ -92,7 +92,7 @@
     "src": "src/routes/Button_white.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css"
@@ -103,7 +103,7 @@
     "src": "src/routes/Checkbox.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ]
   },
   "src/routes/Event_card.svelte": {
@@ -111,21 +111,75 @@
     "src": "src/routes/Event_card.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/entries/pages/Event_card.svelte-b0de5b7b.css"
     ]
   },
-  "src/routes/Modal.svelte": {
-    "file": "entries/pages/Modal.svelte.js",
-    "src": "src/routes/Modal.svelte",
+  "src/routes/Modal_aften.svelte": {
+    "file": "entries/pages/Modal_aften.svelte.js",
+    "src": "src/routes/Modal_aften.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js",
+      "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css"
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+    ]
+  },
+  "src/routes/Modal_by.svelte": {
+    "file": "entries/pages/Modal_by.svelte.js",
+    "src": "src/routes/Modal_by.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f5faca1c.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+    ]
+  },
+  "src/routes/Modal_dj.svelte": {
+    "file": "entries/pages/Modal_dj.svelte.js",
+    "src": "src/routes/Modal_dj.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f5faca1c.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+    ]
+  },
+  "src/routes/Modal_frokost.svelte": {
+    "file": "entries/pages/Modal_frokost.svelte.js",
+    "src": "src/routes/Modal_frokost.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f5faca1c.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
+    ]
+  },
+  "src/routes/Modal_smag.svelte": {
+    "file": "entries/pages/Modal_smag.svelte.js",
+    "src": "src/routes/Modal_smag.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f5faca1c.js",
+      "src/routes/Button_black.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
     ]
   },
   "src/routes/Shop_item.svelte": {
@@ -133,12 +187,12 @@
     "src": "src/routes/Shop_item.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Button_black.svelte"
     ],
     "css": [
       "assets/entries/pages/Shop_item.svelte-8128786e.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css"
     ]
   },
   "src/routes/book_bord.svelte": {
@@ -146,11 +200,11 @@
     "src": "src/routes/book_bord.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Button_white.svelte"
     ],
     "css": [
-      "assets/entries/pages/book_bord.svelte-0c0ccc3f.css",
+      "assets/entries/pages/book_bord.svelte-adfd4d3c.css",
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css",
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css"
@@ -166,14 +220,20 @@
     "src": "src/routes/events.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
-      "src/routes/Event_card.svelte"
+      "_index-f5faca1c.js",
+      "src/routes/Modal_by.svelte",
+      "src/routes/Modal_dj.svelte",
+      "src/routes/Modal_smag.svelte",
+      "src/routes/Event_card.svelte",
+      "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/events.svelte-3cb77b0b.css",
+      "assets/entries/pages/events.svelte-b0c527f5.css",
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
-      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
+      "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
   "src/routes/index.svelte": {
@@ -181,14 +241,18 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Button_white.svelte",
+      "src/routes/Modal_frokost.svelte",
+      "src/routes/Modal_aften.svelte",
       "src/routes/Button_mobile.svelte",
-      "src/routes/Button_hero.svelte"
+      "src/routes/Button_hero.svelte",
+      "src/routes/Button_black.svelte"
     ],
     "css": [
-      "assets/entries/pages/index.svelte-cf70e68b.css",
+      "assets/entries/pages/index.svelte-0946588a.css",
       "assets/Button_white.svelte_svelte_type_style_lang-7caa1cf7.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
       "assets/Button_mobile.svelte_svelte_type_style_lang-7a332924.css",
       "assets/Button_hero.svelte_svelte_type_style_lang-f782385b.css"
     ],
@@ -207,7 +271,7 @@
     "src": "src/routes/om_os.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/entries/pages/om_os.svelte-fd705827.css"
@@ -218,16 +282,16 @@
     "src": "src/routes/shop.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
-      "_Sidebar-bd35cfd2.js",
+      "_index-f5faca1c.js",
+      "_Sidebar-1c450b8f.js",
       "src/routes/Shop_item.svelte",
       "src/routes/Checkbox.svelte",
       "src/routes/Button_black.svelte"
     ],
     "css": [
       "assets/entries/pages/shop.svelte-5b3258f0.css",
-      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
   "src/routes/todos/index.svelte": {
@@ -235,7 +299,7 @@
     "src": "src/routes/todos/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js"
+      "_index-f5faca1c.js"
     ],
     "css": [
       "assets/entries/pages/todos/index.svelte-02327cf1.css"
@@ -246,28 +310,28 @@
     "src": "src/routes/Sidebar.svelte",
     "isEntry": true,
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Checkbox.svelte",
-      "_Sidebar-bd35cfd2.js"
+      "_Sidebar-1c450b8f.js"
     ],
     "css": [
-      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
-  "_index-df09d767.js": {
-    "file": "chunks/index-df09d767.js"
+  "_index-f5faca1c.js": {
+    "file": "chunks/index-f5faca1c.js"
   },
-  "_Sidebar-bd35cfd2.js": {
-    "file": "chunks/Sidebar-bd35cfd2.js",
+  "_Sidebar-1c450b8f.js": {
+    "file": "chunks/Sidebar-1c450b8f.js",
     "imports": [
-      "_index-df09d767.js",
+      "_index-f5faca1c.js",
       "src/routes/Checkbox.svelte"
     ],
     "css": [
-      "assets/Sidebar-25c7f8f4.css",
-      "assets/Modal.svelte_svelte_type_style_lang-505222cf.css",
-      "assets/Button_black.svelte_svelte_type_style_lang-b6a35633.css"
+      "assets/Sidebar-c6f59db1.css",
+      "assets/Button_black.svelte_svelte_type_style_lang-08a0a77e.css",
+      "assets/entries/pages/Modal_aften.svelte-a222455e.css"
     ]
   },
   "src/hooks.js": {

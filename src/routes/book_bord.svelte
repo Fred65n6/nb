@@ -25,9 +25,21 @@
 				<p>Dato for jeres besøg</p>
 				<input class="h-[45px] w-[166px]" placeholder="18/05/2022" type="Email" />
 			</div>
-			<div class="">
-				<p>Hvor mange er</p>
-				<input class="h-[45px] w-[166px]" placeholder="Antal gæster" type="Email" />
+			<div class="form-control">
+				<div class="input-group">
+					<p>Hvor mange er i?</p>
+					<select class="select select-bordered h-[45px] w-[166px] text-black/60">
+						<option class="text-black/80" disabled selected>Antal gæster</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+					</select>
+				</div>
 			</div>
 		</div>
 		<br />
@@ -60,9 +72,12 @@
 		display: grid;
 	}
 
+	.booking {
+		padding: 1rem;
+	}
+
 	.book p {
 		color: white;
-		padding: 1rem;
 	}
 
 	.menuer {
@@ -80,7 +95,7 @@
 		width: 27rem;
 		height: 27rem;
 		background-image: url('../../static/aftenmenu.webp');
-		/* background-image: url('aftenmenu.webp'); */
+		background-image: url('aftenmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -89,7 +104,7 @@
 		width: 27rem;
 		height: 27rem;
 		background-image: url('../../static/frokostmenu.webp');
-		/* background-image: url('frokostmenu.webp'); */
+		background-image: url('frokostmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 18rem;
@@ -98,8 +113,9 @@
 		width: 27rem;
 		height: 27rem;
 		background-image: url('../../static/olsortiment.webp');
-		/* background-image: url('olsortiment.webp'); */
+		background-image: url('olsortiment.webp');
 		background-size: contain;
+		background-repeat: no-repeat;
 		padding: 1rem;
 		padding-top: 18rem;
 	}
@@ -132,10 +148,15 @@
 		.image {
 			display: none;
 		}
+
+		.book {
+			margin-inline: 0.8rem;
+		}
 	}
 
 	@media (min-width: 600px) {
 		.book {
+			margin-inline: 1.5rem;
 			height: 26.3rem;
 			grid-template-columns: 1fr 1fr;
 		}
@@ -151,5 +172,48 @@
 		.menuer {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
+	}
+
+	/******************DROPDOWN***************/
+
+	.dropdown {
+		height: 45px;
+		width: 166px;
+		position: relative;
+		display: inline-block;
+		background-color: white;
+		color: rgba(0, 0, 0, 0.454);
+	}
+
+	.dropdown-content {
+		text-align: left;
+		display: none;
+		position: absolute;
+		background-color: rgb(255, 255, 255);
+		width: 166px;
+		text-align: center;
+		padding-inline: 0.5rem;
+		z-index: 1;
+	}
+
+	@media (max-width: 600px) {
+		.dropdown-content {
+			text-align: center;
+		}
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown-content a:hover {
+		text-decoration: underline;
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
 	}
 </style>

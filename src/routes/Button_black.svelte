@@ -41,8 +41,6 @@
 		stroke-width: 3;
 		stroke-dasharray: 422, 0;
 		stroke-dashoffset: 0;
-
-		transition: ease 900ms;
 	}
 	.btn:hover svg rect {
 		text-decoration: none;

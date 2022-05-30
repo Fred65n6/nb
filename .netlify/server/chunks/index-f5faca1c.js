@@ -30,6 +30,7 @@ __export(stdin_exports, {
   k: () => escape_attribute_value,
   l: () => each,
   m: () => missing_component,
+  o: () => onDestroy,
   s: () => setContext,
   v: () => validate_component
 });
@@ -73,6 +74,9 @@ function get_current_component() {
   if (!current_component)
     throw new Error("Function called outside component initialization");
   return current_component;
+}
+function onDestroy(fn) {
+  get_current_component().$$.on_destroy.push(fn);
 }
 function createEventDispatcher() {
   const component = get_current_component();

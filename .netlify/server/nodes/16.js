@@ -26,7 +26,7 @@ __export(stdin_exports, {
   module: () => module2
 });
 module.exports = __toCommonJS(stdin_exports);
-var module2 = __toESM(require("../entries/pages/shop.svelte.js"));
-const entry = "pages/shop.svelte-b5b78475.js";
-const js = ["pages/shop.svelte-b5b78475.js", "chunks/index-5a9b2991.js", "chunks/Sidebar-e480cdce.js", "chunks/index-c3f06465.js", "pages/Checkbox.svelte-04bc9d10.js", "pages/Shop_item.svelte-527a1572.js", "pages/Button_black.svelte-39cb60b3.js"];
-const css = ["assets/pages/shop.svelte-e44e80d0.css", "assets/Modal.svelte_svelte_type_style_lang-fc791ac7.css", "assets/Button_black.svelte_svelte_type_style_lang-f50190bc.css", "assets/Sidebar-45bfed7d.css", "assets/pages/Shop_item.svelte-88bc0864.css"];
+var module2 = __toESM(require("../entries/pages/book_bord.svelte.js"));
+const entry = "pages/book_bord.svelte-29e99902.js";
+const js = ["pages/book_bord.svelte-29e99902.js", "chunks/index-ef25ccb1.js", "pages/Button_white.svelte-50f25c1c.js"];
+const css = ["assets/pages/book_bord.svelte-442493e6.css", "assets/Button_mobile.svelte_svelte_type_style_lang-3fd07747.css", "assets/Button_hero.svelte_svelte_type_style_lang-f32c5862.css", "assets/Button_white.svelte_svelte_type_style_lang-e4262b01.css"];
