@@ -207,7 +207,7 @@
 	} */
 
 	main {
-		background-image: url('shop_bg.svg');
+		background-image: url('../../static/shop_bg.svg');
 		background-size: auto;
 		background-position: top;
 	}
