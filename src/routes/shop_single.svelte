@@ -63,7 +63,7 @@
 	<section class="pt-12">
 		<h3>relaterede varer</h3>
 		<div class="relaterede">
-			<button class="btn"
+			<button class="btn md:static md:pt-0 absolute left-28 pt-40"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -102,7 +102,7 @@
 					sub_titel="Pilsner 33 cl"
 				/>
 			</div>
-			<button class="btn"
+			<button class="btn md:static md:pt-0 absolute right-28 pt-40"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"

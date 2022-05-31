@@ -13,7 +13,7 @@
 	let value = '';
 </script>
 
-<section>
+<section class="pt-4">
 	{#if show}
 		<nav transition:fly={{ x: -250, opacity: 1 }}>
 			<button
