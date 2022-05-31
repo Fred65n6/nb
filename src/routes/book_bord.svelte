@@ -251,6 +251,7 @@
 
 	.book {
 		width: 100%;
+		padding-inline: 1rem;
 	}
 
 	.step-button {
