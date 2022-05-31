@@ -40,4 +40,10 @@
 	.selected {
 		display: none;
 	}
+
+	@media (max-width: 400px) {
+		.cookie {
+			max-width: 350px;
+		}
+	}
 </style>
