@@ -61,7 +61,7 @@
 				<input type="Dato" placeholder="anders@gmail.com" />
 			</div>
 		</div>
-		<div class="flex gap-4">
+		<div class="md:flex grid gap-4">
 			<div class="">
 				<p>Dit tlf. nummer</p>
 				<input type="Dato" placeholder="23249020" />
