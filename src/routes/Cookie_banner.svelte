@@ -43,7 +43,7 @@
 
 	@media (max-width: 400px) {
 		.cookie {
-			max-width: 350px;
+			max-width: 200px;
 		}
 	}
 </style>
