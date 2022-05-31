@@ -51,7 +51,7 @@
 			</div>
 		</div>
 	{:else if active_step == '3'}
-		<div class="flex gap-4">
+		<div class="md:flex grid gap-4">
 			<div class="">
 				<p>Dit navn</p>
 				<input type="Dato" placeholder="Anders Andersen" />
