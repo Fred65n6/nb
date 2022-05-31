@@ -3,8 +3,7 @@
 	import Button_mobile from './Button_mobile.svelte';
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
-	// import Modal_aften, { getModalAften } from './Modal_aften.svelte';
-	// import Modal_frokost, { getModalFrokost } from './Modal_frokost.svelte';
+	import Cookie from './Cookie_banner.svelte';
 </script>
 
 <svelte:head>
@@ -65,21 +64,13 @@
 	</div>
 	<img class="mobile-blomst sm:hidden block" src="menu_blomst.svg" alt="" />
 	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
-		<Button_white>Frokostmenu</Button_white>
-		<Button_white>Aftenmenu</Button_white>
+		<a sveltekit:prefetch href="frokostmenu"><Button_white>Frokostmenu</Button_white></a>
+		<a sveltekit:prefetch href="aftenmenu"><Button_white>Aftenmenu</Button_white></a>
 	</div>
 </section>
 
-<!-- 
-<Modal_aften>
-	<h1>aften</h1>
-	<p>Your selection was:</p>
-</Modal_aften>
+<Cookie />
 
-<Modal_frokost>
-	<h1>frokost</h1>
-	<p>Your selection was:</p>
-</Modal_frokost> -->
 <style>
 	.hero {
 		display: grid;
@@ -105,7 +96,7 @@
 		height: 100%;
 		place-items: center;
 		background-image: url('../../static/shrimp.mobile.webp');
-		/* background-image: url('shrimp.mobile.webp'); */
+		background-image: url('shrimp.mobile.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -114,7 +105,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/bundle_4.webp');
-		/* background-image: url('bundle_4.webp'); */
+		background-image: url('bundle_4.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -123,7 +114,7 @@
 		place-items: center;
 		height: 100%;
 		background-image: url('../../static/event.webp');
-		/* background-image: url('event.webp'); */
+		background-image: url('event.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -161,7 +152,7 @@
 		.menu {
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
-			/* background-image: url('red_bg.svg'); */
+			background-image: url('red_bg.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
@@ -173,12 +164,12 @@
 		}
 		.kasse_2 {
 			background-image: url('../../static/bundle_3.mobile.webp');
-			/* background-image: url('bundle_3.mobile.webp'); */
+			background-image: url('bundle_3.mobile.webp');
 		}
 
 		.kasse_3 {
 			background-image: url('../../static/event.mobile.webp');
-			/* background-image: url('event.mobile.webp'); */
+			background-image: url('event.mobile.webp');
 		}
 
 		.top {
@@ -193,7 +184,7 @@
 			text-align: center;
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			/* background-image: url('red_bg.mobile.svg'); */
+			background-image: url('red_bg.mobile.svg');
 			background-size: cover;
 			background-repeat: no-repeat;
 		}

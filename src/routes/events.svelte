@@ -7,6 +7,7 @@
 	import Modal_dj, { getModalDj } from './Modal_dj.svelte';
 	import Modal_by, { getModalBy } from './Modal_byen.svelte';
 	import { page } from '$app/stores';
+	import Checkbox from './Checkbox.svelte';
 </script>
 
 <svelte:head>
@@ -41,11 +42,10 @@
 				>
 			</div>
 			<div class="dropdown-content flex">
-				<fieldset class="grid mt-8">
+				<fieldset class="grid p-4 gap-4 ">
 					<div class="flex kasse">
-						<input class="radio" type="checkbox" id="byvandring" name="drone" value="byvandring" />
-						<label class=" flex gap-4" for="byvandring"
-							>ØLSMAGNING <svg
+						<Checkbox>
+							ØLSMAGNING <svg
 								width="20"
 								height="20"
 								viewBox="0 0 6 6"
@@ -53,14 +53,13 @@
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path d="M5 0H0V5H5V0Z" fill="#EBD37F" />
-							</svg>
-						</label>
+							</svg></Checkbox
+						>
 					</div>
 
 					<div class="flex kasse">
-						<input class="radio" type="checkbox" id="olsmagning" name="drone" value="olsmagning" />
-						<label class="flex gap-4" for="olsmagning"
-							>BYVANDRING <svg
+						<Checkbox>
+							BYVANDRING <svg
 								width="20"
 								height="20"
 								viewBox="0 0 6 6"
@@ -68,19 +67,12 @@
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path d="M5 0H0V5H5V0Z" fill="#ABCCD8" />
-							</svg></label
-						>
+							</svg>
+						</Checkbox>
 					</div>
 
 					<div class="flex kasse">
-						<input
-							class="radio bg-black"
-							type="checkbox"
-							id="djevent"
-							name="drone"
-							value="djevent"
-						/>
-						<label class="flex gap-4" for="djevent"
+						<Checkbox
 							>DJ EVENT
 							<svg
 								width="20"
@@ -90,8 +82,8 @@
 								xmlns="http://www.w3.org/2000/svg"
 							>
 								<path d="M5 0H0V5H5V0Z" fill="#6E0B20" />
-							</svg>
-						</label>
+							</svg></Checkbox
+						>
 					</div>
 				</fieldset>
 			</div>
@@ -416,7 +408,7 @@
 			<br /> <br />
 			Musikken kan høres i hele huset, og der er kolde fadøl og cocktails i baren, så puds danseskoene
 			og kom forbi BRAW Baren.
-			<br />
+			<br /><br />
 		</p>
 
 		<p class="flex">
@@ -542,7 +534,6 @@
 	}
 
 	.dropbtn {
-		background-color: white;
 		padding: 0.5rem;
 		border: black 2px;
 		border-style: solid;
