@@ -90,9 +90,9 @@
 
 <style>
 	footer {
-		margin-inline: 3rem;
+		padding-inline: 3rem;
 		padding-bottom: 10rem;
-		padding-top: 1rem;
+		padding-top: 2rem;
 		background-image: url('../../static/footer_bg.mobile.webp');
 		/* background-image: url('footer_bg.mobile.webp'); */
 		background-size: cover;
@@ -116,7 +116,7 @@
 			background-image: url('../../static/footer_bg.webp');
 			/* background-image: url('footer_bg.webp'); */
 			background-size: 100%;
-			margin-inline: 7rem;
+			padding-inline: 7rem;
 			padding-top: 9rem;
 		}
 	}
