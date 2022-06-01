@@ -67,7 +67,7 @@
 		src="menu_blomst.svg"
 		alt="nørrebro bryghus blomst grafik"
 	/>
-	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[10rem] sm:pb-52 grid gap-6 pt-16">
+	<div class="bottom sm:flex grid gap-6 pt-16 md:pt-0 sm:gap-[40rem] md:pb-40 ">
 		<a sveltekit:prefetch href="frokostmenu"><Button_white>Frokostmenu</Button_white></a>
 		<a sveltekit:prefetch href="aftenmenu"><Button_white>Aftenmenu</Button_white></a>
 	</div>
@@ -157,7 +157,8 @@
 		}
 
 		.menu {
-			padding-top: 3rem;
+			height: 40rem;
+			width: 100%;
 			background-image: url('../../static/red_bg.svg');
 			/* background-image: url('red_bg.svg'); */
 			background-size: cover;
@@ -191,7 +192,7 @@
 			text-align: center;
 			padding: 1rem;
 			background-image: url('../../static/red_bg.mobile.svg');
-			background-image: url('red_bg.mobile.svg');
+			/* background-image: url('red_bg.mobile.svg'); */
 			background-size: cover;
 			background-repeat: no-repeat;
 		}
