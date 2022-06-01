@@ -1,6 +1,11 @@
 <script>
 </script>
 
+<svelte:head>
+	<title>Frokostmenu</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
 <main>
 	<section class="grid gap-6 menu">
 		<br />

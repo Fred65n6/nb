@@ -6,6 +6,11 @@
 	import Shop_item from './Shop_item.svelte';
 </script>
 
+<svelte:head>
+	<title>Nørrebro classic</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
 <div class="w-[100vw] p-2 -mx-4 text-center bg-black/70 text-white">
 	<p class="gap-4 place-items-center flex justify-center">
 		<svg
@@ -36,7 +41,7 @@
 
 <main>
 	<section class="container">
-		<div class=""><img src="classic.webp" alt="classic" /></div>
+		<div class=""><img src="classic.webp" alt="Nørrebro Classic" /></div>
 
 		<div class="grid gap-8">
 			<div class="grid gap-4">
@@ -82,6 +87,7 @@
 			>
 			<Shop_item
 				img="blanche.webp"
+				name="Blanche"
 				titel="Nørrebro classic"
 				pris="29kr"
 				sub_titel="Pilsner 33 cl"
@@ -89,6 +95,7 @@
 			<div class="mobil">
 				<Shop_item
 					img="ravnsborg.webp"
+					name="ravnsborg rød"
 					titel="Nørrebro classic"
 					pris="29kr"
 					sub_titel="Pilsner 33 cl"
@@ -97,6 +104,7 @@
 			<div class="mobil">
 				<Shop_item
 					img="bombay.webp"
+					name="Bombay IPA"
 					titel="Nørrebro classic"
 					pris="29kr"
 					sub_titel="Pilsner 33 cl"

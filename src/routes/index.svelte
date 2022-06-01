@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Forside</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -38,15 +38,15 @@
 	<div class="container">
 		<div class="sm:flex grid gap-14">
 			<div class="blomst_1 grid place-items-center gap-8">
-				<img src="blomst_1.svg" alt="" />
+				<img src="blomst_1.svg" alt="nørrebro bryghus blomst grafik" />
 				<h3>100% ØKOLOGI</h3>
 			</div>
 			<div class="blomst_2 grid place-items-center gap-8">
-				<img src="blomst_2.svg" alt="" />
+				<img src="blomst_2.svg" alt="nørrebro bryghus blomst grafik" />
 				<h3>LOKALT ENGAGEMENT</h3>
 			</div>
 			<div class="blomst_3 grid place-items-center gap-8">
-				<img src="blomst_3.svg" alt="" />
+				<img src="blomst_3.svg" alt="nørrebro bryghus blomst grafik" />
 				<h3>SOCIALT ANSVAR</h3>
 			</div>
 		</div>
@@ -62,7 +62,11 @@
 			fantastiske øl fra Nørrebro Bryghus.
 		</p>
 	</div>
-	<img class="mobile-blomst sm:hidden block" src="menu_blomst.svg" alt="" />
+	<img
+		class="mobile-blomst sm:hidden block"
+		src="menu_blomst.svg"
+		alt="nørrebro bryghus blomst grafik"
+	/>
 	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
 		<a sveltekit:prefetch href="frokostmenu"><Button_white>Frokostmenu</Button_white></a>
 		<a sveltekit:prefetch href="aftenmenu"><Button_white>Aftenmenu</Button_white></a>

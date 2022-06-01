@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Book bord</title>
+	<title>events</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
@@ -131,6 +131,7 @@
 			<Event_card
 				dato="4/5/2022"
 				img="smag_blomst.svg"
+				name="ølsmagnings blomst grafik"
 				titel="ølsmagning"
 				sub_titel="En smagsoplevelse i øllets verden"
 				tid="17:00-19:00"
@@ -144,6 +145,7 @@
 			<Event_card
 				dato="6/5/2022"
 				img="by_blomst.svg"
+				name="byvandring blomst grafik"
 				titel="Øl-byvandring"
 				sub_titel="Oplev københavn igennem øllets verden"
 				tid="17:00-19:00"
@@ -157,6 +159,7 @@
 			<Event_card
 				dato="7/5/2022"
 				img="dj_blomst.svg"
+				name="DJ event blomst grafik"
 				titel="DJ I BRYGHUSET"
 				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
 				tid="17:00-19:00"
@@ -170,6 +173,7 @@
 			<Event_card
 				dato="10/5/2022"
 				img="by_blomst.svg"
+				name="byvandring blomst grafik"
 				titel="Øl-byvandring"
 				sub_titel="Oplev københavn igennem øllets verden"
 				tid="17:00-19:00"
@@ -183,6 +187,7 @@
 			<Event_card
 				dato="11/5/2022"
 				img="smag_blomst.svg"
+				name="ølsmagnings blomst grafik"
 				titel="ølsmagning"
 				sub_titel="En smagsoplevelse i øllets verden"
 				tid="17:00-19:00"
@@ -196,6 +201,7 @@
 			<Event_card
 				dato="12/5/2022"
 				img="dj_blomst.svg"
+				name="DJ event blomst grafik"
 				titel="DJ I BRYGHUSET"
 				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
 				tid="17:00-19:00"
@@ -209,6 +215,7 @@
 			<Event_card
 				dato="16/5/2022"
 				img="by_blomst.svg"
+				name="byvandring blomst grafik"
 				titel="Øl-byvandring"
 				sub_titel="Oplev københavn igennem øllets verden"
 				tid="17:00-19:00"
@@ -222,6 +229,7 @@
 			<Event_card
 				dato="17/5/2022"
 				img="dj_blomst.svg"
+				name="DJ event blomst grafik"
 				titel="DJ I BRYGHUSET"
 				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
 				tid="17:00-19:00"
@@ -235,6 +243,7 @@
 			<Event_card
 				dato="18/5/2022"
 				img="by_blomst.svg"
+				name="byvandring blomst grafik"
 				titel="Øl-byvandring"
 				sub_titel="Oplev københavn igennem øllets verden"
 				tid="17:00-19:00"
@@ -248,6 +257,7 @@
 			<Event_card
 				dato="23/5/2022"
 				img="dj_blomst.svg"
+				name="DJ event blomst grafik"
 				titel="DJ I BRYGHUSET"
 				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
 				tid="17:00-19:00"
@@ -261,6 +271,7 @@
 			<Event_card
 				dato="24/5/2022"
 				img="smag_blomst.svg"
+				name="ølsmagnings blomst grafik"
 				titel="ølsmagning"
 				sub_titel="En smagsoplevelse i øllets verden"
 				tid="17:00-19:00"
@@ -274,6 +285,7 @@
 			<Event_card
 				dato="27/5/2022"
 				img="dj_blomst.svg"
+				name="DJ event blomst grafik"
 				titel="DJ I BRYGHUSET"
 				sub_titel="Bliv forført af lækker øl til lyden af lækre toner"
 				tid="17:00-19:00"

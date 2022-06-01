@@ -6,11 +6,12 @@
 	export let titel;
 	export let sub_titel;
 	export let pris;
+	export let name;
 	let count = 0;
 </script>
 
 <div class="card">
-	<img src={img} alt="" />
+	<img src={img} alt={name} />
 	<h3>{titel}</h3>
 	<p>{sub_titel}</p>
 	<h3>{pris}</h3>

@@ -1,6 +1,11 @@
 <script>
 </script>
 
+<svelte:head>
+	<title>Aftenmenu</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
 <main>
 	<section class="grid gap-4 menu">
 		<br />

@@ -5,9 +5,9 @@
 <footer>
 	<div class="top grid place-items-center pb-8">
 		<div class="anmeldelse md:flex gap-4 pb-12">
-			<img class="pb-8 md:pb-2" src="5_stars.svg" alt="stjerner" />
+			<img class="pb-8 md:pb-2" src="5_stars.svg" alt="4,5 stjerner" />
 			<h3>73 Anmeldelser på</h3>
-			<img class="pb-2" src="trustpilot_logo.webp" alt="" />
+			<img class="pb-2" src="trustpilot_logo.webp" alt="Trustpilot logo" />
 		</div>
 		<h3 class="text-center">Tilmeld dig vores nyhedsbrev</h3>
 		<p>Og få eklusive tilbud direkte ind på din mail</p>
@@ -54,7 +54,7 @@
 			<ul class="grid gap-4">
 				<li>
 					<div class="flex gap-4">
-						<a href="/"
+						<a aria-label="Facebook logo" href="/"
 							><svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -72,7 +72,7 @@
 							></a
 						>
 
-						<a href="/"
+						<a aria-label="instagram logo" href="/"
 							><svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -96,8 +96,8 @@
 				<li><a class="underline" href="/">Cookiepolitik</a></li>
 				<li><a class="underline" href="/">Handelspolitik</a></li>
 			</ul>
-			<div class="pt-12">
-				<img class="w-28" src="nb_logo_fill.svg" alt="logo" />
+			<div aria-label="Nørrebro bryghus logo" class="pt-12">
+				<img class="w-28" src="nb_logo_fill.svg" alt="Nørrebro bryghus logo" />
 			</div>
 		</div>
 	</div>

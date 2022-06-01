@@ -8,11 +8,12 @@
 	export let sub_titel;
 	export let tid;
 	export let sted;
+	export let name;
 </script>
 
 <div class="card">
 	<h3>{dato}</h3>
-	<img src={img} alt="" />
+	<img src={img} alt={name} />
 	<h2>{titel}</h2>
 	<p>{sub_titel}</p>
 	<p class="flex">

@@ -12,6 +12,11 @@
 	import ButtonBlack from './Button_blacks.svelte';
 </script>
 
+<svelte:head>
+	<title>Shop</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
+
 <div class="w-[100vw] p-2 -mx-4 text-center bg-black/70 text-white">
 	<p class="gap-4 place-items-center flex justify-center">
 		<svg
@@ -135,6 +140,7 @@
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="classic.webp"
+				name="Nørrebro classic"
 				titel="Nørrebro classic"
 				sub_titel="Pilsner 33 cl"
 				pris="DKK 29,-"
@@ -143,28 +149,43 @@
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="lager.webp"
+				name="New york lager"
 				titel="Ney York lager"
 				sub_titel="Lager 33 cl"
 				pris="DKK 29,-"
 			/></a
 		>
 		<a sveltekit:prefetch href="shop_single"
-			><ShopItem img="blanche.webp" titel="Blanche" sub_titel="Hvede øl 33 cl" pris="kr 35,-" /></a
+			><ShopItem
+				img="blanche.webp"
+				name="Blanche"
+				titel="Blanche"
+				sub_titel="Hvede øl 33 cl"
+				pris="kr 35,-"
+			/></a
 		>
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="pilsner.webp"
+				name="Nørrebro Pilsner"
 				titel="Nørrebro Pilsner"
 				sub_titel="Pilsner 33 cl"
 				pris="DKK 29,-"
 			/></a
 		>
 		<a sveltekit:prefetch href="shop_single"
-			><ShopItem img="bombay.webp" titel="Bombay ipa" sub_titel="IPA 0.75 cl" pris="kr 35,-" /></a
+			><ShopItem
+				img="bombay.webp"
+				name="Bombay IPA"
+				titel="Bombay ipa"
+				sub_titel="IPA 0.75 cl"
+				pris="kr 35,-"
+			/></a
 		>
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="ravnsborg.webp"
+				name="Ravnsborg rød"
 				titel="Ravnsborg rød"
 				sub_titel="Ale 33 cl"
 				pris="DKK 29,-"
@@ -173,6 +194,7 @@
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="bundle_1.webp"
+				name="ølpakke nummer 1"
 				titel="beer bundle #1"
 				sub_titel="Pilsner & Ale 3x33 cl"
 				pris="DKK 29,-"
@@ -181,6 +203,7 @@
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="bundle_2.webp"
+				name="ølpakke nummer 2"
 				titel="beer bundle #2"
 				sub_titel="Pilsner & Hvede 3x33 cl"
 				pris="DKK 29,-"
@@ -189,6 +212,7 @@
 		<a sveltekit:prefetch href="shop_single"
 			><ShopItem
 				img="bundle_3.webp"
+				name="ølpakke nummer 3"
 				titel="beer bundle #3"
 				sub_titel="Pilsner & IPA 3x33 cl"
 				pris="DKK 29,-"

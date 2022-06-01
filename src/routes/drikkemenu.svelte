@@ -2,6 +2,10 @@
 	// @ts-nocheck
 </script>
 
+<svelte:head>
+	<title>Drikkemenu</title>
+	<meta name="description" content="Svelte demo app" />
+</svelte:head>
 <main>
 	<section class="grid gap-4 menu">
 		<br />
