@@ -518,8 +518,8 @@
 	.menu__btn {
 		display: flex;
 		align-items: center;
-		position: fixed;
-		top: 25px;
+		position: absolute;
+		top: 45px;
 		right: 30px;
 
 		width: 26px;
