@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	let active = false;
 </script>
 
 <header>
@@ -103,7 +104,7 @@
 					</div>
 				</li>
 
-				<li class:active={$page.url.pathname === 'book_bord'}>
+				<li class:active={$page.url.pathname === 'book_bord'} on:click={() => (active = !active)}>
 					<a sveltekit:prefetch href="book_bord">BOOK BORD</a>
 				</li>
 
@@ -423,6 +424,10 @@
 		margin-inline: 1rem;
 		width: 100%;
 		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	a:active {
+		text-decoration: underline;
 	}
 
 	.ikoner {
