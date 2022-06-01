@@ -59,14 +59,17 @@
 <section class="menuer grid gap-4">
 	<div class="card_1">
 		<h2>Se vores <br />Aftenmenu</h2>
+		<br />
 		<Button_white>Se aftenmenu her</Button_white>
 	</div>
 	<div class="card_2">
 		<h2>Se vores <br />frokostmenu</h2>
+		<br />
 		<Button_white>Se frokostmenu her</Button_white>
 	</div>
 	<div class="card_3">
 		<h2>Se vores <br />Ølsortiment</h2>
+		<br />
 		<Button_white>Se Ølsortiment her</Button_white>
 	</div>
 </section>
@@ -100,7 +103,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/aftenmenu.webp');
-		/* background-image: url('aftenmenu.webp'); */
+		background-image: url('aftenmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -109,7 +112,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/frokostmenu.webp');
-		/* background-image: url('frokostmenu.webp'); */
+		background-image: url('frokostmenu.webp');
 		background-size: contain;
 		padding: 1rem;
 		padding-top: 15rem;
@@ -118,7 +121,7 @@
 		width: 28rem;
 		height: 28rem;
 		background-image: url('../../static/olsortiment.webp');
-		/* background-image: url('olsortiment.webp'); */
+		background-image: url('olsortiment.webp');
 		background-size: contain;
 		background-repeat: no-repeat;
 		padding: 1rem;
@@ -171,7 +174,7 @@
 
 		.menuer {
 			display: flex;
-			/* justify-content: space-between; */
+			justify-content: space-between;
 		}
 	}
 </style>
