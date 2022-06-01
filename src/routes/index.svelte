@@ -41,15 +41,15 @@
 	<div class="container">
 		<div class="sm:flex grid gap-14">
 			<div class="blomst_1 grid place-items-center gap-8">
-				<img class="h-40 w-40" src="bio.svg" alt="økologi mærke grafik" />
+				<img class="h-[10rem]" src="bio.svg" alt="økologi mærke grafik" />
 				<h3>100% ØKOLOGI</h3>
 			</div>
 			<div class="blomst_2 grid place-items-center gap-8">
-				<img class="h-40 w-40" src="hjerte.svg" alt="lokalt engagement ikon grafik" />
+				<img class="h-[10rem] " src="hjerte.svg" alt="lokalt engagement ikon grafik" />
 				<h3>LOKALT ENGAGEMENT</h3>
 			</div>
 			<div class="blomst_3 grid place-items-center gap-8">
-				<img class="h-40 w-40" src="ansvar.svg" alt="social ansvar ikon grafik" />
+				<img class="h-[10rem]" src="ansvar.svg" alt="social ansvar ikon grafik" />
 				<h3>SOCIALT ANSVAR</h3>
 			</div>
 		</div>
@@ -133,7 +133,7 @@
 	.container {
 		display: grid;
 		place-items: center;
-		gap: 2rem;
+		gap: 3rem;
 		padding-block: 4rem;
 	}
 
@@ -147,7 +147,7 @@
 	}
 
 	.menu img {
-		width: 9rem;
+		width: 15rem;
 	}
 
 	@media (min-width: 600px) {
