@@ -57,9 +57,9 @@
 	<div class="top">
 		<h2>Besøg vores brasserie</h2>
 		<p>
-			Lad dine smagsløg blive forkælet, når vi inviterer indenfor til et ukonventionelt og 100%
-			økologisk måltid i bryghuset. Få den fulde oplevelse sammensæt retterne med nogle af vores
-			<!-- fantastiske special øl fra Nørrebro Bryghus. -->
+			Lad dine smagsløg blive forkælet, når vi inviterer indenfor til et ukonventionelt og <br />
+			100% økologisk måltid i bryghuset. Få den fulde oplevelse sammensæt retterne <br /> med nogle af
+			vores fantastiske special øl fra Nørrebro Bryghus.
 		</p>
 	</div>
 	<img
@@ -67,7 +67,7 @@
 		src="menu_blomst.svg"
 		alt="nørrebro bryghus blomst grafik"
 	/>
-	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[12rem] grid gap-6 pt-20">
+	<div class="bottom sm:flex sm:gap-[40rem] sm:py-[10rem] sm:pb-52 grid gap-6 pt-16">
 		<a sveltekit:prefetch href="frokostmenu"><Button_white>Frokostmenu</Button_white></a>
 		<a sveltekit:prefetch href="aftenmenu"><Button_white>Aftenmenu</Button_white></a>
 	</div>
@@ -140,7 +140,6 @@
 
 	.menu p,
 	h2 {
-		max-width: 600px;
 		color: white;
 	}
 
@@ -161,7 +160,7 @@
 			padding-top: 3rem;
 			background-image: url('../../static/red_bg.svg');
 			background-image: url('red_bg.svg');
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
 		}
 	}
