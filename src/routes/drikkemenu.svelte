@@ -1,6 +1,9 @@
 <script>
 	// @ts-nocheck
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Drikkemenu</title>

@@ -420,6 +420,9 @@
 </header>
 
 <style>
+	header {
+		padding-bottom: 2rem;
+	}
 	nav {
 		margin-inline: 1rem;
 		width: 100%;

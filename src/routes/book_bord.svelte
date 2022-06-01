@@ -1,5 +1,6 @@
 <script>
 	// @ts-nocheck
+	import Header from '$lib/header/Header.svelte';
 	import ButtonWhite from './Button_white.svelte';
 	import Button_white from './Button_white.svelte';
 	import Form from './Form.svelte';
@@ -12,6 +13,8 @@
 		progressBar.handleProgress(stepIncrement);
 	};
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Book bord</title>
@@ -167,9 +170,8 @@
 		}
 
 		.menuer {
-			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
-			gap: 4rem;
+			display: flex;
+			/* justify-content: space-between; */
 		}
 	}
 </style>

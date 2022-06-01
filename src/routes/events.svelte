@@ -8,7 +8,10 @@
 	import Modal_by, { getModalBy } from './Modal_byen.svelte';
 	import { page } from '$app/stores';
 	import Checkbox from './Checkbox.svelte';
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>events</title>

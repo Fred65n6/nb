@@ -4,7 +4,10 @@
 	import Button_white from './Button_white.svelte';
 	import { page } from '$app/stores';
 	import Cookie from './Cookie_banner.svelte';
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Forside</title>

@@ -4,7 +4,10 @@
 	import ButtonBlack from './Button_blacks.svelte';
 	let count = 0;
 	import Shop_item from './Shop_item.svelte';
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Nørrebro classic</title>

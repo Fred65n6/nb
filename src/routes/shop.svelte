@@ -10,7 +10,10 @@
 	import Slider from 'svelte-slider';
 	let rangeValue = null;
 	import ButtonBlack from './Button_blacks.svelte';
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Shop</title>

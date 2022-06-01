@@ -1,5 +1,8 @@
 <script>
+	import Header from '$lib/header/Header.svelte';
 </script>
+
+<Header />
 
 <svelte:head>
 	<title>Frokostmenu</title>
