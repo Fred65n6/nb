@@ -133,7 +133,7 @@
 				<circle cx="34" cy="24" r="3.5" fill="black" stroke="black" stroke-width="3" />
 			</svg>FILTRER</button
 		>
-		<Search class="h-16 p-2 border-2" label="" placeholder="Søg efter produkter..." />
+		<Search class="h-16 p-2 border-2" label="" placeholder="Prøv 'Hvedeøl'" />
 	</section>
 
 	<section class="shop">

@@ -91,7 +91,7 @@
 					</div>
 				</li>
 				<br />
-				<h3>Politiker</h3>
+				<h3>Politikker</h3>
 				<li><a class="underline" href="/">Privatlivspolitik</a></li>
 				<li><a class="underline" href="/">Cookiepolitik</a></li>
 				<li><a class="underline" href="/">Handelspolitik</a></li>
