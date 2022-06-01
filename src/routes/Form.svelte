@@ -12,14 +12,14 @@
 
 <form class="form-container" on:submit={handleSubmit}>
 	{#if active_step == '1'}
-		<div class="grid place-items-center">
-			<p>Dato for besøg</p>
+		<div class="">
+			<p>Dato for besøg*</p>
 			<input type="Dato" class="p-2 w-[210px]" placeholder="18/05/2022" />
 		</div>
 		<br />
 		<div class="form-control">
 			<div class="input-group">
-				<p>Hvor mange er i?</p>
+				<p>Hvor mange er i?*</p>
 				<select class="select select-bordered h-[45px] w-[210px] text-black/40 p-2">
 					<option class="text-black/80" disabled selected>Antal gæster</option>
 					<option>1</option>
@@ -36,7 +36,7 @@
 	{:else if active_step == '2'}
 		<div class="form-control">
 			<div class="input-group">
-				<p>Tidspunkt</p>
+				<p>Tidspunkt*</p>
 				<select class="select select-bordered h-[45px] w-[166px] text-black/40 p-2">
 					<option class="text-black/80 " disabled selected>14:00</option>
 					<option>14:00</option>
@@ -53,17 +53,17 @@
 	{:else if active_step == '3'}
 		<div class="md:flex grid gap-4">
 			<div class="">
-				<p>Dit navn</p>
+				<p>Dit navn*</p>
 				<input type="Dato" class="p-2 h-[45px] w-[166px]" placeholder="Anders Andersen" />
 			</div>
 			<div class="">
-				<p>Din Email</p>
+				<p>Din Email*</p>
 				<input type="Dato" class="p-2 h-[45px] w-[166px]" placeholder="anders@gmail.com" />
 			</div>
 		</div>
 		<div class="md:flex pt-4 md:pt-0 grid gap-4">
 			<div class="">
-				<p>Dit tlf. nummer</p>
+				<p>Dit tlf. nummer*</p>
 				<input type="Dato" class="p-2 h-[45px] w-[166px]" placeholder="23249020" />
 			</div>
 			<div class="">
