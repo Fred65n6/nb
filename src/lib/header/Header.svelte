@@ -421,7 +421,7 @@
 
 <style>
 	header {
-		padding-bottom: 2rem;
+		padding-bottom: 1rem;
 	}
 	nav {
 		margin-inline: 1rem;
@@ -434,7 +434,7 @@
 	}
 
 	.ikoner {
-		padding-top: 2rem;
+		padding-top: 1rem;
 		margin-bottom: -2rem;
 		margin-right: 1.5rem;
 		display: flex;
