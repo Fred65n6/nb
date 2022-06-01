@@ -550,7 +550,7 @@
 		text-align: left;
 		display: none;
 		position: absolute;
-		background-color: rgb(255, 255, 255);
+		background-color: white;
 		width: 200px;
 		z-index: 1;
 	}
