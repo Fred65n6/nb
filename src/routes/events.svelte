@@ -127,7 +127,7 @@
 
 <section class="kalender">
 	<button on:click={() => getModalSmag().open()}>
-		<div class="event" data-name="smag">
+		<div class="event smag" data-name="smag">
 			<Event_card
 				dato="4/5/2022"
 				img="smag_blomst.svg"
@@ -141,7 +141,7 @@
 	</button>
 
 	<button on:click={() => getModalBy().open()}>
-		<div class="event" data-name="by">
+		<div class="event by" data-name="by">
 			<Event_card
 				dato="6/5/2022"
 				img="by_blomst.svg"
@@ -155,7 +155,7 @@
 	</button>
 
 	<button on:click={() => getModalDj().open()}>
-		<div class="event" data-name="dj">
+		<div class="event dj" data-name="dj">
 			<Event_card
 				dato="7/5/2022"
 				img="dj_blomst.svg"
@@ -169,7 +169,7 @@
 	</button>
 
 	<button on:click={() => getModalBy().open()}>
-		<div class="event">
+		<div class="event by">
 			<Event_card
 				dato="10/5/2022"
 				img="by_blomst.svg"
@@ -183,7 +183,7 @@
 	</button>
 
 	<button on:click={() => getModalSmag().open()}>
-		<div class="event">
+		<div class="event smag">
 			<Event_card
 				dato="11/5/2022"
 				img="smag_blomst.svg"
@@ -197,7 +197,7 @@
 	</button>
 
 	<button on:click={() => getModalDj().open()}>
-		<div class="event">
+		<div class="event dj">
 			<Event_card
 				dato="12/5/2022"
 				img="dj_blomst.svg"
@@ -211,7 +211,7 @@
 	</button>
 
 	<button on:click={() => getModalBy().open()}>
-		<div class="event">
+		<div class="event by">
 			<Event_card
 				dato="16/5/2022"
 				img="by_blomst.svg"
@@ -225,7 +225,7 @@
 	</button>
 
 	<button on:click={() => getModalDj().open()}>
-		<div class="event">
+		<div class="event dj">
 			<Event_card
 				dato="17/5/2022"
 				img="dj_blomst.svg"
@@ -239,7 +239,7 @@
 	</button>
 
 	<button on:click={() => getModalBy().open()}>
-		<div class="">
+		<div class="event by">
 			<Event_card
 				dato="18/5/2022"
 				img="by_blomst.svg"
@@ -253,7 +253,7 @@
 	</button>
 
 	<button on:click={() => getModalDj().open()}>
-		<div class="">
+		<div class="event dj">
 			<Event_card
 				dato="23/5/2022"
 				img="dj_blomst.svg"
@@ -267,7 +267,7 @@
 	</button>
 
 	<button on:click={() => getModalSmag().open()}>
-		<div class="event">
+		<div class="event smag">
 			<Event_card
 				dato="24/5/2022"
 				img="smag_blomst.svg"
@@ -281,7 +281,7 @@
 	</button>
 
 	<button on:click={() => getModalDj().open()}>
-		<div class="event">
+		<div class="event dj">
 			<Event_card
 				dato="27/5/2022"
 				img="dj_blomst.svg"
@@ -474,8 +474,8 @@
 	}
 
 	.event:hover {
-		transform: scale(1.1);
-		transition: ease-in;
+		transform: scale(1.05);
+		transition: ease-in 0.3s;
 	}
 
 	.kasse {
