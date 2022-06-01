@@ -14,13 +14,13 @@
 	{#if active_step == '1'}
 		<div class="">
 			<p>Dato for besøg</p>
-			<input type="Dato" placeholder="18/05/2022" />
+			<input type="Dato" class="p-2" placeholder="18/05/2022" />
 		</div>
 		<br />
 		<div class="form-control">
 			<div class="input-group">
 				<p>Hvor mange er i?</p>
-				<select class="select select-bordered h-[45px] w-[195px] text-black/40">
+				<select class="select select-bordered h-[45px] w-[210px] text-black/40 p-2">
 					<option class="text-black/80" disabled selected>Antal gæster</option>
 					<option>1</option>
 					<option>2</option>
@@ -37,8 +37,8 @@
 		<div class="form-control">
 			<div class="input-group">
 				<p>Tidspunkt</p>
-				<select class="select select-bordered h-[45px] w-[166px] text-black/40">
-					<option class="text-black/80" disabled selected>14:00</option>
+				<select class="select select-bordered h-[45px] w-[166px] text-black/40 p-2">
+					<option class="text-black/80 " disabled selected>14:00</option>
 					<option>14:00</option>
 					<option>16:30</option>
 					<option>17:00</option>
@@ -54,21 +54,21 @@
 		<div class="md:flex grid gap-4">
 			<div class="">
 				<p>Dit navn</p>
-				<input type="Dato" placeholder="Anders Andersen" />
+				<input type="Dato" class="p-2" placeholder="Anders Andersen" />
 			</div>
 			<div class="">
 				<p>Din Email</p>
-				<input type="Dato" placeholder="anders@gmail.com" />
+				<input type="Dato" class="p-2" placeholder="anders@gmail.com" />
 			</div>
 		</div>
 		<div class="md:flex pt-4 md:pt-0 grid gap-4">
 			<div class="">
 				<p>Dit tlf. nummer</p>
-				<input type="Dato" placeholder="23249020" />
+				<input type="Dato" class="p-2" placeholder="23249020" />
 			</div>
 			<div class="">
 				<p>Evt. Virksomhed</p>
-				<input type="Dato" placeholder="NB Bryghus" />
+				<input type="Dato" class="p-2" placeholder="NB Bryghus" />
 			</div>
 		</div>
 	{:else if active_step == '4'}

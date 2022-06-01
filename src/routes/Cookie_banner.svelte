@@ -18,7 +18,7 @@
 						class="inline-flex md:ml-auto items-center px-8 md:py-4 md:mr-2  text-white hover:text-gray-100 font-light underline"
 						href="/"
 					>
-						<span>AFSLÅ</span>
+						<span>REDIGER</span>
 					</a>
 					<div
 						class="inline-flex md:ml-auto items-center px-8 md:py-4 md:mr-2  text-white hover:text-gray-100 font-light underline"

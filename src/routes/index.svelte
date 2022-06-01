@@ -22,8 +22,8 @@
 	</div>
 	<div class="right">
 		<div class="kasse_2 ">
-			<div class="desktop_button"><Button link="shop">ØL-SHOP</Button></div>
-			<div class=" mobile_button"><Button_mobile link="/shop">ØL-SHOP</Button_mobile></div>
+			<div class="desktop_button"><Button link="shop">SHOP ØL</Button></div>
+			<div class=" mobile_button"><Button_mobile link="/shop">SHOP ØL</Button_mobile></div>
 		</div>
 
 		<div class="kasse_3">
@@ -55,11 +55,11 @@
 
 <section class="menu">
 	<div class="top">
-		<h2>Gastronomiske oplevelser</h2>
+		<h2>Besøg vores brasserie</h2>
 		<p>
 			Lad dine smagsløg blive forkælet, når vi inviterer indenfor til et ukonventionelt og 100%
 			økologisk måltid i bryghuset. Få den fulde oplevelse sammensæt retterne med nogle af vores
-			fantastiske øl fra Nørrebro Bryghus.
+			fantastiske special øl fra Nørrebro Bryghus.
 		</p>
 	</div>
 	<img
@@ -82,6 +82,10 @@
 		grid-template-columns: 1fr 1fr;
 		gap: 10px;
 		overflow-x: hidden;
+	}
+
+	section {
+		text-align: center;
 	}
 
 	.left {

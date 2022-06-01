@@ -219,7 +219,7 @@
 			/></a
 		>
 		<div class="" />
-		<section class="pt-20">
+		<section class="pt-40">
 			<ButtonBlack>Indlæs mere ▼</ButtonBlack>
 		</section>
 	</section>

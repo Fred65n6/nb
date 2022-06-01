@@ -22,7 +22,7 @@
 	</div>
 	<div class="bottom">
 		<div class="mt-12">
-			<h3>Kontakt</h3>
+			<h3>Kontakt os</h3>
 			<p>
 				Vi er altid klar til dit besøg og til at tage imod eventuelle spørgsmål <br /><br />
 				Nørrebro Bryghus <br />
@@ -49,8 +49,7 @@
 			</p>
 		</div>
 		<div class="mt-12">
-			<h3>Links</h3>
-			<br />
+			<h3>Følg os her</h3>
 			<ul class="grid gap-4">
 				<li>
 					<div class="flex gap-4">
@@ -91,7 +90,8 @@
 						>
 					</div>
 				</li>
-
+				<br />
+				<h3>Politiker</h3>
 				<li><a class="underline" href="/">Privatlivspolitik</a></li>
 				<li><a class="underline" href="/">Cookiepolitik</a></li>
 				<li><a class="underline" href="/">Handelspolitik</a></li>

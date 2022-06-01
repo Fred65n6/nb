@@ -21,7 +21,7 @@
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
-		padding-inline: 0.5rem;
+		padding-inline: 0.8rem;
 		padding-block: 0.1rem;
 		font-size: 1rem;
 		line-height: 45px;

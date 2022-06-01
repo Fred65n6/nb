@@ -22,8 +22,9 @@
 	<div class="book grid md:grid-cols-2">
 		<div class="mobil_img"><img src="book_bord.mobile.webp" alt="mad fra nørrebro bryghus" /></div>
 		<div class="">
-			<div class=" grid place-items-center gap-8 pt-12">
+			<div class=" grid place-items-center gap-4 pt-12">
 				<h1 class="text-white">Book bord her</h1>
+				<p class="text-white">Få din næste oplevelse hos os</p>
 				<div class="hidden"><ProgressBar {steps} bind:currentActive bind:this={progressBar} /></div>
 
 				<Form active_step={steps[currentActive - 1]} />

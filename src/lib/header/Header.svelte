@@ -74,7 +74,7 @@
 							>
 						</div>
 						<div class="dropdown-content">
-							<a sveltekit:prefetch href="shop">SHOP</a>
+							<a sveltekit:prefetch href="shop">SHOP ØL</a>
 							<a sveltekit:prefetch href="/">GAVEKORT</a>
 						</div>
 					</div>
@@ -83,7 +83,7 @@
 				<li class:active={$page.url.pathname === '/'}>
 					<div class="dropdown">
 						<a href="/" class="dropbtn"
-							>MENUKORT <svg
+							>MENU <svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								aria-hidden="true"
@@ -134,7 +134,7 @@
 				<li>
 					<div class="dropdown">
 						<div class="dropbtn">
-							VORES ØLUDVALG <svg
+							BRYGHUSETS SORTIMENT <svg
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								aria-hidden="true"
@@ -283,7 +283,7 @@
 								>
 							</div>
 							<div class="dropdown-content">
-								<a sveltekit:prefetch href="shop">SHOP</a>
+								<a sveltekit:prefetch href="shop">SHOP ØL</a>
 								<a sveltekit:prefetch href="/">GAVEKORT</a>
 							</div>
 						</div>
@@ -292,7 +292,7 @@
 					<li class:active={$page.url.pathname === '/'}>
 						<div class="dropdown">
 							<a href="/" class="dropbtn"
-								>MENUKORT <svg
+								>MENU <svg
 									xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink"
 									aria-hidden="true"
@@ -343,7 +343,7 @@
 					<li>
 						<div class="dropdown">
 							<div class="dropbtn">
-								VORES ØLUDVALG <svg
+								BRYGHUSETS SORTIMENT <svg
 									xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink"
 									aria-hidden="true"

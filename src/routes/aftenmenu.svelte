@@ -19,7 +19,7 @@
 		</p>
 		<br />
 
-		<h3>- TILKØB ØLMENU for DKK 275,-</h3>
+		<h3>TILKØB ØLMENU for DKK 275,-</h3>
 		<p>Du får både Ølcocktail og 3 øl, nøje udvalgt til at matche menuen.</p>
 		<br />
 		<h2>A LA CARTE</h2>

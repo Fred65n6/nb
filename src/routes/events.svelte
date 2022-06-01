@@ -27,20 +27,7 @@
 <section class="filter">
 	<div class="">
 		<div class="dropdown">
-			<div class="dropbtn flex ">
-				FILTRER<svg
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					aria-hidden="true"
-					role="img"
-					class="iconify iconify--material-symbols mt-1"
-					width="20"
-					height="20"
-					preserveAspectRatio="xMidYMid meet"
-					viewBox="0 0 24 24"
-					><path fill="black" d="m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4Z" /></svg
-				>
-			</div>
+			<div class="dropbtn flex ">FILTRER ▼</div>
 			<div class="dropdown-content flex">
 				<fieldset class="grid p-4 gap-4 ">
 					<div class="flex kasse">
@@ -465,12 +452,7 @@
 <style>
 	.heading {
 		padding-top: 3rem;
-	}
-
-	@media (max-width: 600px) {
-		.heading {
-			text-align: left;
-		}
+		text-align: center;
 	}
 
 	.event:hover {
@@ -546,14 +528,19 @@
 		display: inline-block;
 	}
 
-	input {
-		margin: 1rem;
-	}
-
 	.dropbtn {
-		padding: 0.5rem;
+		margin-left: 0.5rem;
+		font-family: 'Josefin Sans', sans-serif;
+		display: flex;
 		border: black 2px;
 		border-style: solid;
+		width: 166px;
+		height: 45px;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 1rem;
+		line-height: 45px;
+		text-align: center;
 	}
 
 	.dropdown-content {
