@@ -451,11 +451,10 @@
 	}
 
 	ul {
-		margin-inline: 1rem;
 		padding-block: 2.5rem;
 		height: 3em;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: center;
 		list-style: none;
 	}
