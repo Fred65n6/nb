@@ -18,7 +18,7 @@
 
 	.btn {
 		font-family: var(--heading-and-button-font);
-		background-color: var(--black-bg-opacity);
+		background-color: var(--button-bg-opacity);
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
