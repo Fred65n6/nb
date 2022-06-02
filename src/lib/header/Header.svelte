@@ -630,7 +630,7 @@
 	}
 
 	.menu__btn {
-		top: 37px;
+		top: 40px;
 	}
 
 	.dropdown-content a:hover {
