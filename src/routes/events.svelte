@@ -490,15 +490,15 @@
 	}
 
 	.dj {
-		background-color: #6e0b20;
+		background-color: var(--dj-event-bg);
 	}
 
 	.smag {
-		background-color: #ebd37f;
+		background-color: var(--olsmagning-event-bg);
 	}
 
 	.by {
-		background-color: #abccd8;
+		background-color: var(--byvandring-event-bg);
 	}
 
 	.kalender {
@@ -535,14 +535,13 @@
 		margin-left: 0.5rem;
 		font-family: 'Josefin Sans', sans-serif;
 		display: flex;
-		border: black 2px;
-		border-style: solid;
-		width: 166px;
-		height: 45px;
+		border: var(--dropdown-button-border);
+		width: var(--dropdown-button-width);
+		height: var(--dropdown-button-height);
 		cursor: pointer;
 		display: inline-block;
-		font-size: 1rem;
-		line-height: 45px;
+		font-size: var(--button-font-size);
+		line-height: var(--button-line-height);
 		text-align: center;
 	}
 
@@ -550,7 +549,7 @@
 		text-align: left;
 		display: none;
 		position: absolute;
-		background-color: white;
+		background-color: var(--default-white);
 		width: 200px;
 		z-index: 1;
 	}

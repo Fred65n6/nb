@@ -105,16 +105,6 @@
 	}
 
 	p {
-		color: white;
-	}
-
-	.btn {
-		color: black;
-		padding: 0.5rem 0;
-		margin-top: 0.5rem;
-		display: inline-block;
-		width: 100%;
-		border-radius: 0.25rem;
-		cursor: pointer;
+		color: var(--default-white);
 	}
 </style>

@@ -15,7 +15,7 @@
 				</div>
 				<div class="w-full md:w-1/3 md:px-4 sm:flex grid gap-4 md:flex place-center ">
 					<a
-						class="inline-flex md:ml-auto items-center px-8 md:py-4 md:mr-2  text-white hover:text-gray-100 font-light underline"
+						class="inline-flex md:ml-auto items-center px-8 md:py-4 md:mr-2  text-[white] hover:text-gray-100 font-light underline"
 						href="/"
 					>
 						<span>REDIGER</span>

@@ -3,7 +3,7 @@
 
 	import { fly } from 'svelte/transition';
 	import Modal from './Modal_smag.svelte';
-	import ButtonBlack from './Button_blacks.svelte';
+	import Button_black from './Button_blacks.svelte';
 	export let show = false;
 	let modal_show = false;
 	import Checkbox from './Checkbox.svelte';
@@ -83,13 +83,13 @@
 				<li><Checkbox>0.5</Checkbox></li>
 				<li><Checkbox>0.75</Checkbox></li>
 			</ul>
-			<div class="grid place-items-center">
+			<div class="grid place-items-center mt-12">
 				<button
 					class="filter_knap"
 					on:click={() => {
 						modal_show = true;
 						show = false;
-					}}>ANVEND FILTRE</button
+					}}><Button_black>ANVEND FILTRE</Button_black></button
 				>
 			</div>
 		</nav>
@@ -109,13 +109,6 @@
 		border: black 2px;
 		border-style: solid;
 		text-align: left;
-	}
-
-	.filter_knap {
-		margin-top: 2rem;
-		border: black 2px;
-		border-style: solid;
-		padding: 1rem;
 	}
 
 	.luk_knap {

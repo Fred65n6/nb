@@ -143,7 +143,7 @@
 
 	.menu p,
 	h2 {
-		color: white;
+		color: var(--default-white);
 	}
 
 	.menu img {

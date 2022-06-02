@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+	:root {
+		--default-black: black;
+		--default-white: white;
+		--body-bg-color: #f6f6f6;
+		--dj-event-bg: #6e0b20;
+		--olsmagning-event-bg: #ebd37f;
+		--byvandring-event-bg: #abccd8;
+		--h1-size-desktop: 3rem;
+		--h2-size-desktop: 2rem;
+		--h3-size-desktop: 1.2rem;
+		--h1-size-mobile: 1.8rem;
+		--h2-size-mobile: 1.4rem;
+		--h3-size-mobile: 1rem;
+		--p-size-desktop: 1rem;
+		--heading-and-button-font: 'Josefin Sans', sans-serif;
+		--heading-p: 'Lato', sans-serif;
+		--black-bg-opacity: rgba(0, 0, 0, 0.525);
+		--dropdown-button-border: 2px solid black;
+		--dropdown-button-width: 166px;
+		--dropdown-button-height: 45px;
+		--button-font-size: 1rem;
+		--button-line-height: 45px;
+	}
+
 	section {
 		display: grid;
 		place-items: center;
@@ -10,54 +34,53 @@
 
 	body {
 		overflow-x: hidden;
-		background: #f6f6f6;
-		word-wrap: break-word;
+		background: var(--body-bg-color);
 	}
 
 	a {
-		color: black;
+		color: var(--default-black);
 	}
 
 	h1 {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 3rem;
-		color: black;
+		font-family: var(--heading-and-button-font);
+		font-size: var(--h1-size-desktop);
+		color: var(--default-black);
 		text-transform: uppercase;
 	}
 
 	h2 {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 2.2rem;
-		color: white;
+		font-family: var(--heading-and-button-font);
+		font-size: var(--h2-size-desktop);
+		color: var(--default-white);
 		text-transform: uppercase;
 	}
 
 	h3 {
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 1.2rem;
-		color: black;
+		font-family: var(--heading-and-button-font);
+		font-size: var(--h3-size-desktop);
+		color: var(--default-black);
 		text-transform: uppercase;
 	}
 
 	p {
-		font-family: 'Lato', sans-serif;
-		font-size: 1rem;
+		font-family: var(--heading-p);
+		font-size: var(--p-size-desktop);
 	}
 
 	button {
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: var(--heading-and-button-font);
 	}
 
 	@media (max-width: 600px) {
 		h1 {
-			font-size: 1.8rem;
+			font-size: var(--h1-size-mobile);
 		}
 		h2 {
-			font-size: 1.4rem;
+			font-size: var(--h1-size-mobile);
 		}
 
 		h3 {
-			font-size: 1rem;
+			font-size: var(--h1-size-mobile);
 		}
 	}
 }

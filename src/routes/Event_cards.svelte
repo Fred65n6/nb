@@ -65,7 +65,7 @@
 	.card h2,
 	h3,
 	p {
-		color: white;
+		color: var(--default-white);
 	}
 
 	@media (max-width: 600px) {

@@ -102,6 +102,6 @@
 	}
 
 	h2 {
-		color: black;
+		color: var(--default-black);
 	}
 </style>

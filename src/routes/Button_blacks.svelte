@@ -16,7 +16,7 @@
 	}
 
 	.btn {
-		font-family: 'Josefin Sans', sans-serif;
+		font-family: var(--heading-and-button-font);
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
@@ -26,7 +26,7 @@
 		line-height: 45px;
 		text-align: center;
 		text-transform: uppercase;
-		color: black;
+		color: var(--default-black);
 		cursor: pointer;
 		overflow: hidden;
 	}
@@ -36,7 +36,7 @@
 		left: 0;
 	}
 	.btn svg rect {
-		stroke: black;
+		stroke: var(--default-black);
 		stroke-width: 3;
 		stroke-dasharray: 422, 0;
 		stroke-dashoffset: 0;
@@ -47,7 +47,7 @@
 		stroke-dasharray: 110, 312;
 		stroke-dashoffset: 183;
 		transition: 1s;
-		stroke: black;
+		stroke: var(--default-black);
 		background-color: none;
 	}
 </style>

@@ -16,8 +16,8 @@
 	.btn {
 		border: white 2px;
 		border-style: solid;
-		font-family: 'Josefin Sans', sans-serif;
-		background-color: rgba(0, 0, 0, 0.525);
+		font-family: var(--heading-and-button-font);
+		background-color: var(--black-bg-opacity);
 		text-decoration: none;
 		position: relative;
 		display: inline-block;
@@ -27,7 +27,7 @@
 		line-height: 45px;
 		text-align: center;
 		text-transform: uppercase;
-		color: white;
+		color: var(--default-white);
 		cursor: pointer;
 		overflow: hidden;
 		transition: 1s;
