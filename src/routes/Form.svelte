@@ -12,6 +12,7 @@
 
 <form class="form-container" on:submit={handleSubmit}>
 	{#if active_step == '1'}
+		<p>Trin 1 af 3</p>
 		<div class="">
 			<p>Dato for besøg*</p>
 			<input type="Dato" class="p-2 w-[210px]" placeholder="18/05/2022" />
@@ -34,10 +35,12 @@
 			</div>
 		</div>
 	{:else if active_step == '2'}
+		<p>Trin 2 af 3</p>
 		<div class="form-control">
 			<div class="input-group">
+				<br />
 				<p>Tidspunkt*</p>
-				<select class="select select-bordered h-[45px] w-[166px] text-black/40 p-2">
+				<select class="select select-bordered h-[45px] w-[210px] text-black/40 p-2">
 					<option class="text-black/80 " disabled selected>14:00</option>
 					<option>14:00</option>
 					<option>16:30</option>
@@ -49,8 +52,12 @@
 					<option>21:00</option>
 				</select>
 			</div>
+			<p>*Kun ledige tidspunkter vises</p>
 		</div>
 	{:else if active_step == '3'}
+		<div class="">
+			<p>Trin 3 af 3</p>
+		</div>
 		<div class="md:flex grid gap-4">
 			<div class="">
 				<p>Dit navn*</p>
@@ -73,6 +80,7 @@
 		</div>
 	{:else if active_step == '4'}
 		<div class="text-center">
+			<br />
 			<h3 class="text-white">
 				Vi glæder os til at se dig! <br />
 			</h3>

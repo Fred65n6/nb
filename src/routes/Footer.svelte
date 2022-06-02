@@ -1,5 +1,10 @@
 <script>
 	import Button_black from './Button_blacks.svelte';
+	function handleClick() {
+		alert(
+			'Tak fordi du tilmeldte dig vores nyhedsbrev! Vi glæder os til at give dig en masse fede tilbud fra vores bryghus.'
+		);
+	}
 </script>
 
 <footer>
@@ -19,7 +24,10 @@
 				placeholder="Eks. lars.larsen@gmail.com"
 				type="Email"
 			/>
-			<Button_black>TILMELD NU</Button_black>
+
+			<button on:click={handleClick}>
+				<Button_black>TILMELD NU</Button_black>
+			</button>
 		</div>
 	</div>
 	<div class="bottom">

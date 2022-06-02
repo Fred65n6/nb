@@ -25,9 +25,9 @@
 	<div class="book grid md:grid-cols-2">
 		<div class="mobil_img"><img src="book_bord.mobile.webp" alt="mad fra nørrebro bryghus" /></div>
 		<div class="">
-			<div class=" grid place-items-center gap-4 pt-12">
+			<div class=" grid place-items-center gap-2 pt-12">
 				<h1 class="text-white">Book bord her</h1>
-				<p class="text-white">Få din næste oplevelse hos os</p>
+				<p class="text-white -mt-4 mb-4">Få din næste oplevelse hos os</p>
 				<div class="hidden"><ProgressBar {steps} bind:currentActive bind:this={progressBar} /></div>
 
 				<Form active_step={steps[currentActive - 1]} />
@@ -77,7 +77,7 @@
 <style>
 	.main {
 		font-family: 'Muli', sans-serif;
-		display: flex;
+		display: grid;
 		overflow: hidden;
 		margin: 0 auto;
 		width: 100%;
