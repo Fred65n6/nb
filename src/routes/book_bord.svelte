@@ -144,7 +144,7 @@
 		.card_3 {
 			width: 18em;
 			height: 18em;
-			padding-top: 10rem;
+			padding-top: 8rem;
 		}
 
 		.mobil_img {
