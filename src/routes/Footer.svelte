@@ -3,14 +3,16 @@
 </script>
 
 <footer>
-	<div class="top grid place-items-center pb-8">
-		<div class="anmeldelse md:flex gap-4 pb-12">
+	<div class=" md:grid md:place-items-center">
+		<div class="anmeldelse  md:flex gap-4 pb-12">
 			<img class="pb-8 md:pb-2" src="5_stars.svg" alt="4,5 stjerner" />
 			<h3>73 Anmeldelser på</h3>
 			<img class="pb-2" src="trustpilot_logo.webp" alt="Trustpilot logo" />
 		</div>
-		<h3 class="text-center">Tilmeld dig vores nyhedsbrev</h3>
-		<p>Og få eklusive tilbud direkte ind på din mail</p>
+	</div>
+	<div class="top md:grid md:place-items-center pb-8">
+		<h3 class="md:text-center text-left">Tilmeld dig vores nyhedsbrev</h3>
+		<p class="md:text-center text-left">Og få eklusive tilbud direkte ind på din mail</p>
 		<div class="md:flex grid gap-4 pt-4">
 			<input
 				class="h-[45px] w-[220px] border-2 p-2"
