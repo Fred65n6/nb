@@ -34,7 +34,7 @@
 		<div class="mt-12">
 			<h3>Kontakt os</h3>
 			<p>
-				Vi er altid klar til dit besøg og til at tage imod eventuelle spørgsmål <br /><br />
+				Vi er altid klar til dit besøg og til at tage imod eventuelle spørgsmål. <br /><br />
 				Nørrebro Bryghus <br />
 				Ryesgade 3 <br /> 2200 København N <br /><br /> Cvr. nr. 26882451 <br /><br /> Telefon:
 				<br />
